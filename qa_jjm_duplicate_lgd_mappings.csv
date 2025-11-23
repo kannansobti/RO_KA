@@ -1,0 +1,67 @@
+state,jjm_district,jjm_block,jjm_panchayat_id,jjm_panchayat,jjm_village_id,jjm_village,lgd_village_id,lgd_village,district_from_header,source_file,serial_no
+Karnataka,Raichur,Sindhanur,63385,Jawalgera,160336,Jangamarhatti,601149,Jangamarahatti (D),Raichur,Raichur.xls,376
+Karnataka,Raichur,Sindhanur,63385,Jawalgera,699913,JANGAMARHATTI,601149,JANGAMARHATTI,Raichur,Raichur.xls,377
+Karnataka,Chitradurga,Hiriyur,65275,DINDAVARA,169650,Lakkenahalli,606201,Lakkanahal,Chitradurga,Chitradurga.xls,580
+Karnataka,Chitradurga,Hiriyur,65275,DINDAVARA,696994,LAKKENAHALLY,606201,LAKKENAHALLY,Chitradurga,Chitradurga.xls,582
+Karnataka,Shivamogga,Sagar,63494,Gowthamapura,160933,Kamnur,607290,KANNURU,Shivamogga,Shivamogga.xls,720
+Karnataka,Shivamogga,Sagar,63494,Gowthamapura,699921,KAMNUR,607290,KAMNUR,Shivamogga,Shivamogga.xls,721
+Karnataka,Shivamogga,Shikarpur,63537,Amatekoppa,161158,Shivagikannaya,607831,Kaniya,Shivamogga,Shivamogga.xls,1237
+Karnataka,Shivamogga,Shikarpur,63537,Amatekoppa,698250,SHIVAGIKANNAYA,607831,SHIVAGIKANNAYA,Shivamogga,Shivamogga.xls,1238
+Karnataka,Bengaluru Urban,Bengaluru North,61373,Huskuru,148089,Bettanagere,612755,AGRAHARA DASARAHALLI K.G,Bengaluru Urban,Bengaluru Urban.xls,55
+Karnataka,Bengaluru Urban,Bengaluru North,61373,Huskuru,700899,BETTANAGERE,612755,BETTANAGERE,Bengaluru Urban,Bengaluru Urban.xls,56
+Karnataka,Bengaluru Urban,Bengaluru North,61376,KITTANAHALLI,148108,Averahalli,612796,ABBAGERE,Bengaluru Urban,Bengaluru Urban.xls,29
+Karnataka,Bengaluru Urban,Bengaluru North,61376,KITTANAHALLI,698785,AVERAHALLI,612796,AVERAHALLI,Bengaluru Urban,Bengaluru Urban.xls,28
+Karnataka,Bengaluru Urban,Bengaluru North,61368,Kodigehalli,148062,Kodigehalli,612822,KODIGEHALLI,Bengaluru Urban,Bengaluru Urban.xls,319
+Karnataka,Bengaluru Urban,Bengaluru North,61368,Kodigehalli,697341,KODIGEHALLI,612822,KODIGEHALLI,Bengaluru Urban,Bengaluru Urban.xls,318
+Karnataka,Bengaluru Urban,YELAHANKA,61385,Rajanukunte,148169,ADDIGANAHALLI,612847,AGRAHARA,Bengaluru Urban,Bengaluru Urban.xls,5
+Karnataka,Bengaluru Urban,YELAHANKA,61385,Rajanukunte,698788,ADDIGANAHALLI,612847,ADDIGANAHALLI,Bengaluru Urban,Bengaluru Urban.xls,6
+Karnataka,Bengaluru Urban,YELAHANKA,61385,Rajanukunte,148170,RAJANAKUNTE,612848,GOVINDAPURA,Bengaluru Urban,Bengaluru Urban.xls,465
+Karnataka,Bengaluru Urban,YELAHANKA,61385,Rajanukunte,700900,RAJANAKUNTE,612848,RAJANAKUNTE,Bengaluru Urban,Bengaluru Urban.xls,464
+Karnataka,Bengaluru Urban,YELAHANKA,61387,SINGANAYAKANAHALLI,148183,DIBBUR,612850,ATTURU,Bengaluru Urban,Bengaluru Urban.xls,139
+Karnataka,Bengaluru Urban,YELAHANKA,61387,SINGANAYAKANAHALLI,700901,DIBBUR,612850,DIBBUR,Bengaluru Urban,Bengaluru Urban.xls,138
+Karnataka,Bengaluru Urban,YELAHANKA,61386,Shivakotte,148181,KONDASETTIHALLI,612873,BELLIHALLI,Bengaluru Urban,Bengaluru Urban.xls,330
+Karnataka,Bengaluru Urban,YELAHANKA,61386,Shivakotte,694128,KONDASETTIHALLI,612873,KONDASETTIHALLI,Bengaluru Urban,Bengaluru Urban.xls,329
+Karnataka,Bengaluru Urban,YELAHANKA,61388,KASAGATTAPURA,148194,KASAGHATTAPURA,612875,HAROHALLI,Bengaluru Urban,Bengaluru Urban.xls,298
+Karnataka,Bengaluru Urban,YELAHANKA,61388,KASAGATTAPURA,698791,KASAGHATTAPURA,612875,KASAGHATTAPURA,Bengaluru Urban,Bengaluru Urban.xls,299
+Karnataka,Bengaluru Urban,YELAHANKA,61382,Hurulichikkanahalli,148145,HURALLICHIKKANAHALLI,612876,DODDABETTADAHALLI,Bengaluru Urban,Bengaluru Urban.xls,241
+Karnataka,Bengaluru Urban,YELAHANKA,61382,Hurulichikkanahalli,697901,HURALLICHIKKANAHALLI,612876,HURALLICHIKKANAHALLI,Bengaluru Urban,Bengaluru Urban.xls,242
+Karnataka,Bengaluru Urban,YELAHANKA,61382,Hurulichikkanahalli,148146,SASUVEGHATTA,612878,GASTIKEMPANAHALLI,Bengaluru Urban,Bengaluru Urban.xls,489
+Karnataka,Bengaluru Urban,YELAHANKA,61382,Hurulichikkanahalli,703110,SASUVEGHATTA,612878,SASUVEGHATTA,Bengaluru Urban,Bengaluru Urban.xls,488
+Karnataka,Bengaluru Urban,YELAHANKA,61397,Bettahalasooru,148246,THARAHUNSE,612884,Hunasamaranahalli (CT),Bengaluru Urban,Bengaluru Urban.xls,546
+Karnataka,Bengaluru Urban,YELAHANKA,61397,Bettahalasooru,698794,THARAHUNSE,612884,THARAHUNSE,Bengaluru Urban,Bengaluru Urban.xls,545
+Karnataka,Bengaluru Urban,YELAHANKA,299659,MEENUKUNTE,148202,CHANAHALLI,612890,ALLALASANDRA,Bengaluru Urban,Bengaluru Urban.xls,92
+Karnataka,Bengaluru Urban,YELAHANKA,299659,MEENUKUNTE,697344,CHANAHALLI,612890,CHANAHALLI,Bengaluru Urban,Bengaluru Urban.xls,93
+Karnataka,Bengaluru Urban,YELAHANKA,61391,Bandikodagehalli,148213,UNACHUR,612920,CHIKKABETTADAHALLI,Bengaluru Urban,Bengaluru Urban.xls,562
+Karnataka,Bengaluru Urban,YELAHANKA,61391,Bandikodagehalli,698793,UNACHUR,612920,UNACHUR,Bengaluru Urban,Bengaluru Urban.xls,561
+Karnataka,Bengaluru Urban,YELAHANKA,61392,Marenahalli,148222,MANCHAPPANAHOSAHALLY,612926,JAKKURU PLANTESHAN,Bengaluru Urban,Bengaluru Urban.xls,380
+Karnataka,Bengaluru Urban,YELAHANKA,61392,Marenahalli,700904,MANCHAPPANAHOSAHALLY,612926,MANCHAPPANAHOSAHALLY,Bengaluru Urban,Bengaluru Urban.xls,381
+Karnataka,Bengaluru Urban,Bengaluru South,61440,Choolanayakanahalli,148465,Ganakal,612977,ADUGODI,Bengaluru Urban,Bengaluru Urban.xls,158
+Karnataka,Bengaluru Urban,Bengaluru South,61440,Choolanayakanahalli,700190,GANAKAL,612977,GANAKAL,Bengaluru Urban,Bengaluru Urban.xls,157
+Karnataka,Bengaluru Urban,Bengaluru South,61419,Ramohalli,148342,Challaghatta,613019,CHANDRASHEKHARAPURA,Bengaluru Urban,Bengaluru Urban.xls,88
+Karnataka,Bengaluru Urban,Bengaluru South,61419,Ramohalli,694132,CHALLAGHATTA,613019,CHALLAGHATTA,Bengaluru Urban,Bengaluru Urban.xls,89
+Karnataka,Bengaluru Urban,Bengaluru South,61417,K.Gollahalli,148334,K. Gollahalli,613027,ANJANAPURA,Bengaluru Urban,Bengaluru Urban.xls,263
+Karnataka,Bengaluru Urban,Bengaluru South,61417,K.Gollahalli,693545,K. GOLLAHALLI,613027,K. GOLLAHALLI,Bengaluru Urban,Bengaluru Urban.xls,264
+Karnataka,Bengaluru Urban,Bengaluru South,61401,Doddathoguru,148274,Homadevanahalli,613059,BOMMANAHALLI,Bengaluru Urban,Bengaluru Urban.xls,220
+Karnataka,Bengaluru Urban,Bengaluru South,61401,Doddathoguru,697347,HOMADEVANAHALLI,613059,HOMADEVANAHALLI,Bengaluru Urban,Bengaluru Urban.xls,221
+Karnataka,Mandya,Krishnarajpet,62809,BANDIHOLE,156761,Lakshmipura,613550,Laxmipura,Mandya,Mandya.xls,854
+Karnataka,Mandya,Krishnarajpet,62809,BANDIHOLE,693696,LAKSHMIPURA,613550,LAKSHMIPURA,Mandya,Mandya.xls,856
+Karnataka,Kodagu,Madikeri,0,0,153319,Kolagadalu,617801,Kolagadalu,Kodagu,Kodagu.xls,176
+Karnataka,Kodagu,Madikeri,62387,Bengoor Cherambane,661742,AIVATHOKLU,617801,IVATHOKLU,Kodagu,Kodagu.xls,7
+Karnataka,Kodagu,Somvarpet,0,0,153363,Agalli,617877,Agalli,Kodagu,Kodagu.xls,4
+Karnataka,Kodagu,Somvarpet,62395,Besur,661793,BASAVANARE,617877,BASAVANARE,Kodagu,Kodagu.xls,37
+Karnataka,Kodagu,Somvarpet,62396,Handli,153379,Bellaralli,617884,BEEKALLI,Kodagu,Kodagu.xls,43
+Karnataka,Kodagu,Somvarpet,62396,Handli,697795,BELLARALLI,617884,BELLARALLI,Kodagu,Kodagu.xls,42
+Karnataka,Kodagu,Kushalanagar,0,0,153493,KUDIGE,617980,Kudige,Kodagu,Kodagu.xls,188
+Karnataka,Kodagu,Kushalanagar,62417,KUDIGE,661839,BYADAGOTTA,617980,BYADAGOTTA,Kodagu,Kodagu.xls,64
+Karnataka,Kodagu,Kushalanagar,0,0,153494,KUDUMANGALORE,617981,Kudumangalore,Kodagu,Kodagu.xls,191
+Karnataka,Kodagu,Kushalanagar,62418,Kudumangalore,661847,DODDATHUR,617981,DODDATHUR,Kodagu,Kodagu.xls,90
+Karnataka,Kodagu,Ponnampet,0,0,153627,BADAGARAKERI,618061,Badagarakeri,Kodagu,Kodagu.xls,29
+Karnataka,Kodagu,Ponnampet,62467,BIRUNANI,153630,BIRUNANI,618061,BIRUNANI,Kodagu,Kodagu.xls,62
+Karnataka,Kalaburagi,Chincholi,61839,Nagaidlai,149462,Nagaidlal - N.tanda,620365,Mambapur,Kalaburagi,Kalaburagi.xls,601
+Karnataka,Kalaburagi,Chincholi,61839,Nagaidlai,694969,NAGAIDLAL - N.TANDA,620365,NAGAIDLAL - N.TANDA,Kalaburagi,Kalaburagi.xls,602
+Karnataka,Kolar,K G F,62490,Marikuppam,153802,KOTHUR,622686,Kothur,Kolar,Kolar.xls,846
+Karnataka,Kolar,K G F,62490,Marikuppam,699907,KOTHUR,622686,KOTHUR,Kolar,Kolar.xls,844
+Karnataka,Chikkaballapura,Bagepalli,62750,Thimamapalli,156155,TATTANNAGARIPALLI,623806,Thathannagaridinne,Chikkaballapura,Chikkaballapura.xls,1151
+Karnataka,Chikkaballapura,Bagepalli,62750,Thimamapalli,695242,TATTANNAGARIPALLI,623806,TATTANNAGARIPALLI,Chikkaballapura,Chikkaballapura.xls,1152
+Karnataka,Chikkaballapura,Chintamani,62557,BURUDAGUNTE,154441,BASAVAPURA,624345,Amani Thimmasanikere,Chikkaballapura,Chikkaballapura.xls,107
+Karnataka,Chikkaballapura,Chintamani,62557,BURUDAGUNTE,588376,BASAVAPURA,624345,Basavapura,Chikkaballapura,Chikkaballapura.xls,108
