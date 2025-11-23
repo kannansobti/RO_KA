@@ -1,0 +1,284 @@
+jjm_village_id,jjm_village,jjm_district,lgd_village_id,matched_shrug_id,matched_shrug_name,matched_shrug_district,match_type,match_score
+594614,CHIKKA HOSAHALLI,BENGALURU RURAL,910262,613306,chikka hosahalli,bangalore,exact_name,100.0
+142441,SRINIVASAPURA,BENGALURU RURAL,625114,624756,srinivasapura,bangalore rural,exact_name,100.0
+142765,VENKATAPURA,BENGALURU RURAL,625605,612784,venkatapura,bangalore,exact_name,100.0
+143954,Budihal,Belagavi,597497,597134,budihal,belgaum,exact_name,100.0
+143724,Chandur,Belagavi,597756,597179,chandur,belgaum,exact_name,100.0
+661560,Dharanatti,Belagavi,597701,597696,dharanatti,belgaum,exact_name,100.0
+144410,Dhupadal,Belagavi,598228,597442,dhupadal,belgaum,exact_name,100.0
+143664,Hulikatti,Belagavi,597778,597482,hulikatti,belgaum,exact_name,100.0
+144601,Kallur,Belagavi,598064,598391,kallur,belgaum,exact_name,100.0
+144205,Morab,Belagavi,597822,597397,morab,belgaum,exact_name,100.0
+662240,Mutnal,Belagavi,597437,597791,mutnal,belgaum,exact_name,100.0
+144058,Sultanpur,Belagavi,597607,597411,sultanpur,belgaum,exact_name,100.0
+665556,Byrasandra,Bengaluru Urban,924146,624909,byrasandra,bangalore rural,exact_name,100.0
+147905,Giddenahalli,Bengaluru Urban,613286,612812,giddenahalli,bangalore,exact_name,100.0
+665865,Gollahalli,Bengaluru Urban,924158,612923,gollahalli,bangalore,exact_name,100.0
+700197,HOSAHALLI,Bengaluru Urban,612909,613181,hosahalli,bangalore,exact_name,100.0
+697341,KODIGEHALLI,Bengaluru Urban,612822,613093,kodigehalli,bangalore,exact_name,100.0
+148062,Kodigehalli,Bengaluru Urban,612822,613093,kodigehalli,bangalore,exact_name,100.0
+665539,Lakshmipura,Bengaluru Urban,938467,612804,lakshmipura,bangalore,exact_name,100.0
+148353,Ramasandra,Bengaluru Urban,613064,613146,ramasandra,bangalore,exact_name,100.0
+665565,Vaderahalli,Bengaluru Urban,924154,612772,vaderahalli,bangalore,exact_name,100.0
+665285,Veerasandra,Bengaluru Urban,938478,613255,veerasandra,bangalore,exact_name,100.0
+145624,Kotgyal,Bidar,599888,600002,kotgyal,bidar,exact_name,100.0
+697273,HULLEPURA,CHAMARAJANAGARA,924903,619578,hullepura,chamarajanagar,exact_name,100.0
+664565,KALANAHUNDI,CHAMARAJANAGARA,926061,619699,kalanahundi,chamarajanagar,exact_name,100.0
+147458,CHANNAPURA,CHIKKAMAGALURU,609160,609319,channapura,chikmagalur,exact_name,100.0
+147535,GOLLARAHALLI,CHIKKAMAGALURU,609202,609380,gollarahalli,chikmagalur,exact_name,100.0
+665766,HOSAHALLI,CHIKKAMAGALURU,609791,609176,hosahalli,chikmagalur,exact_name,100.0
+146955,KURUBARAHALLI,CHIKKAMAGALURU,609503,609315,kurubarahalli,chikmagalur,exact_name,100.0
+147498,MAKANAHALLI,CHIKKAMAGALURU,609245,609206,makanahalli,chikmagalur,exact_name,100.0
+147649,SIDDARAHALLI,CHIKKAMAGALURU,609223,609152,siddarahalli,chikmagalur,exact_name,100.0
+146938,THIPPAGONDANAHALLI,CHIKKAMAGALURU,609482,609294,thippagondanahalli,chikmagalur,exact_name,100.0
+154772,GUNDLAHALLI,Chikkaballapura,926163,623343,gundlahalli,chikkaballapura,exact_name,100.0
+664947,NALLARALLAHALLI,Chikkaballapura,917236,624067,nallarallahalli,chikkaballapura,exact_name,100.0
+665126,THOKALAHALLI,Chikkaballapura,624094,623309,thokalahalli,chikkaballapura,exact_name,100.0
+155760,YALAGALAHALLI,Chikkaballapura,926194,623456,yalagalahalli,chikkaballapura,exact_name,100.0
+170195,Byrapura,Chitradurga,605191,605873,byrapura,chitradurga,exact_name,100.0
+663987,Doddagatta,Chitradurga,605501,605905,doddagatta,chitradurga,exact_name,100.0
+589825,Garaga,Chitradurga,605724,605984,garaga,chitradurga,exact_name,100.0
+169566,Halumadenahalli,Chitradurga,606150,606196,halumadenahalli,chitradurga,exact_name,100.0
+663963,Hosakere,Chitradurga,927609,606104,hosakere,chitradurga,exact_name,100.0
+152553,Ankanahalli,Hassan,616188,616126,ankanahalli,hassan,exact_name,100.0
+151440,Byadarahalli,Hassan,615586,616116,byadarahalli,hassan,exact_name,100.0
+151902,C. Hosahalli,Hassan,615309,616323,c hosahalli,hassan,exact_name,100.0
+151197,Gollarahalli,Hassan,615748,615510,gollarahalli,hassan,exact_name,100.0
+152531,Guddenahalli,Hassan,616231,615455,guddenahalli,hassan,exact_name,100.0
+152913,Hirebelaguli,Hassan,616812,616811,hirebelaguli,hassan,exact_name,100.0
+151762,Kodihalli,Hassan,615436,615283,kodihalli,hassan,exact_name,100.0
+150820,Yadiyur,Hassan,616736,616053,yadiyur,hassan,exact_name,100.0
+167164,Kunnur,Haveri,603884,603886,kunnur,haveri,exact_name,100.0
+637734,Ramapur,Haveri,924839,604219,ramapur,haveri,exact_name,100.0
+149367,ALLAPUR,Kalaburagi,620040,620423,allapur,gulbarga,exact_name,100.0
+149482,Sangapur,Kalaburagi,620441,620358,sangapur,gulbarga,exact_name,100.0
+153441,HONNAHANAKODU,Kodagu,923949,617902,honnahanakodu,kodagu,exact_name,100.0
+153530,V Badaga,Kodagu,924037,618013,v badaga,kodagu,exact_name,100.0
+155147,CHANNIGARAYAPURA,Kolar,622219,622137,channigarayapura,kolar,exact_name,100.0
+155040,Kurubarahalli,Kolar,622080,621678,kurubarahalli,kolar,exact_name,100.0
+665098,Kurubarahalli,Kolar,623023,621678,kurubarahalli,kolar,exact_name,100.0
+155249,UPASAPURA,Kolar,622436,622569,upasapura,kolar,exact_name,100.0
+155386,VENKATAPURA,Kolar,622357,621859,venkatapura,kolar,exact_name,100.0
+694232,VENKATAPURA,Kolar,621685,621859,venkatapura,kolar,exact_name,100.0
+166027,Konapur,Koppal,601521,601345,konapur,koppal,exact_name,100.0
+157065,Basavanahalli,Mandya,614697,613391,basavanahalli,mandya,exact_name,100.0
+665310,Halagapura,Mandya,614776,614781,halagapura,mandya,exact_name,100.0
+156653,Hemmadahalli,Mandya,926858,613495,hemmadahalli,mandya,exact_name,100.0
+157708,Kenchanahalli,Mandya,614083,614159,kenchanahalli,mandya,exact_name,100.0
+665972,Ragimuddanahalli,Mandya,614127,614461,ragimuddanahalli,mandya,exact_name,100.0
+157885,Chowdahalli,Mysuru,619120,618737,chowdahalli,mysore,exact_name,100.0
+157896,Hirehalli,Mysuru,619016,618872,hirehalli,mysore,exact_name,100.0
+158548,Hosakote,Mysuru,618688,618351,hosakote,mysore,exact_name,100.0
+158692,Kallahalli,Mysuru,619167,618342,kallahalli,mysore,exact_name,100.0
+158687,Karlapura,Mysuru,619169,619255,karlapura,mysore,exact_name,100.0
+158482,Madapura,Mysuru,618807,618316,madapura,mysore,exact_name,100.0
+158862,Muddanahalli,Mysuru,618291,618970,muddanahalli,mysore,exact_name,100.0
+699918,NAGLAPUR,Raichur,600575,600846,naglapur,raichur,exact_name,100.0
+665771,Hosur,Shivamogga,608315,607273,hosur,shimoga,exact_name,100.0
+160937,Kerodi,Shivamogga,925367,607207,kerodi,shimoga,exact_name,100.0
+161296,Mullakere,Shivamogga,925131,607224,mullakere,shimoga,exact_name,100.0
+160903,Padavagodu,Shivamogga,925366,607205,padavagodu,shimoga,exact_name,100.0
+665407,Sannamane,Shivamogga,925024,607632,sannamane,shimoga,exact_name,100.0
+586142,BYRAPURA,TUMAKURU,610930,610129,byrapura,tumkur,exact_name,100.0
+162138,DASIHALLI,TUMAKURU,610205,610080,dasihalli,tumkur,exact_name,100.0
+163204,DODDENAHALLI,TUMAKURU,610917,610546,doddenahalli,tumkur,exact_name,100.0
+163244,LAKSHMIPURA,TUMAKURU,610822,610051,lakshmipura,tumkur,exact_name,100.0
+163532,NARASIPURA,TUMAKURU,610298,611355,narasipura,tumkur,exact_name,100.0
+164779,Kumbarkop,Uttara Kannada,602756,602813,kumbarkop,uttara kannada,exact_name,100.0
+164790,Malwadi,Uttara Kannada,602799,602869,malwadi,uttara kannada,exact_name,100.0
+146110,TIKOTA,VIJAYAPURA,939739,599056,tikota,bijapur,exact_name,100.0
+589480,SHAKHAPUR,Yadgir,621066,620923,shakhapur,yadgir,exact_name,100.0
+142797,BANAHALLY,BENGALURU RURAL,625675,613243,banahalli,bangalore,fuzzy_name,88.88888888888889
+594616,CHIKKAMARALLI,BENGALURU RURAL,910246,612904,chikkanahalli,bangalore,fuzzy_name,84.61538461538461
+142356,G.HOSAHALLY,BENGALURU RURAL,625320,613181,hosahalli,bangalore,fuzzy_name,84.21052631578947
+142491,MUTHUKADAHALLY,BENGALURU RURAL,625067,625528,muthukadahalli,bangalore rural,fuzzy_name,92.85714285714286
+142316,NAGENAHALLY,BENGALURU RURAL,910258,625229,nagenahalli,bangalore rural,fuzzy_name,90.9090909090909
+664350,Chikkahanchinal Puk,Bagalkote,598509,598477,chickhanchinal,bagalkot,fuzzy_name,89.65517241379311
+141504,HIREMURAMATTI,Bagalkote,598809,598808,chikkmuramatti,bagalkot,fuzzy_name,81.4814814814815
+588589,Lingapur Sr Rc,Bagalkote,598507,598513,lingapur s k,bagalkot,fuzzy_name,86.95652173913044
+141749,Mamatageri,Bagalkote,598704,599024,maratgeri,bagalkot,fuzzy_name,84.21052631578947
+702878,GIRENAHALLI,Ballari,924424,604722,nagenahalli,bellary,fuzzy_name,81.81818181818181
+143751,Benakanahalli,Belagavi,597799,597633,benakanholi,belgaum,fuzzy_name,83.33333333333334
+143707,Gaundawad,Belagavi,597691,597384,gundwad,belgaum,fuzzy_name,87.5
+143839,Hanchinal K.k.,Belagavi,597236,597122,hanchinal k s,belgaum,fuzzy_name,88.0
+144446,Hidkal,Belagavi,597617,597402,hidakal,belgaum,fuzzy_name,92.3076923076923
+664341,Hunnur,Belagavi,939177,597158,kunnur,belgaum,fuzzy_name,83.33333333333334
+143709,Kakati,Belagavi,597792,598012,karikatti,belgaum,fuzzy_name,80.0
+143726,Kolikoppa,Belagavi,597777,598126,korvikoppa,belgaum,fuzzy_name,84.21052631578947
+662242,LAXMESHWAR,Belagavi,597494,597523,lakshmeshwar,belgaum,fuzzy_name,81.81818181818181
+664305,Majati,Belagavi,923726,597229,majalatti,belgaum,fuzzy_name,80.0
+144580,Mattikoppa,Belagavi,598039,598076,dastikoppa,belgaum,fuzzy_name,80.0
+143767,Shindolli,Belagavi,597766,597940,shindholli,belgaum,fuzzy_name,94.73684210526316
+144408,Yakkundi,Belagavi,598229,598045,lakkundi,belgaum,fuzzy_name,87.5
+665302,Chikkagollarahatti,Bengaluru Urban,938346,625263,chikkagollahalli,bangalore rural,fuzzy_name,82.35294117647058
+148335,Devegere,Bengaluru Urban,939479,613034,devagere,bangalore,fuzzy_name,87.5
+665288,Doddapalya,Bengaluru Urban,939406,612899,doddajala,bangalore,fuzzy_name,84.21052631578947
+665474,Gangadipura,Bengaluru Urban,938343,625604,gangapura,bangalore rural,fuzzy_name,90.0
+148227,GOPALPURA,Bengaluru Urban,938533,612749,gopalapura,bangalore,fuzzy_name,94.73684210526316
+148483,Gururayanapura,Bengaluru Urban,939493,613001,kolur gururayanapura,bangalore,fuzzy_name,82.35294117647058
+148320,H. Gollahalli,Bengaluru Urban,938480,612923,gollahalli,bangalore,fuzzy_name,90.9090909090909
+665254,KADAYARAPPANAHALLI,Bengaluru Urban,612918,612795,kadaranahalli,bangalore,fuzzy_name,83.87096774193549
+665471,Kannahalli Hosahalli,Bengaluru Urban,939475,613345,kaval hosahalli,bangalore,fuzzy_name,80.0
+147863,Menaseganahalli,Bengaluru Urban,939404,613333,menasiganahalli,bangalore,fuzzy_name,93.33333333333333
+665199,Puttaiahnapalya,Bengaluru Urban,938417,612996,muddaiahnapalya,bangalore,fuzzy_name,80.0
+145757,Bompalli,Bidar,600124,600304,borampalli,bidar,fuzzy_name,88.88888888888889
+595076,Methi Melkunda Wadi,Bidar,599875,599874,methimelkunda,bidar,fuzzy_name,81.25
+665650,HALEPURA,CHAMARAJANAGARA,917361,619578,hullepura,chamarajanagar,fuzzy_name,82.35294117647058
+168912,KURUBARAHUNDI,CHAMARAJANAGARA,924985,619711,kumbaragundi,chamarajanagar,fuzzy_name,80.0
+702834,SARAGURMOLE,CHAMARAJANAGARA,924546,619852,alagumole,chamarajanagar,fuzzy_name,80.0
+596546,BANANAHALLI,CHIKKAMAGALURU,609618,609570,banannahalli,chikmagalur,fuzzy_name,95.65217391304348
+147620,BASAVANAHLLI,CHIKKAMAGALURU,609153,609119,basavanahalli,chikmagalur,fuzzy_name,96.0
+147594,BELI BASAVANAHALLI,CHIKKAMAGALURU,609211,609558,b basavanahalli,chikmagalur,fuzzy_name,90.9090909090909
+147515,CHEERANAHALLI,CHIKKAMAGALURU,609270,609539,cheelanahalli,chikmagalur,fuzzy_name,92.3076923076923
+596550,KACHAPURA,CHIKKAMAGALURU,609508,624633,rachapura,chikkaballapura,fuzzy_name,88.88888888888889
+664450,MALLIGENAHALLI,CHIKKAMAGALURU,939544,609185,mallenahalli,chikmagalur,fuzzy_name,92.3076923076923
+700122,S. BIDARE,CHIKKAMAGALURU,609662,609661,s bidre,chikmagalur,fuzzy_name,93.33333333333333
+665727,SHAKUNIPURA,CHIKKAMAGALURU,609383,609120,shanthipura,chikmagalur,fuzzy_name,81.81818181818181
+664465,SRIRAMPURA,CHIKKAMAGALURU,917153,609306,sriramapura,chikmagalur,fuzzy_name,95.23809523809523
+697144,V. SIDDARAHALLI,CHIKKAMAGALURU,609647,609152,siddarahalli,chikmagalur,fuzzy_name,92.3076923076923
+147037,YAREHALLY,CHIKKAMAGALURU,609374,609354,yarehalli,chikmagalur,fuzzy_name,88.88888888888889
+154725,BALENAHALLI,Chikkaballapura,926148,609767,balenahalli,chikmagalur,fuzzy_name,100.0
+154236,BANDARLAHALLY,Chikkaballapura,624451,623284,bandarlahalli,chikkaballapura,fuzzy_name,92.3076923076923
+664874,BATTALAPURA,Chikkaballapura,624317,609178,vittalapura,chikmagalur,fuzzy_name,81.81818181818181
+664505,BHATHALAHALLY,Chikkaballapura,926178,623722,bathalahalli,chikkaballapura,fuzzy_name,88.0
+665043,BINGANAHALLI,Chikkaballapura,925621,609885,bigganahalli,chikmagalur,fuzzy_name,91.66666666666666
+155890,BRAHMANARAHALLY,Chikkaballapura,926195,623720,brahmanarahalli,chikkaballapura,fuzzy_name,93.33333333333333
+155748,BUDUGAVARAHALLI,Chikkaballapura,917253,624639,badagavarahalli,chikkaballapura,fuzzy_name,86.66666666666667
+154100,BYARANAYAKANAHALLI,Chikkaballapura,939386,624207,byranaikanahalli,chikkaballapura,fuzzy_name,88.23529411764706
+155756,CHANDAGANAHALLI,Chikkaballapura,925947,624502,gandraganahalli,chikkaballapura,fuzzy_name,86.66666666666667
+665620,CHANNABYRENAHALLY,Chikkaballapura,623386,609385,channenahalli,chikmagalur,fuzzy_name,80.0
+665045,CHIKKAKONDRAHALLI,Chikkaballapura,925623,623601,chikkanahalli,chikkaballapura,fuzzy_name,86.66666666666667
+664989,CHITTAVALAHALLI,Chikkaballapura,925729,623282,mattavalahalli,chikkaballapura,fuzzy_name,82.75862068965517
+594771,DASARENAHALLY,Chikkaballapura,623360,623501,dasarenahalli,chikkaballapura,fuzzy_name,92.3076923076923
+664966,DASARLAHALLI,Chikkaballapura,926203,609722,dasarahalli,chikmagalur,fuzzy_name,95.65217391304348
+664995,DEVARAKODAHHALLI,Chikkaballapura,925692,608965,devarahalli,chikmagalur,fuzzy_name,81.4814814814815
+664984,DIGAVAKOTE,Chikkaballapura,925610,624438,yegavakote,chikkaballapura,fuzzy_name,80.0
+665003,DINNEHUNASENAHALLI,Chikkaballapura,925730,623271,hunasenahalli,chikkaballapura,fuzzy_name,83.87096774193549
+154485,GUNTHUR GADDE,Chikkaballapura,624453,624436,gunthurugadde,chikkaballapura,fuzzy_name,92.3076923076923
+154090,JADALATHIMMANAHALLY,Chikkaballapura,623550,623627,jadalathimmanahalli,chikkaballapura,fuzzy_name,94.73684210526316
+665036,JAGAREDDYHALLI,Chikkaballapura,925731,623327,jogireddyhalli,chikkaballapura,fuzzy_name,85.71428571428572
+154563,JARABANDANAHALLY,Chikkaballapura,623238,623404,jarabandahalli,chikkaballapura,fuzzy_name,86.66666666666667
+665044,KADACHIKKANAHALLI,Chikkaballapura,925694,623601,chikkanahalli,chikkaballapura,fuzzy_name,86.66666666666667
+154629,KAMBALAHALLY,Chikkaballapura,925646,623368,kambalahalli,chikkaballapura,fuzzy_name,91.66666666666666
+154829,MACHAHALLI,Chikkaballapura,926155,609790,machenahalli,chikmagalur,fuzzy_name,90.9090909090909
+154778,MADDAREDDIHALLI,Chikkaballapura,926211,624654,imareddihalli,chikkaballapura,fuzzy_name,85.71428571428572
+154743,MINCHANAHALLI,Chikkaballapura,926171,624321,minchalahalli,chikkaballapura,fuzzy_name,92.3076923076923
+154246,NALLAGUTLAHALLY,Chikkaballapura,624454,624417,nallagutlahalli,chikkaballapura,fuzzy_name,93.33333333333333
+154489,PULAGUNDLAHALLY,Chikkaballapura,624404,624441,puligundlahalli,chikkaballapura,fuzzy_name,86.66666666666667
+664865,RAGIMAKALAHALLY,Chikkaballapura,926137,623591,ragimakalahalli,chikkaballapura,fuzzy_name,93.33333333333333
+154358,THIPPANAHALLY,Chikkaballapura,624559,624541,thippanahalli,chikkaballapura,fuzzy_name,92.3076923076923
+665134,VANTURU,Chikkaballapura,926191,610002,hanthuru,chikmagalur,fuzzy_name,80.0
+663983,Avalenahalli,Chitradurga,605499,605242,kavalanahalli,chitradurga,fuzzy_name,88.0
+664102,B Hanumapura,Chitradurga,927436,605998,banapura,chitradurga,fuzzy_name,80.0
+663984,Bangarakkanahalli,Chitradurga,605497,605925,benakanahalli,chitradurga,fuzzy_name,80.0
+589269,DONEHALL I,Chitradurga,605316,605321,donehalli,chitradurga,fuzzy_name,94.73684210526316
+663922,Ganjigatti,Chitradurga,927369,605625,ganjigatte,chitradurga,fuzzy_name,90.0
+663777,Hanumanahalli,Chitradurga,927174,605279,hanumanthanahalli,chitradurga,fuzzy_name,86.66666666666667
+663853,Hunasekatee,Chitradurga,927490,605547,hunasekatte,chitradurga,fuzzy_name,90.9090909090909
+663989,Kadambanakatte,Chitradurga,605500,605837,kadivanakatte,chitradurga,fuzzy_name,81.4814814814815
+663818,KAMBHATHANAHALLI,Chitradurga,927542,605664,kamanahalli,chitradurga,fuzzy_name,81.4814814814815
+169522,MEDHEHALLI,Chitradurga,605585,605753,edehalli,chitradurga,fuzzy_name,88.88888888888889
+664078,Megalahatti,Chitradurga,927424,605551,megalahalli,chitradurga,fuzzy_name,81.81818181818181
+664099,Myasarahatti,Chitradurga,927396,605243,mallaurahatti,chitradurga,fuzzy_name,80.0
+696751,OBANNANAHALLI KAVAL,Chitradurga,605277,605278,obannanahalli,chitradurga,fuzzy_name,81.25
+664330,PANJAIAHNAHATTI,Chitradurga,927375,605249,naikanahatti,chitradurga,fuzzy_name,81.4814814814815
+170130,Seeneerakatte,Chitradurga,927677,605942,seeranakatte,chitradurga,fuzzy_name,80.0
+671256,Bala,Dakshina Kannada,617523,617782,balpa,dakshina kannada,fuzzy_name,88.88888888888889
+167328,Agasanakatte,Davangere,606542,606624,agasanakatte,davanagere,fuzzy_name,100.0
+167522,Akali Katte,Davangere,607016,606970,arlikatte,davanagere,fuzzy_name,80.0
+167563,Basavapura,Davangere,606909,606451,basavapura,davanagere,fuzzy_name,100.0
+167410,Hanumanahalli,Davangere,606669,606660,hanumanahalli,davanagere,fuzzy_name,100.0
+167920,Karalahalli,Davangere,606271,606248,haralahalli,davanagere,fuzzy_name,90.9090909090909
+586897,Kolamaghatta,Davangere,910406,606442,kolamaghatta,davanagere,fuzzy_name,100.0
+167326,Lingapura,Davangere,606608,606870,lingapura,davanagere,fuzzy_name,100.0
+167609,Siddapura,Davangere,606937,606716,siddapura,davanagere,fuzzy_name,100.0
+167555,Yekkegondi,Davangere,606936,606949,yekkegondi,davanagere,fuzzy_name,100.0
+588430,Hosahalli,Gadag,924604,601950,hosalli,gadag,fuzzy_name,87.5
+152693,B.katihalli,Hassan,616230,616401,katihalli,hassan,fuzzy_name,94.73684210526316
+152718,Doddamandignahalli,Hassan,616232,616024,doddabaganahalli,hassan,fuzzy_name,82.35294117647058
+151303,Kallusadarahalli,Hassan,615603,615884,kalludevarahalli,hassan,fuzzy_name,87.5
+152739,Karle Kaval,Hassan,616143,615960,karebore kaval,hassan,fuzzy_name,80.0
+151374,Koranahalli,Hassan,615556,615291,komaranahalli,hassan,fuzzy_name,91.66666666666666
+151329,Kumbaragatta,Hassan,615641,615578,kommaraghatta,hassan,fuzzy_name,80.0
+152696,Lakshmisagar,Hassan,939319,616068,lakshmisagara,hassan,fuzzy_name,96.0
+151437,Maratagere,Hassan,615588,617311,madalagere,hassan,fuzzy_name,80.0
+151465,Mootikere,Hassan,615758,617335,metikere,hassan,fuzzy_name,82.35294117647058
+152767,Mosalehosahalli,Hassan,926830,616752,moole hosahalli,hassan,fuzzy_name,86.66666666666667
+589427,Srirampura,Hassan,616806,615559,rampura,hassan,fuzzy_name,82.35294117647058
+152637,Thamlapura,Hassan,616047,616747,hampapura,hassan,fuzzy_name,84.21052631578947
+152734,Yareborekaval,Hassan,938891,615960,karebore kaval,hassan,fuzzy_name,88.88888888888889
+166656,Aregoppa.,Haveri,604098,604553,harogoppa,haveri,fuzzy_name,82.35294117647058
+149469,Bhogalingadalli,Kalaburagi,938551,620388,bhoglingdhalli,gulbarga,fuzzy_name,89.65517241379311
+665173,Kottapalli,Kalaburagi,620568,620506,kontanpalli,gulbarga,fuzzy_name,85.71428571428572
+149760,Kusnoor,Kalaburagi,620266,620447,kupnoor,gulbarga,fuzzy_name,85.71428571428572
+149881,NAGARALLI,Kalaburagi,620833,620267,naganhalli,gulbarga,fuzzy_name,84.21052631578947
+153485,ATHUR,Kodagu,923974,618041,hathur,kodagu,fuzzy_name,90.9090909090909
+701118,ATHUR,Kodagu,924053,618041,hathur,kodagu,fuzzy_name,90.9090909090909
+153426,Chennapura,Kodagu,938979,617905,channapura,kodagu,fuzzy_name,90.0
+661848,HULUGUNDA,Kodagu,923999,618018,halugunda,kodagu,fuzzy_name,88.88888888888889
+661743,KOTTURU,Kodagu,923893,617888,kitturu,kodagu,fuzzy_name,85.71428571428572
+153578,MUGUTAGERI,Kodagu,924029,618065,mugatageri,kodagu,fuzzy_name,90.0
+695839,SRIMANAGALA,Kodagu,924065,617972,sirangala,kodagu,fuzzy_name,80.0
+153466,Yadavanadu Forest 1,Kodagu,923921,617949,yedavanadu forest-2,kodagu,fuzzy_name,86.48648648648648
+153641,DEVAGANAHALLI,Kolar,622848,622066,belaganahalli,kolar,fuzzy_name,84.61538461538461
+155165,GANGA SANDRA,Kolar,622160,621857,mangasandra,kolar,fuzzy_name,86.95652173913044
+153731,PARANDAHALLI,Kolar,622755,622010,barandahalli,kolar,fuzzy_name,91.66666666666666
+153642,THAMENAHALLI,Kolar,622550,622662,thammenhalli,kolar,fuzzy_name,91.66666666666666
+589757,THIPPABOYENAHALLI,Kolar,622733,621754,thippenahalli,kolar,fuzzy_name,86.66666666666667
+157425,Addi Halli,Mandya,613798,613805,addihalli,mandya,fuzzy_name,94.73684210526316
+156635,Bedadahalli,Mandya,926860,613779,bettadahalli,mandya,fuzzy_name,86.95652173913044
+156778,Bookahallikoppalu,Mandya,613674,614239,kallikoppalu,mandya,fuzzy_name,82.75862068965517
+156973,Chikkebagilu,Mandya,614833,614832,chikka abbagilu,mandya,fuzzy_name,81.4814814814815
+157718,Devegowdanakoppalu,Mandya,614185,614218,doddegowdanakoppalu,mandya,fuzzy_name,86.48648648648648
+157385,Doddena Halli,Mandya,613856,613778,doddenahalli,mandya,fuzzy_name,96.0
+157437,Gowdara Halli,Mandya,613742,613847,gowdarahalli,mandya,fuzzy_name,96.0
+595375,Gowdenahally,Mandya,926857,613780,gondenahalli,mandya,fuzzy_name,83.33333333333334
+157610,Jodi Vaddara Halli,Mandya,614036,613390,vaddarahalli,mandya,fuzzy_name,80.0
+157054,Kadampura,Mandya,614732,614576,kadalipura,mandya,fuzzy_name,84.21052631578947
+156723,M.hosur,Mandya,926878,613803,hosur,mandya,fuzzy_name,90.9090909090909
+157095,N.kodihalli,Mandya,614762,614523,n kodihalli,mandya,fuzzy_name,95.23809523809523
+665697,Alanahally,Mysuru,618836,618238,alanahalli,mysore,fuzzy_name,90.0
+159029,B.shettahalli,Mysuru,619431,619140,shettahalli,mysore,fuzzy_name,95.65217391304348
+158370,Beernahalli,Mysuru,618590,618373,beeranahalli,mysore,fuzzy_name,95.65217391304348
+157985,CHIKKAKUNDURU,Mysuru,619012,618421,chikkahunsur,mysore,fuzzy_name,80.0
+158061,Gundathur,Mysuru,619052,619054,k gandathur,mysore,fuzzy_name,80.0
+157942,HALEMANCHAHALLI,Mysuru,618976,618977,manchahalli,mysore,fuzzy_name,84.61538461538461
+158472,Rammanahally,Mysuru,618685,618728,rammanahalli,mysore,fuzzy_name,91.66666666666666
+664411,Sathagalli,Mysuru,618835,619334,athahalli,mysore,fuzzy_name,84.21052631578947
+158939,Vadderahosahalli Jungle,Mysuru,618174,618399,veeranahosahalli jungle,mysore,fuzzy_name,86.95652173913044
+143085,BANDIGANAHALLI,RAMANAGARA,626363,625850,manniganahalli,ramanagara,fuzzy_name,85.71428571428572
+143262,CHITTANAHALLI,RAMANAGARA,939013,625944,juttanahalli,ramanagara,fuzzy_name,80.0
+143040,CHOODAHALLI,RAMANAGARA,626497,625813,hosahalli,ramanagara,fuzzy_name,80.0
+142980,HOSAGABBADI,RAMANAGARA,626344,626345,hosagabbadi,ramanagara,fuzzy_name,100.0
+142962,HOSAHALLI,RAMANAGARA,626506,625813,hosahalli,ramanagara,fuzzy_name,100.0
+665574,RAMASAGARA,RAMANAGARA,626588,625783,kamasagara,ramanagara,fuzzy_name,90.0
+696055,AGAPUR (D),Raichur,600788,600504,nagalapur d,raichur,fuzzy_name,84.21052631578947
+700923,JOGALDINNI,Raichur,601107,600562,gajaldinni,raichur,fuzzy_name,80.0
+159849,N.HOSUR,Raichur,600959,600480,hosur,raichur,fuzzy_name,90.9090909090909
+644107,Anjanapura,Shivamogga,607842,607292,anandapuram,shimoga,fuzzy_name,85.71428571428572
+665440,Chikkakoralahalli,Shivamogga,607844,607843,hirekoralahalli,shimoga,fuzzy_name,81.25
+161748,Devagodikoppa,Shivamogga,607635,607711,devikoppa,shimoga,fuzzy_name,81.81818181818181
+161254,Halakuni,Shivamogga,917445,608303,alkuni,shimoga,fuzzy_name,85.71428571428572
+665880,Hole Koppa,Shivamogga,607398,607636,holekoppa,shimoga,fuzzy_name,94.73684210526316
+665431,Kambaduru,Shivamogga,607839,607374,kamaruru,shimoga,fuzzy_name,82.35294117647058
+665411,Mandagalale,Shivamogga,926087,608014,manjagalale,shimoga,fuzzy_name,90.9090909090909
+161420,Varadikoppa,Shivamogga,607401,607330,aralikoppa,shimoga,fuzzy_name,85.71428571428572
+588550,BANTARAHALLI,TUMAKURU,612308,610100,bhattarahalli,tumkur,fuzzy_name,88.0
+163221,BRAMHASAMUDRA,TUMAKURU,610891,610585,balasamudra,tumkur,fuzzy_name,83.33333333333334
+588560,CHIGARANAHALLI,TUMAKURU,611091,610246,thigalanahalli,tumkur,fuzzy_name,85.71428571428572
+163397,CHIKKAHALLY,TUMAKURU,610522,611400,chikkahalli,tumkur,fuzzy_name,90.9090909090909
+162108,HARAGONDAHAHALLI,TUMAKURU,610173,611116,harapagondanahalli,tumkur,fuzzy_name,88.23529411764706
+586141,K.G.THIPPAPURA,TUMAKURU,610815,610881,thippapura,tumkur,fuzzy_name,90.9090909090909
+588561,MADHAVARAYANAPALYA,TUMAKURU,611226,612641,devarayanapalya,tumkur,fuzzy_name,84.84848484848484
+164060,MARALENAHALLI,TUMAKURU,938653,611136,malenahalli,tumkur,fuzzy_name,91.66666666666666
+594555,MUDLAHALLI,TUMAKURU,611664,610646,gundlahalli,tumkur,fuzzy_name,85.71428571428572
+163359,ROPPA,TUMAKURU,610635,610636,roopa,tumkur,fuzzy_name,80.0
+163463,VADANAKALLU,TUMAKURU,610544,610449,janakallu,tumkur,fuzzy_name,80.0
+165115,Borangudde (a),Uttara Kannada,603061,603092,borangudda,uttara kannada,fuzzy_name,90.9090909090909
+165061,Hegde,Uttara Kannada,603452,603377,hegre,uttara kannada,fuzzy_name,80.0
+165015,Holanagadde,Uttara Kannada,603436,602906,honagadde,uttara kannada,fuzzy_name,90.0
+164728,JAMAGA *,Uttara Kannada,602788,602872,janaga,uttara kannada,fuzzy_name,83.33333333333334
+165113,Kalbhag *,Uttara Kannada,603528,602785,kalbhavi,uttara kannada,fuzzy_name,80.0
+164577,Shirkuli,Uttara Kannada,603406,603542,sarkuli,uttara kannada,fuzzy_name,80.0
+697270,HANUMASAGAR,VIJAYAPURA,599131,599198,hanumanagar,bijapur,fuzzy_name,90.9090909090909
+146267,INGALAGI,VIJAYAPURA,599673,599259,ingalgi,bijapur,fuzzy_name,93.33333333333333
