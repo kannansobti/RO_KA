@@ -36,7 +36,11 @@ This document describes the process of mapping Jal Jeevan Mission (JJM) villages
 The Jal Jeevan Mission is a Government of India program aimed at providing tap water connections to every rural household. The JJM dataset contains village-level information about water schemes, infrastructure, and coverage.
 
 \begin{itemize}
-    \item \textbf{Source:} \url{https://ejalshakti.gov.in/JJM/JJMReports/}
+    \item \textbf{Source:} eJalShakti Portal
+    \item \textbf{URL:} \url{https://ejalshakti.gov.in/JJM/JJMReports/BasicInformation/JJMRep_RWS_AbstractData_S.aspx}
+    \item \textbf{Navigation:} eJalShakti $\rightarrow$ JJM $\rightarrow$ Reports $\rightarrow$ Basic Information $\rightarrow$ Abstract Data (State)
+    \item \textbf{LGD Mapping:} \url{https://ejalshakti.gov.in/JJM/JJMReports/BasicInformation/JJMRep_LGDVillageCode_D.aspx}
+    \item \textbf{Navigation:} JJM Reports $\rightarrow$ Basic Information $\rightarrow$ LGD Village Code Mapping (select Karnataka, then each district)
     \item \textbf{Coverage:} Karnataka state, all 31 districts
     \item \textbf{Records:} 26,678 villages
     \item \textbf{Key identifiers:} JJM Village ID (IMIS ID), LGD Village Code
@@ -46,7 +50,10 @@ The Jal Jeevan Mission is a Government of India program aimed at providing tap w
 The Local Government Directory is a standardized directory of administrative units maintained by the Government of India. It provides unique codes for states, districts, sub-districts, and villages.
 
 \begin{itemize}
-    \item \textbf{Source:} \url{https://lgdirectory.gov.in/}
+    \item \textbf{Source:} Local Government Directory Portal
+    \item \textbf{URL:} \url{https://lgdirectory.gov.in/}
+    \item \textbf{Village Search:} \url{https://lgdirectory.gov.in/downloadDirectory.do}
+    \item \textbf{Navigation:} LGD $\rightarrow$ Download Directory $\rightarrow$ Select State/District $\rightarrow$ Download
     \item \textbf{Purpose:} Common identifier linking JJM to SHRUG
     \item \textbf{Key field:} 6-digit LGD Village Code
 \end{itemize}
@@ -56,8 +63,11 @@ SHRUG is a geographic dataset linking Indian administrative units over time. It 
 
 \begin{itemize}
     \item \textbf{Source:} Development Data Lab
+    \item \textbf{URL:} \url{https://www.devdatalab.org/shrug}
+    \item \textbf{Download:} \url{https://www.devdatalab.org/shrug_download/}
+    \item \textbf{Navigation:} DevDataLab $\rightarrow$ SHRUG $\rightarrow$ Download $\rightarrow$ Select ``Keys'' dataset for SHRID mappings
     \item \textbf{Total records:} 596,389 (All India), 27,556 (Karnataka)
-    \item \textbf{Key identifier:} SHRID2 (contains embedded LGD code)
+    \item \textbf{Key identifier:} SHRID2 (contains embedded LGD code in last 6 digits)
     \item \textbf{Reference year:} 2011 Census boundaries
 \end{itemize}
 
@@ -75,8 +85,9 @@ Detailed information about water purification plant installations including loca
 
 \begin{itemize}
     \item \textbf{Records:} 18,323 WPP installations
-    \item \textbf{With valid coordinates:} 11,435 (62.4\%)
-    \item \textbf{Key fields:} latitude\_clean, longitude\_clean
+    \item \textbf{With valid coordinates:} 11,435 (62.4\%) after coordinate cleaning
+    \item \textbf{Key fields:} latitude, longitude (raw), lat\_parsed, lon\_parsed (cleaned)
+    \item \textbf{Coordinate formats handled:} DMS (12°43'46.6"N), dot-separated (15.02.04), space-separated (13 14 49), quote-separated (12'40'48), decimal with prefixes (x-13.2153°, N-12.41.48)
 \end{itemize}
 
 \section{Data Sources Summary}
@@ -436,10 +447,33 @@ SHRID $\rightarrow$ multiple Village & 190 & From LGD duplicates \\
 
 Matches WPP (Water Purification Plant) installations to SHRUG villages using geographic coordinates.
 
+\subsection{Coordinate Cleaning}
+The WPP data contains coordinates in various formats. The script includes a comprehensive parser that handles:
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{ll}
+\toprule
+\textbf{Format} & \textbf{Example} \\
+\midrule
+DMS with symbols & 12°43'46.6"N, 76°05'49.4"E \\
+Decimal with prefix & x-13.2153°, y-76.045° \\
+Dot-separated DMS & N-12.41.48, E-76.09.51 \\
+Space-separated DMS & n-13 14 49, e-76 09 19 \\
+Quote-separated DMS & n-12'40'48, e-75'52'37 \\
+Run-together DMS & 13053'19"N \\
+Decimal with trailing dash & 15.7873289- \\
+Combined lat/long & 16.438925 76.250074 \\
+\bottomrule
+\end{tabular}
+\caption{Coordinate formats handled by parser}
+\end{table}
+
 \subsection{WPP Data Summary}
 \begin{itemize}
     \item Total WPP records: 18,323
-    \item Records with valid Karnataka coordinates: 11,435 (62.4\%)
+    \item Records with valid Karnataka coordinates: 11,435 (62.4\%) after cleaning
     \item Records with invalid/missing coordinates: 6,888 (37.6\%)
 \end{itemize}
 

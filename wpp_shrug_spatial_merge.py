@@ -18,6 +18,165 @@ import geopandas as gpd
 from shapely.geometry import Point
 import numpy as np
 from pathlib import Path
+import re
+
+
+def parse_coordinate(value: str) -> float:
+    """
+    Parse various coordinate formats to decimal degrees.
+
+    Handles formats like:
+    - 12°43'46.6"N or 76°05'49.4"E (DMS with symbols)
+    - x-13.2153°, y-76.045° (decimal with prefix)
+    - N-12.41.48, E-76.09.51 (dot-separated DMS)
+    - n-13 14 49, e-76 09 19 (space-separated DMS)
+    - n-12'40'48, e-75'52'37 (quote-separated DMS)
+    - n -13° 1' 7", E-75°59'0" (mixed format)
+    - 13053'19"N (run-together DMS)
+    - 15.02.04 (dot-separated DMS without direction)
+    - 15.7873289- (decimal with trailing dash)
+    - 15 23 48 (space-separated DMS)
+    - Lat:16.552743, Long: 76.086175 (labeled format)
+    - 16.438925 76.250074 (lat+long in one field)
+
+    Returns decimal degrees or None if parsing fails.
+    """
+    if pd.isna(value):
+        return None
+
+    value = str(value).strip()
+    if not value:
+        return None
+
+    # Remove common prefixes/suffixes
+    value = value.replace('Lat:', '').replace('Long:', '')
+    value = value.replace('lat:', '').replace('long:', '')
+    value = re.sub(r'^[nNeEsSwW]\s*[-=]?\s*', '', value)  # N-, E-, n =, etc.
+    value = re.sub(r'^[xXyY]\s*[-=]\s*', '', value)  # x-, y-
+    value = value.rstrip('-,')  # trailing dash or comma
+    value = value.strip()
+
+    # Check for direction indicators (to determine sign)
+    is_south_or_west = bool(re.search(r'[sSwW]$', value) or re.search(r'^[sSwW]', value))
+    value = re.sub(r'[nNeEsSwW]$', '', value)  # Remove trailing direction
+    value = re.sub(r'^[nNeEsSwW]\s*', '', value)  # Remove leading direction
+    value = value.strip()
+
+    # If it contains both lat and long (space-separated decimals), take first
+    if re.match(r'^[\d.]+\s+[\d.]+$', value):
+        value = value.split()[0]
+
+    # Try direct decimal conversion first
+    try:
+        result = float(value)
+        if 0 < abs(result) < 180:
+            return -result if is_south_or_west else result
+    except ValueError:
+        pass
+
+    # Normalize various degree/minute/second symbols
+    value = value.replace('º', '°').replace('*', '°').replace('o', '°')
+    value = value.replace("''", '"').replace("'", "'")
+    value = value.replace('"', '"').replace('"', '"')
+
+    # Pattern 1: Standard DMS - 12°43'46.6" or 12° 43' 46.6"
+    dms_pattern = r"(\d+)\s*°\s*(\d+)\s*['\u2019]\s*([\d.]+)\s*[\"\u201d]?"
+    match = re.search(dms_pattern, value)
+    if match:
+        d, m, s = float(match.group(1)), float(match.group(2)), float(match.group(3))
+        result = d + m/60 + s/3600
+        return -result if is_south_or_west else result
+
+    # Pattern 2: Run-together DMS - 13053'19" (degrees run into minutes)
+    # If first number is >360, likely degrees+minutes run together
+    runon_pattern = r"(\d{3,})['\"'](\d+)['\"\u2019\u201d]?"
+    match = re.search(runon_pattern, value)
+    if match:
+        dm_str = match.group(1)
+        s = float(match.group(2))
+        # Split: first 2-3 digits are degrees, rest are minutes
+        if len(dm_str) >= 4:
+            d = float(dm_str[:2])
+            m = float(dm_str[2:])
+        else:
+            d = float(dm_str[:1])
+            m = float(dm_str[1:])
+        result = d + m/60 + s/3600
+        if 0 < result < 180:
+            return -result if is_south_or_west else result
+
+    # Pattern 3: Dot-separated - 15.02.04 or 12.41.48
+    dot_pattern = r"^(\d{1,3})\.(\d{1,2})\.(\d{1,2})$"
+    match = re.match(dot_pattern, value)
+    if match:
+        d, m, s = float(match.group(1)), float(match.group(2)), float(match.group(3))
+        result = d + m/60 + s/3600
+        if 0 < result < 180:
+            return -result if is_south_or_west else result
+
+    # Pattern 4: Space-separated - 13 14 49 or 15 23 48
+    space_pattern = r"^(\d{1,3})\s+(\d{1,2})\s+(\d{1,2}(?:\.\d+)?)$"
+    match = re.match(space_pattern, value)
+    if match:
+        d, m, s = float(match.group(1)), float(match.group(2)), float(match.group(3))
+        result = d + m/60 + s/3600
+        if 0 < result < 180:
+            return -result if is_south_or_west else result
+
+    # Pattern 5: Quote-separated - 12'40'48 or 13' 11' 08.85
+    quote_pattern = r"(\d{1,3})['\"]\s*(\d{1,2})['\"]\s*([\d.]+)"
+    match = re.search(quote_pattern, value)
+    if match:
+        d, m, s = float(match.group(1)), float(match.group(2)), float(match.group(3))
+        result = d + m/60 + s/3600
+        if 0 < result < 180:
+            return -result if is_south_or_west else result
+
+    # Pattern 6: Degree-minute only - 14°02' or 13°56'
+    dm_pattern = r"(\d+)\s*°\s*(\d+(?:\.\d+)?)\s*['\u2019]?"
+    match = re.search(dm_pattern, value)
+    if match:
+        d, m = float(match.group(1)), float(match.group(2))
+        result = d + m/60
+        if 0 < result < 180:
+            return -result if is_south_or_west else result
+
+    # Pattern 7: Extract any decimal number as last resort
+    decimal_match = re.search(r'(\d+\.?\d*)', value)
+    if decimal_match:
+        result = float(decimal_match.group(1))
+        if 0 < result < 180:
+            return -result if is_south_or_west else result
+
+    return None
+
+
+def clean_coordinates(wpp: pd.DataFrame) -> pd.DataFrame:
+    """
+    Clean and parse all coordinate columns in WPP data.
+    Creates new columns: lat_parsed, lon_parsed
+    """
+    print("\nCleaning coordinates...")
+
+    # Parse latitude
+    wpp['lat_parsed'] = wpp['latitude'].apply(parse_coordinate)
+    lat_clean_parsed = wpp['latitude_clean'].apply(parse_coordinate)
+    # Use latitude_clean if latitude parsing failed
+    wpp['lat_parsed'] = wpp['lat_parsed'].fillna(lat_clean_parsed)
+
+    # Parse longitude
+    wpp['lon_parsed'] = wpp['longitude'].apply(parse_coordinate)
+    lon_clean_parsed = wpp['longitude_clean'].apply(parse_coordinate)
+    # Use longitude_clean if longitude parsing failed
+    wpp['lon_parsed'] = wpp['lon_parsed'].fillna(lon_clean_parsed)
+
+    # Stats
+    lat_success = wpp['lat_parsed'].notna().sum()
+    lon_success = wpp['lon_parsed'].notna().sum()
+    print(f"  Latitude parsed: {lat_success}/{len(wpp)} ({lat_success/len(wpp)*100:.1f}%)")
+    print(f"  Longitude parsed: {lon_success}/{len(wpp)} ({lon_success/len(wpp)*100:.1f}%)")
+
+    return wpp
 
 
 def load_wpp_data(filepath: str) -> gpd.GeoDataFrame:
@@ -28,9 +187,12 @@ def load_wpp_data(filepath: str) -> gpd.GeoDataFrame:
     wpp = pd.read_csv(filepath, skiprows=[1], encoding='latin-1', low_memory=False)
     print(f"  Total WPP records: {len(wpp)}")
 
-    # Convert coordinates to numeric
-    wpp['lat'] = pd.to_numeric(wpp['latitude_clean'], errors='coerce')
-    wpp['lon'] = pd.to_numeric(wpp['longitude_clean'], errors='coerce')
+    # Clean and parse coordinates
+    wpp = clean_coordinates(wpp)
+
+    # Use parsed coordinates
+    wpp['lat'] = wpp['lat_parsed']
+    wpp['lon'] = wpp['lon_parsed']
 
     # Filter to valid Karnataka coordinates (roughly 11-19 lat, 74-79 long)
     valid_mask = (
@@ -38,7 +200,7 @@ def load_wpp_data(filepath: str) -> gpd.GeoDataFrame:
         (wpp['lon'] >= 74) & (wpp['lon'] <= 79)
     )
     wpp_valid = wpp[valid_mask].copy()
-    print(f"  Records with valid coordinates: {len(wpp_valid)}")
+    print(f"  Records with valid Karnataka coordinates: {len(wpp_valid)}")
     print(f"  Records with invalid/missing coordinates: {len(wpp) - len(wpp_valid)}")
 
     # Create geometry
