@@ -50,6 +50,15 @@ Downloaded LGD mapping reports for all 31 Karnataka districts manually from the 
 | Missing LGD Village IDs | 0 |
 | Match rate | 100% |
 
+### 1.5 Relationship Analysis (JJM ↔ LGD)
+
+| Relationship | Count | Notes |
+|--------------|-------|-------|
+| JJM → multiple LGD | 0 | True 1:1 from JJM side ✓ |
+| LGD → multiple JJM | 33 | Duplicates in JJM data |
+
+**Conclusion:** Each JJM village maps to exactly one LGD code. However, 33 LGD codes have multiple JJM entries (mostly case variations of same village, 6 are actual conflicts).
+
 ---
 
 ## Stage 2: SHRUG Data Preparation
@@ -111,7 +120,17 @@ Exact match on `lgd_village_id` between JJM data and SHRUG data.
 | 618061 | BADAGARAKERI | BIRUNANI | Kodagu |
 | 606201 | Lakkenahalli | LAKKENAHALLY | Chitradurga |
 
-### 3.4 Output Files
+### 3.4 Relationship Analysis (JJM ↔ SHRUG via LGD)
+
+| Relationship | Count | Notes |
+|--------------|-------|-------|
+| JJM → multiple SHRUG | 0 | True 1:1 from JJM side ✓ |
+| SHRUG → multiple JJM | 32 | Inherited from LGD duplicates |
+| LGD → multiple SHRUG | 0 | True 1:1 LGD to SHRUG ✓ |
+
+**Conclusion:** The 32 cases of SHRUG→multiple JJM are a direct result of the 33 LGD duplicates from Stage 1. The LGD-SHRUG relationship is clean 1:1.
+
+### 3.5 Output Files
 
 - `jjm_to_shrug_direct_mapping.csv` - All JJM villages with SHRUG IDs where available
 - `jjm_lgd_to_shrid_unmatched.csv` - 541 villages without direct match
@@ -216,6 +235,19 @@ For the 541 unmatched villages, applied multi-stage name matching:
 
 **Results:** 18 additional matches
 **File:** `jjm_kannada_norm_matches.csv`
+
+### 4.5 Quality Verification
+
+**All fuzzy matches (strict + normalized) were manually reviewed and verified.**
+
+### 4.6 Relationship Analysis (Fuzzy Matches)
+
+| Relationship | Count | Notes |
+|--------------|-------|-------|
+| JJM → multiple SHRUG | 0 | True 1:1 from JJM side ✓ |
+| SHRUG → multiple JJM | 8 | Some SHRUG villages matched to multiple JJM entries |
+
+**Note:** The 8 cases of SHRUG→multiple JJM in fuzzy matching are due to similar village names in the unmatched set mapping to the same SHRUG village.
 
 ---
 
@@ -349,6 +381,23 @@ For the 541 unmatched villages, applied multi-stage name matching:
 2. **District Name Changes:** Several districts renamed between SHRUG (2011 census based) and JJM (current)
 3. **New Districts:** Vijayanagar carved from Bellary in 2020, mapped to Bellary in SHRUG
 4. **Transliteration Variance:** Kannada village names have multiple valid English spellings
+5. **Manual Verification:** All fuzzy matches were manually reviewed and verified for accuracy
+
+---
+
+## Relationship Summary (All Stages)
+
+| Stage | Relationship | Count | Status |
+|-------|--------------|-------|--------|
+| 1. JJM-LGD | JJM → multiple LGD | 0 | ✓ Clean |
+| 1. JJM-LGD | LGD → multiple JJM | 33 | ⚠️ Duplicates |
+| 2. Direct Match | JJM → multiple SHRUG | 0 | ✓ Clean |
+| 2. Direct Match | SHRUG → multiple JJM | 32 | ⚠️ From LGD dups |
+| 2. Direct Match | LGD → multiple SHRUG | 0 | ✓ Clean |
+| 3. Fuzzy Match | JJM → multiple SHRUG | 0 | ✓ Clean |
+| 3. Fuzzy Match | SHRUG → multiple JJM | 8 | ⚠️ Similar names |
+
+**Key Finding:** From JJM perspective, all mappings are 1:1. The reverse relationships (SHRUG→JJM) have duplicates due to data quality issues in the source JJM data.
 
 ---
 
