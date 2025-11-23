@@ -1,88 +1,229 @@
-# JJM to SHRUG Village Mapping: Process Documentation
+# JJM to SHRUG Village Mapping: Complete Process Documentation
 
-## Overview
+## Project Objective
 
-This document describes the process of mapping Jal Jeevan Mission (JJM) villages in Karnataka to SHRUG (Socioeconomic High-resolution Rural-Urban Geographic) identifiers for research and analysis purposes.
+Map Jal Jeevan Mission (JJM) villages in Karnataka to SHRUG (Socioeconomic High-resolution Rural-Urban Geographic) identifiers to enable research and analysis linking water infrastructure data with socioeconomic indicators.
 
-## Data Sources
+---
 
-| Dataset | Description | Records |
-|---------|-------------|---------|
-| JJM Karnataka | Village-level water scheme data | 26,678 villages |
-| LGD (Local Government Directory) | Official village-GP mapping | Linked to JJM |
-| SHRUG | Socioeconomic village database | 596,389 (India), 27,556 (Karnataka) |
+## Stage 1: JJM Data Extraction
 
-## Process Flow Diagram
+### 1.1 Data Source
+
+**Source URL:** https://ejalshakti.gov.in/JJM/JJMReports/lgd_mapping/rpt_LGDMappedStatus_d.aspx
+
+Downloaded LGD mapping reports for all 31 Karnataka districts manually from the JJM portal.
+
+### 1.2 Raw Data Processing
+
+**Input:** HTML tables from each district (31 files)
+
+**Process:**
+1. Converted HTML tables to CSV format for each district
+2. Standardized column names across all files
+3. Combined all district files into single dataset
+
+**Output:** `jjm_lgd_mapping_karnataka.csv`
+
+### 1.3 Output Schema
+
+| Column | Description |
+|--------|-------------|
+| state | Karnataka |
+| jjm_district | District name from JJM |
+| jjm_block | Block/Taluk name |
+| jjm_panchayat_id | JJM Panchayat ID |
+| jjm_panchayat | Panchayat name |
+| jjm_village_id | JJM Village ID (IMIS ID) |
+| jjm_village | Village name from JJM |
+| lgd_village_id | LGD Village Code |
+| lgd_village | Village name from LGD |
+| district_from_header | District from file header |
+| source_file | Source file name |
+
+### 1.4 Validation
+
+| Check | Result |
+|-------|--------|
+| Districts validated against KA-list.xls | 31/31 ✓ |
+| Total villages | 26,678 |
+| Missing LGD Village IDs | 0 |
+| Match rate | 100% |
+
+---
+
+## Stage 2: SHRUG Data Preparation
+
+### 2.1 Data Source
+
+**Dataset:** SHRUG (Socioeconomic High-resolution Rural-Urban Geographic)
+**File:** `shrid_loc_names.csv`
+
+| Scope | Records |
+|-------|---------|
+| All India | 596,389 |
+| Karnataka | 27,556 |
+
+### 2.2 SHRUG Schema
+
+| Column | Description |
+|--------|-------------|
+| shrid2 | Unique SHRUG identifier |
+| state_name | State name |
+| district_name | District name |
+| subdistrict_name | Subdistrict/Taluk name |
+| town_name | Town name (if applicable) |
+| village_name | Village name |
+| place_name | Place name |
+
+---
+
+## Stage 3: Direct LGD-SHRUG Matching
+
+### 3.1 Method
+
+Exact match on `lgd_village_id` between JJM data and SHRUG data.
+
+### 3.2 Results
+
+| Metric | Count | Percentage |
+|--------|-------|------------|
+| Matched | 26,137 | 97.97% |
+| Unmatched | 541 | 2.03% |
+
+### 3.3 Quality Issues Identified
+
+**JJM Side: 33 Duplicate LGD Mappings**
+
+| Type | Count | Description |
+|------|-------|-------------|
+| Exact duplicates | 27 | Same village name (case difference), same district/block, different JJM IDs |
+| Different villages | 6 | Different villages mapped to same LGD code |
+
+**Specific Conflicts (Different Villages → Same LGD):**
+
+| LGD Code | Village 1 | Village 2 | District |
+|----------|-----------|-----------|----------|
+| 617801 | Kolagadalu | AIVATHOKLU | Kodagu |
+| 617877 | Agalli | BASAVANARE | Kodagu |
+| 617980 | KUDIGE | BYADAGOTTA | Kodagu |
+| 617981 | KUDUMANGALORE | DODDATHUR | Kodagu |
+| 618061 | BADAGARAKERI | BIRUNANI | Kodagu |
+| 606201 | Lakkenahalli | LAKKENAHALLY | Chitradurga |
+
+### 3.4 Output Files
+
+- `jjm_to_shrug_direct_mapping.csv` - All JJM villages with SHRUG IDs where available
+- `jjm_lgd_to_shrid_unmatched.csv` - 541 villages without direct match
+
+---
+
+## Stage 4: Name-Based Matching for Unmatched Villages
+
+### 4.1 Matching Strategy
+
+For the 541 unmatched villages, applied multi-stage name matching:
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    JJM TO SHRUG VILLAGE MATCHING PIPELINE                   │
-└─────────────────────────────────────────────────────────────────────────────┘
+541 Unmatched Villages
+        │
+        ▼
+┌───────────────────────────────┐
+│  Manual Mappings (User)       │───► 39 matched
+└───────────────────────────────┘
+        │
+        ▼ 502 remaining
+┌───────────────────────────────┐
+│  Strict Fuzzy Matching        │───► 204 matched
+└───────────────────────────────┘
+        │
+        ▼ 298 remaining
+┌───────────────────────────────┐
+│  Kannada Transliteration      │───► 18 matched
+└───────────────────────────────┘
+        │
+        ▼
+    280 Unmatched (Final)
+```
 
-                            ┌──────────────────┐
-                            │  JJM Karnataka   │
-                            │  26,678 villages │
-                            └────────┬─────────┘
-                                     │
-                                     ▼
-                    ┌────────────────────────────────┐
-                    │  STAGE 1: LGD-SHRUG Direct     │
-                    │  Match on lgd_village_id       │
-                    └────────────────┬───────────────┘
-                                     │
-                    ┌────────────────┴────────────────┐
-                    │                                 │
-                    ▼                                 ▼
-        ┌───────────────────┐             ┌───────────────────┐
-        │     MATCHED       │             │    UNMATCHED      │
-        │  26,137 villages  │             │   541 villages    │
-        │     (97.97%)      │             │     (2.03%)       │
-        └───────────────────┘             └─────────┬─────────┘
-                                                    │
-                                                    ▼
-                                   ┌────────────────────────────────┐
-                                   │  STAGE 2: Manual Mappings      │
-                                   │  User-provided corrections     │
-                                   └────────────────┬───────────────┘
-                                                    │
-                                   ┌────────────────┴────────────────┐
-                                   │                                 │
-                                   ▼                                 ▼
-                       ┌───────────────────┐             ┌───────────────────┐
-                       │  MANUAL MATCHED   │             │    REMAINING      │
-                       │   39 villages     │             │  502 villages     │
-                       └───────────────────┘             └─────────┬─────────┘
-                                                                   │
-                                                                   ▼
-                                                  ┌────────────────────────────────┐
-                                                  │  STAGE 3: Strict Fuzzy Match   │
-                                                  │  fuzz.ratio ≥ 85%              │
-                                                  │  Length ratio ≥ 70%            │
-                                                  └────────────────┬───────────────┘
-                                                                   │
-                                                  ┌────────────────┴────────────────┐
-                                                  │                                 │
-                                                  ▼                                 ▼
-                                      ┌───────────────────┐             ┌───────────────────┐
-                                      │   FUZZY MATCHED   │             │    REMAINING      │
-                                      │  204 villages     │             │  298 villages     │
-                                      └───────────────────┘             └─────────┬─────────┘
-                                                                                  │
-                                                                                  ▼
-                                                                 ┌────────────────────────────────┐
-                                                                 │  STAGE 4: Kannada Normalized   │
-                                                                 │  hally→halli, puram→pura, etc. │
-                                                                 └────────────────┬───────────────┘
-                                                                                  │
-                                                                 ┌────────────────┴────────────────┐
-                                                                 │                                 │
-                                                                 ▼                                 ▼
-                                                     ┌───────────────────┐             ┌───────────────────┐
-                                                     │ NORMALIZED MATCH  │             │  FINAL UNMATCHED  │
-                                                     │   18 villages     │             │   280 villages    │
-                                                     └───────────────────┘             └───────────────────┘
+### 4.2 Manual Mappings
 
+**Source:** User-provided corrections for known mismatches
+**Count:** 39 villages
+**File:** `jjm_manual_name_district_shrid_mapping.csv`
 
+### 4.3 Strict Fuzzy Matching
+
+**Method:** RapidFuzz string matching with constraints
+
+**Algorithm:**
+- Function: `fuzz.ratio()` only (full string similarity)
+- No partial/substring matching to avoid false positives
+- Minimum score threshold: 85%
+- Length ratio constraint: ≥70% (prevents short names matching inside longer names)
+- District-constrained matching
+
+**Text Normalization:**
+1. Convert to lowercase
+2. Remove parenthetical suffixes: (D), (CT), (OG), (Part)
+3. Remove special characters
+4. Normalize whitespace
+
+**District Name Mapping (JJM → SHRUG):**
+
+| JJM District | SHRUG District |
+|--------------|----------------|
+| Bengaluru Rural | Bangalore Rural |
+| Bengaluru Urban | Bangalore |
+| Ballari | Bellary |
+| Belagavi | Belgaum |
+| Chamarajanagara | Chamarajanagar |
+| Davangere | Davanagere |
+| Kalaburagi | Gulbarga |
+| Mysuru | Mysore |
+| Shivamogga | Shimoga |
+| Tumakuru | Tumkur |
+| Vijayapura | Bijapur |
+| Bagalkote | Bagalkot |
+| Chikkamagaluru | Chikmagalur |
+| Vijayanagar | Bellary (new district carved from Bellary) |
+
+**Results:**
+| Score Range | Count |
+|-------------|-------|
+| 100 (exact) | 129 |
+| 95-99 | 9 |
+| 90-94 | 53 |
+| 85-89 | 52 |
+| **Total** | **204** |
+
+**File:** `jjm_shrug_matches_strict.csv`
+
+### 4.4 Kannada Transliteration Normalization
+
+**Method:** Apply common Kannada transliteration variations before fuzzy matching
+
+**Normalization Rules:**
+
+| Pattern | Normalized To | Example |
+|---------|---------------|---------|
+| hally, haly, hali | halli | Gowdenahally → Gowdenahalli |
+| pur, puram | pura | Tippapur → Tippapura |
+| keri | kere | - |
+| geri | gere | - |
+| kk, pp, tt, dd, nn, mm, ll | k, p, t, d, n, m, l | - |
+| aa, ee, ii, oo, uu | a, i, i, u, u | - |
+
+**Results:** 18 additional matches
+**File:** `jjm_kannada_norm_matches.csv`
+
+---
+
+## Stage 5: Final Results
+
+### 5.1 Complete Matching Summary
+
+```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                              FINAL SUMMARY                                  │
 ├─────────────────────────────────────────────────────────────────────────────┤
@@ -98,130 +239,101 @@ This document describes the process of mapping Jal Jeevan Mission (JJM) villages
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-## Detailed Stage Descriptions
+### 5.2 Matching Comparison
 
-### Stage 1: LGD-SHRUG Direct Matching
-
-**Method:** Exact match on `lgd_village_id` between JJM data and SHRUG data.
-
-**Input:**
-- JJM Karnataka villages with LGD codes: 26,678
-- SHRUG Karnataka villages: 27,556
-
-**Output:**
-- Matched: 26,137 (97.97%)
-- Unmatched: 541 (2.03%)
-
-**Files:**
-- `jjm_to_shrug_direct_mapping.csv` - All JJM villages with SHRUG matches where available
-- `jjm_lgd_to_shrid_unmatched.csv` - 541 villages without direct LGD match
+| Metric | Direct Only | + Name Matching |
+|--------|-------------|-----------------|
+| Matched | 26,137 (97.97%) | 26,398 (98.95%) |
+| Unmatched | 541 | 280 |
 
 ---
 
-### Stage 2: Manual Mappings
+## Process Flow Diagram
 
-**Method:** User-provided manual corrections for known mismatches.
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    JJM TO SHRUG VILLAGE MATCHING PIPELINE                   │
+└─────────────────────────────────────────────────────────────────────────────┘
 
-**Input:** 541 unmatched villages
-
-**Output:**
-- Manually matched: 39
-- Remaining: 502
-
-**Files:**
-- `jjm_manual_name_district_shrid_mapping.csv` - Manual mappings
-
----
-
-### Stage 3: Strict Fuzzy Matching
-
-**Method:** RapidFuzz string matching with strict constraints:
-- Uses only `fuzz.ratio()` (full string similarity)
-- No partial matching to avoid substring matches
-- Minimum score threshold: 85%
-- Length ratio check: strings must be within 70% length of each other
-- District-constrained: only matches within same district
-
-**Normalization applied:**
-- Convert to lowercase
-- Remove parenthetical suffixes like (D), (CT), (OG)
-- Remove special characters
-- Normalize whitespace
-
-**District Mapping:** (JJM → SHRUG)
-| JJM District | SHRUG District |
-|--------------|----------------|
-| Bengaluru Rural | Bangalore Rural |
-| Bengaluru Urban | Bangalore |
-| Ballari | Bellary |
-| Belagavi | Belgaum |
-| Kalaburagi | Gulbarga |
-| Mysuru | Mysore |
-| Vijayapura | Bijapur |
-| Vijayanagar | Bellary (new district) |
-
-**Input:** 502 remaining unmatched
-
-**Output:**
-- Matched: 204
-- Remaining: 298
-
-**Score Distribution:**
-| Score Range | Count |
-|-------------|-------|
-| 100 (exact) | 129 |
-| 95-99 | 9 |
-| 90-94 | 53 |
-| 85-89 | 52 |
-
-**Files:**
-- `jjm_shrug_matches_strict.csv` - Strict fuzzy matches + manual
-- `jjm_unmatched_strict.csv` - Remaining unmatched
-
----
-
-### Stage 4: Kannada Transliteration Normalization
-
-**Method:** Apply common Kannada transliteration variations before fuzzy matching.
-
-**Normalizations applied:**
-| Pattern | Normalized To |
-|---------|---------------|
-| hally, haly, hali | halli |
-| pur, puram | pura |
-| keri | kere |
-| geri | gere |
-| Double consonants (kk, pp, tt) | Single (k, p, t) |
-| Double vowels (aa, ee, oo) | Single (a, i, u) |
-
-**Input:** 298 remaining unmatched
-
-**Output:**
-- Matched: 18
-- Remaining: 280
-
-**Files:**
-- `jjm_kannada_norm_matches.csv` - Normalized matches
-- `jjm_still_unmatched_final.csv` - Final unmatched
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  STAGE 1: DATA EXTRACTION                                                    │
+│                                                                              │
+│    ejalshakti.gov.in ──► HTML Tables (31 districts) ──► CSV Conversion       │
+│                                     │                                        │
+│                                     ▼                                        │
+│                      jjm_lgd_mapping_karnataka.csv                           │
+│                           26,678 villages                                    │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                      │
+                                      ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  STAGE 2: DIRECT LGD MATCHING                                                │
+│                                                                              │
+│    JJM Data ◄────── Match on lgd_village_id ──────► SHRUG Data               │
+│    26,678                                            27,556 (KA)             │
+│                              │                                               │
+│              ┌───────────────┴───────────────┐                               │
+│              ▼                               ▼                               │
+│        ┌──────────┐                   ┌──────────┐                           │
+│        │ MATCHED  │                   │UNMATCHED │                           │
+│        │  26,137  │                   │   541    │                           │
+│        │ (97.97%) │                   │ (2.03%)  │                           │
+│        └──────────┘                   └────┬─────┘                           │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                             │
+                                             ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  STAGE 3: NAME-BASED MATCHING                                                │
+│                                                                              │
+│    ┌─────────────────────────────────────────────────────────────────────┐   │
+│    │  3a. Manual Mappings                                                │   │
+│    │      User corrections ──────────────────────────► 39 matched        │   │
+│    └─────────────────────────────────────────────────────────────────────┘   │
+│                                     │                                        │
+│                                     ▼ 502 remaining                          │
+│    ┌─────────────────────────────────────────────────────────────────────┐   │
+│    │  3b. Strict Fuzzy Matching                                          │   │
+│    │      fuzz.ratio ≥ 85%, length ratio ≥ 70% ──────► 204 matched       │   │
+│    └─────────────────────────────────────────────────────────────────────┘   │
+│                                     │                                        │
+│                                     ▼ 298 remaining                          │
+│    ┌─────────────────────────────────────────────────────────────────────┐   │
+│    │  3c. Kannada Transliteration Normalization                          │   │
+│    │      hally→halli, pur→pura, etc. ───────────────► 18 matched        │   │
+│    └─────────────────────────────────────────────────────────────────────┘   │
+│                                     │                                        │
+│                                     ▼                                        │
+│                          ┌──────────────────┐                                │
+│                          │ FINAL UNMATCHED  │                                │
+│                          │      280         │                                │
+│                          │    (1.05%)       │                                │
+│                          └──────────────────┘                                │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## Final Output Files
+## Output Files Reference
+
+### Primary Output Files
 
 | File | Description | Records |
 |------|-------------|---------|
-| `jjm_shrug_all_matches.csv` | All matched villages (manual + fuzzy + normalized) | 261 |
-| `jjm_to_shrug_direct_mapping.csv` | Direct LGD matches | 26,678 |
+| `jjm_lgd_mapping_karnataka.csv` | Combined JJM-LGD data for Karnataka | 26,678 |
+| `jjm_to_shrug_direct_mapping.csv` | Direct LGD→SHRUG matches | 26,678 |
+| `jjm_shrug_all_matches.csv` | All name-based matches combined | 261 |
 | `jjm_still_unmatched_final.csv` | Villages requiring manual review | 280 |
 
-## Quality Assurance Notes
+### Intermediate Files
 
-1. **Strict matching preferred:** Only `fuzz.ratio()` used to avoid false positives from partial/substring matches
-2. **Length constraint:** Prevents short names matching inside longer names
-3. **District constraint:** All matches restricted to same district to avoid cross-district false matches
-4. **Manual review:** 280 remaining villages (1.05%) require manual verification
+| File | Description |
+|------|-------------|
+| `jjm_lgd_to_shrid_unmatched.csv` | Villages without direct LGD match (input to Stage 3) |
+| `jjm_manual_name_district_shrid_mapping.csv` | User-provided manual mappings |
+| `jjm_shrug_matches_strict.csv` | Strict fuzzy matches |
+| `jjm_kannada_norm_matches.csv` | Kannada normalization matches |
 
-## Scripts
+### Scripts
 
 | Script | Purpose |
 |--------|---------|
@@ -231,4 +343,25 @@ This document describes the process of mapping Jal Jeevan Mission (JJM) villages
 
 ---
 
-*Document generated: November 2024*
+## Data Quality Notes
+
+1. **LGD Duplicates:** 33 JJM entries map to duplicate LGD codes (27 case variations, 6 actual conflicts)
+2. **District Name Changes:** Several districts renamed between SHRUG (2011 census based) and JJM (current)
+3. **New Districts:** Vijayanagar carved from Bellary in 2020, mapped to Bellary in SHRUG
+4. **Transliteration Variance:** Kannada village names have multiple valid English spellings
+
+---
+
+## Recommendations for Remaining 280 Unmatched
+
+1. **Manual Review:** Villages in `jjm_still_unmatched_final.csv` require manual verification
+2. **Possible Causes:**
+   - New villages not in SHRUG (2011 census based)
+   - Significant name changes
+   - Administrative reorganization
+   - Data entry errors in source systems
+
+---
+
+*Document Version: 1.0*
+*Last Updated: November 2024*
