@@ -1,0 +1,468 @@
+jjm_village_id,jjm_village,jjm_district,jjm_block,jjm_panchayat_id,jjm_panchayat,lgd_village_id,lgd_village,shrid2,shrug_district,shrug_subdistrict,shrug_village,shrug_place,match_score,matched_on,match_method
+588424,ARISINAKUNTE,BENGALURU RURAL,Devanhalli,59868,NALLURU,938780,ARISHINAKUNTE,11-29-583-05601-624949,bangalore rural,nelamangala,,arasinakunte,91.66666666666667,place,fuzzy
+142797,BANAHALLY,BENGALURU RURAL,Hoskote,59935,NANDAGUDI,625675,Banahalli,11-29-583-05602-625189,bangalore rural,dod ballapur,tharabanahalli,tharabanahalli,100.0,village,fuzzy
+594614,CHIKKA HOSAHALLI,BENGALURU RURAL,Devanhalli,59881,Bettekote,910262,Chikkahosahalli (D),11-29-583-05601-624758,bangalore rural,nelamangala,hosahalli,hosahalli,100.0,village,fuzzy
+594616,CHIKKAMARALLI,BENGALURU RURAL,Devanhalli,59886,BIJJAVARA,910246,ChikkaMurali,11-29-583-05601-624857,bangalore rural,nelamangala,marohalli,marohalli,87.5,village,fuzzy
+142411,DARGAJOGIHALLI,BENGALURU RURAL,Dodballapur,59894,DARGAJOGIHALLI,625247,Dargajogihalli (OG),11-29-583-05603-625396,bangalore rural,devanahalli,jogahalli,jogahalli,88.88888888888889,village,fuzzy
+142209,DINNURU,BENGALURU RURAL,Devanhalli,299517,Alooru Duddanahalli,910230,Dinnur,11-29-583-05603-625319,bangalore rural,devanahalli,gonur,gonur,75.0,village,fuzzy
+142356,G.HOSAHALLY,BENGALURU RURAL,Devanhalli,59886,BIJJAVARA,625320,Gururayana Hosur,11-29-583-05601-624758,bangalore rural,nelamangala,hosahalli,hosahalli,88.88888888888889,village,fuzzy
+142491,MUTHUKADAHALLY,BENGALURU RURAL,Dodballapur,59903,HULIKUNTE,625067,Muttugadahalli,11-29-583-05602-625185,bangalore rural,dod ballapur,muttugadahalli,muttugadahalli,100.0,village,fuzzy
+142316,NAGENAHALLY,BENGALURU RURAL,Devanhalli,59882,G.CHOWDAPANAHALLY,910258,Nagenahalli,11-29-583-05602-625023,bangalore rural,dod ballapur,subraya nagenahalli,subraya nagenahalli,100.0,village,fuzzy
+142441,SRINIVASAPURA,BENGALURU RURAL,Dodballapur,59899,HANABE,625114,Srinivasapura,11-29-583-05601-624756,bangalore rural,nelamangala,srinivasapura,srinivasapura,100.0,village,fuzzy
+142765,VENKATAPURA,BENGALURU RURAL,Hoskote,59932,Lakkondahalli,625605,Venkatapura,11-29-583-05601-624783,bangalore rural,nelamangala,venkatapura,venkatapura,100.0,village,fuzzy
+664350,Chikkahanchinal Puk,Bagalkote,Bilagi,59797,Kollur,598509,Chinvalkoppa PU.K,11-29-556-05443-598430,bagalkot,jamkhandi,hanchinal,hanchinal,100.0,village,fuzzy
+141893,Heggur Rc,Bagalkote,Bilagi,299899,Heggura,598506,Heggur,11-29-556-05448-598928,bagalkot,hungund,gangur,gangur,80.0,village,fuzzy
+141504,HIREMURAMATTI,Bagalkote,Bagalkot,59688,Hiregulabal,598809,Hiremuramatti,11-29-556-05447-598808,bagalkot,bagalkot,chikkmuramatti,chikkmuramatti,84.61538461538461,village,fuzzy
+588589,Lingapur Sr Rc,Bagalkote,Bilagi,299899,Heggura,598507,Lingapur.S.R PU.K,11-29-556-05446-598665,bagalkot,badami,lingapur,lingapur,100.0,village,fuzzy
+141749,Mamatageri,Bagalkote,Badami,59767,Mamtageri,598704,Mamatageri,11-29-556-05446-598661,bagalkot,badami,katageri,katageri,93.33333333333333,village,fuzzy
+702878,GIRENAHALLI,Ballari,Sandur,0,0,924424,GIRENAHALLI,11-29-565-05498-604722,bellary,hospet,nagenahalli,nagenahalli,90.0,village,fuzzy
+665619,Huchenahalli,Ballari,Sandur,299931,H K Halli,917702,HUCHCHENAHALLI,11-29-565-05500-604939,bellary,bellary,meenahalli,meenahalli,88.88888888888889,village,fuzzy
+145106,Jodikasanayakanahalli,Ballari,Sandur,60692,Bommagatta,604980,Jodikasinayakanahalli,11-29-565-05502-605060,bellary,kudligi,sirinayakanahalli,sirinayakanahalli,93.75,village,fuzzy
+143618,Athani Rural,Belagavi,Athni,60054,Athani (Grameen),597300,Athani (Rural) (Part),11-29-555-05434-803024,belgaum,athni,,athni,90.9090909090909,place,fuzzy
+143751,Benakanahalli,Belagavi,Belagavi,60138,Benakanhalli,597799,Benakanahalli (CT),11-29-555-05434-597334,belgaum,athni,adahalli,adahalli,87.5,village,fuzzy
+143954,Budihal,Belagavi,Gokak,60244,Suladhala,597497,Budihal,11-29-555-05433-597134,belgaum,chikodi,budihal,budihal,100.0,village,fuzzy
+143724,Chandur,Belagavi,Belagavi,60125,Sulebhavi,597756,Chandur,11-29-555-05433-597179,belgaum,chikodi,chandur,chandur,100.0,village,fuzzy
+661637,Chikkud,Belagavi,Athni,60084,Saptasagar,597308,Chikkud,11-29-555-05441-598243,belgaum,parasgad,chikkulligeri,chikkulligeri,92.3076923076923,village,fuzzy
+661560,Dharanatti,Belagavi,Belagavi,60141,Dharanatti,597701,Rangadholi,11-29-555-05438-597696,belgaum,belgaum,dharanatti,dharanatti,100.0,village,fuzzy
+144410,Dhupadal,Belagavi,Savadathi,60415,Yakkundi,598228,Dhupdal,11-29-555-05436-597442,belgaum,gokak,dhupadal,dhupadal,100.0,village,fuzzy
+144609,Gaddikaravinakoppa,Belagavi,Bylahongal,60501,Chikkabagewadi,598062,Gaddikurvinkoppa,11-29-555-05441-598270,belgaum,parasgad,kuravinakoppa,kuravinakoppa,92.3076923076923,village,fuzzy
+143707,Gaundawad,Belagavi,Belagavi,60116,Kangrali B.K,597691,Goundawad (Part),11-29-555-05437-597611,belgaum,hukeri,goudawad,goudawad,94.11764705882354,village,fuzzy
+143750,Halgimardi,Belagavi,Belagavi,60137,K. K. Koppa,939170,SU HALAGIMARDI,11-29-555-05435-597367,belgaum,raybag,maradi,maradi,90.9090909090909,village,fuzzy
+143839,Hanchinal K.k.,Belagavi,Chikodi,60196,Karagaon,597236,Hanchinal (K.K.),11-29-555-05433-597122,belgaum,chikodi,hanchinal k s,hanchinal k s,100.0,village,fuzzy
+144201,Hebbanatti,Belagavi,Khanapur,60349,Amate,597819,Habbanatti,11-29-555-05437-597576,belgaum,hukeri,hebbal,hebbal,90.9090909090909,village,fuzzy
+144446,Hidkal,Belagavi,Raybag,60438,Hidkal,597617,Hidakal,11-29-555-05435-597402,belgaum,raybag,hidakal,hidakal,100.0,village,fuzzy
+143664,Hulikatti,Belagavi,Belagavi,60097,Aralikatti,597778,Hulikatti,11-29-555-05436-597482,belgaum,gokak,hulikatti,hulikatti,100.0,village,fuzzy
+664341,Hunnur,Belagavi,Hukeri,60305,Hosur,939177,HONNUR,11-29-555-05433-597158,belgaum,chikodi,kunnur,kunnur,90.9090909090909,village,fuzzy
+143709,Kakati,Belagavi,Belagavi,60117,Kakti,597792,Kakati (CT),11-29-555-05435-597368,belgaum,raybag,devanakatti,devanakatti,83.33333333333334,village,fuzzy
+144601,Kallur,Belagavi,Bylahongal,60499,Maradinagalapur,598064,Kallur,11-29-555-05442-598391,belgaum,ramdurg,kallur,kallur,100.0,village,fuzzy
+143726,Kolikoppa,Belagavi,Belagavi,60126,Tarihal,597777,Kolikopp,11-29-555-05440-598136,belgaum,sampgaon,jalikoppa,jalikoppa,87.5,village,fuzzy
+662242,LAXMESHWAR,Belagavi,MUDALAGI,60270,Sunadholi,597494,Lagameshwar,11-29-555-05436-597508,belgaum,gokak,dhavaleshwar,dhavaleshwar,82.35294117647058,village,fuzzy
+664305,Majati,Belagavi,Hukeri,60294,Naganur K D,923726,MAJATI,11-29-555-05433-597229,belgaum,chikodi,majalatti,majalatti,80.0,village,fuzzy
+664307,Managoan,Belagavi,Hukeri,60294,Naganur K D,923727,MANAGOAN,11-29-555-05436-597489,belgaum,gokak,khanagaon,khanagaon,80.0,village,fuzzy
+144580,Mattikoppa,Belagavi,Bylahongal,60491,Sutagatti,598039,Mattikoppa,11-29-555-05440-598076,belgaum,sampgaon,dastikoppa,dastikoppa,84.21052631578947,village,fuzzy
+144205,Morab,Belagavi,Khanapur,60350,Bailur,597822,Morab,11-29-555-05435-597397,belgaum,raybag,morab,morab,100.0,village,fuzzy
+662240,Mutnal,Belagavi,Gokak,60247,Nandagaon,597437,Mutnal,11-29-555-05438-597791,belgaum,belgaum,mutnal,mutnal,100.0,village,fuzzy
+664359,Parakanatti,Belagavi,Hukeri,60320,Mavanur,923725,PARAKANATTI,11-29-555-05436-597421,belgaum,gokak,khanatti,khanatti,93.33333333333333,village,fuzzy
+143704,Piranawadi,Belagavi,Belagavi,60114,Piranawadi,597800,Peeranwadi (CT),11-29-555-05433-597129,belgaum,chikodi,adi,adi,100.0,village,fuzzy
+143767,Shindolli,Belagavi,Belagavi,60143,Nilaji,597766,Shindoli (Part),11-29-555-05439-597940,belgaum,khanapur,shindholli,shindholli,94.73684210526316,village,fuzzy
+144058,Sultanpur,Belagavi,Hukeri,60308,Sulthanaput,597607,Sultanpur,11-29-555-05435-597411,belgaum,raybag,sultanpur,sultanpur,100.0,village,fuzzy
+144521,Turanur,Belagavi,Ramdurg,60470,Turanur,598376,Turanur (Part),11-29-555-05437-597571,belgaum,hukeri,kamatanur,kamatanur,83.33333333333334,village,fuzzy
+664306,Wadishidlihal,Belagavi,Hukeri,60294,Naganur K D,923728,WADISHIDLIHAL,11-29-555-05433-597129,belgaum,chikodi,adi,adi,100.0,village,fuzzy
+144408,Yakkundi,Belagavi,Savadathi,60415,Yakkundi,598229,Yakkundi,11-29-555-05440-598045,belgaum,sampgaon,lakkundi,lakkundi,93.33333333333333,village,fuzzy
+148215,B K PALYA,Bengaluru Urban,YELAHANKA,61391,Bandikodagehalli,938495,Arebinnamangala,11-29-572-05542-612924,bangalore,bangalore north,arebinnamangala,arebinnamangala,100.0,village,fuzzy
+665183,Bande Hosur,Bengaluru Urban,Bengaluru East,61437,Kannuru,938226,AMANI BAIRATIKHANE,11-29-572-05545-613332,bangalore,anekal,solur,solur,75.0,village,fuzzy
+693546,BHEEMANAKUPPE RAMASAGARA,Bengaluru Urban,Bengaluru South,61419,Ramohalli,613014,BHEEMANAKUPPE RAMASAGARA,11-29-572-05543-613017,bangalore,bangalore south,bheemanakuppe,bheemanakuppe,100.0,village,fuzzy
+665556,Byrasandra,Bengaluru Urban,Bengaluru South,61416,Agara,924146,BYRASANDRA,11-29-572-05542-612930,bangalore,bangalore north,marasandra,marasandra,88.88888888888889,village,fuzzy
+665221,Channadasipalya,Bengaluru Urban,Bengaluru South,299653,Channenahalli,938427,ARAKERE,11-29-572-05542-612835,bangalore,bangalore north,arakere,arakere,100.0,village,fuzzy
+148441,Chikka Gubbi,Bengaluru Urban,Bengaluru East,61437,Kannuru,613125,Chikkagubbi (OG),11-29-572-05542-612952,bangalore,bangalore north,,chikkabidarakallu,84.21052631578947,place,fuzzy
+665302,Chikkagollarahatti,Bengaluru Urban,Bengaluru North,299657,Kachohalli,938346,BAGALAGUNTE,11-29-572-05542-612915,bangalore,bangalore north,bagalur,bagalur,83.33333333333334,village,fuzzy
+665469,Chikkakodige Halli,Bengaluru Urban,Bengaluru North,61368,Kodigehalli,939476,VYYALIKAVAL,11-29-572-05544-613093,bangalore,bangalore east,kodigehalli,kodigehalli,90.9090909090909,village,fuzzy
+148335,Devegere,Bengaluru Urban,Bengaluru South,61417,K.Gollahalli,939479,AGARA (BEGUR HOBLI),11-29-572-05542-612776,bangalore,bangalore north,hanumantha sagara,hanumantha sagara,100.0,village,fuzzy
+148268,Dodda Thogur,Bengaluru Urban,Bengaluru South,61401,Doddathoguru,938419,CHIKKATOGURU,11-29-572-05545-613313,bangalore,anekal,dodda hagade,dodda hagade,76.19047619047619,village,fuzzy
+148451,Doddagubbi,Bengaluru Urban,Bengaluru East,61438,Doddagubbi,613126,Doddagubbi (OG),11-29-572-05544-613105,bangalore,bangalore east,doddabanahalli,doddabanahalli,75.0,village,fuzzy
+665288,Doddapalya,Bengaluru Urban,Bengaluru North,61373,Huskuru,939406,AGRAHARA THIMMASANDRA,11-29-572-05542-612893,bangalore,bangalore north,thimmasandra,thimmasandra,100.0,village,fuzzy
+665474,Gangadipura,Bengaluru Urban,Bengaluru North,61368,Kodigehalli,938343,VISHVANATHA NAGENAHALLI,11-29-572-05543-612960,bangalore,bangalore south,naganahalli,naganahalli,90.9090909090909,village,fuzzy
+147905,Giddenahalli,Bengaluru Urban,Anekal,61343,Kallubalu,613286,Giddenahalli,11-29-572-05542-612812,bangalore,bangalore north,giddenahalli,giddenahalli,100.0,village,fuzzy
+665865,Gollahalli,Bengaluru Urban,Bengaluru South,61442,Chikkanahalli,924158,GOLLAHALLI,11-29-572-05542-612923,bangalore,bangalore north,gollahalli,gollahalli,100.0,village,fuzzy
+665578,Gopalanagara,Bengaluru Urban,Bengaluru South,61441,Chunchanakuppe,939488,MARENAHALLI ( UTTARAHALLI HOBLI),11-29-572-05542-612929,bangalore,bangalore north,marenahalli,marenahalli,100.0,village,fuzzy
+148227,GOPALPURA,Bengaluru Urban,YELAHANKA,61392,Marenahalli,938533,CHIKKABOMMASANDRA,11-29-572-05545-613357,bangalore,anekal,,bommasandra,100.0,place,fuzzy
+148280,Govindashettipalya,Bengaluru Urban,Bengaluru South,61403,Konappana Agrahara,938477,AVALAHALLI,11-29-572-05542-612939,bangalore,bangalore north,avalahalli,avalahalli,100.0,village,fuzzy
+148483,Gururayanapura,Bengaluru Urban,Bengaluru South,61441,Chunchanakuppe,939493,SONNENAHALLI (KOTLU K.G),11-29-572-05542-612826,bangalore,bangalore north,sonnenahalli,sonnenahalli,100.0,village,fuzzy
+148320,H. Gollahalli,Bengaluru Urban,Bengaluru South,259828,H. Gollahalli,938480,HOSAKEREHALLI,11-29-572-05542-612923,bangalore,bangalore north,gollahalli,gollahalli,100.0,village,fuzzy
+147915,Hennagara Amanikere,Bengaluru Urban,Anekal,61345,Hennagara,613179,Hennagara Amanikere,11-29-572-05543-613039,bangalore,bangalore south,agara,agara,100.0,village,fuzzy
+700197,HOSAHALLI,Bengaluru Urban,YELAHANKA,299660,Sathanooru,612909,HOSAHALLI,11-29-572-05542-612759,bangalore,bangalore north,hosahalli palya,hosahalli palya,100.0,village,fuzzy
+665269,Hosapalya,Bengaluru Urban,Bengaluru South,61418,Kumbalagodu,938458,CHUNCHAGHATTA,11-29-572-05543-613019,bangalore,bangalore south,chalaghatta,chalaghatta,90.0,village,fuzzy
+665254,KADAYARAPPANAHALLI,Bengaluru Urban,YELAHANKA,61391,Bandikodagehalli,612918,Bandikodegehalli Amanikere,11-29-572-05542-612892,bangalore,bangalore north,papanahalli,papanahalli,95.23809523809523,village,fuzzy
+665471,Kannahalli Hosahalli,Bengaluru Urban,Bengaluru North,61368,Kodigehalli,939475,ULLALU K.G,11-29-572-05542-612824,bangalore,bangalore north,kannahalli,kannahalli,100.0,village,fuzzy
+148442,Kannur,Bengaluru Urban,Bengaluru East,61437,Kannuru,613124,Kannur (OG),11-29-572-05542-612824,bangalore,bangalore north,kannahalli,kannahalli,80.0,village,fuzzy
+665567,Karekalpalya,Bengaluru Urban,Bengaluru South,61441,Chunchanakuppe,938424,NAGANATHAPURA,11-29-572-05542-612834,bangalore,bangalore north,adde vishwanathapura,adde vishwanathapura,86.95652173913044,village,fuzzy
+697341,KODIGEHALLI,Bengaluru Urban,Bengaluru North,61368,Kodigehalli,612822,KODIGEHALLI,11-29-572-05542-612919,bangalore,bangalore north,bandi kodigehalli palya,bandi kodigehalli palya,100.0,village,fuzzy
+148062,Kodigehalli,Bengaluru Urban,Bengaluru North,61368,Kodigehalli,612822,KODIGEHALLI,11-29-572-05542-612919,bangalore,bangalore north,bandi kodigehalli palya,bandi kodigehalli palya,100.0,village,fuzzy
+665470,Kodigehalli Harijana Colony,Bengaluru Urban,Bengaluru North,61368,Kodigehalli,612821,Thirumalapura,11-29-572-05542-612868,bangalore,bangalore north,kodagi thirumalapura,kodagi thirumalapura,100.0,village,fuzzy
+703119,KUMBALAGODU,Bengaluru Urban,Bengaluru South,61418,Kumbalagodu,613062,KUMBALAGODU,11-29-572-05543-613027,bangalore,bangalore south,kumbalagodu gollahalli,kumbalagodu gollahalli,100.0,village,fuzzy
+665539,Lakshmipura,Bengaluru Urban,Bengaluru South,61441,Chunchanakuppe,938467,RAGHAVANAPALYA,11-29-572-05542-612804,bangalore,bangalore north,lakshmipura,lakshmipura,100.0,village,fuzzy
+700202,LINGARAJASAGARA,Bengaluru Urban,YELAHANKA,61388,KASAGATTAPURA,612874,LINGARAJASAGARA,11-29-572-05543-613039,bangalore,bangalore south,agara,agara,100.0,village,fuzzy
+665311,Mahimmannanapalya,Bengaluru Urban,Bengaluru North,273464,Kadabagere,939417,BOGENAHALLI,11-29-572-05542-612886,bangalore,bangalore north,gadenahalli,gadenahalli,90.0,village,fuzzy
+147863,Menaseganahalli,Bengaluru Urban,Anekal,61337,Vanakanahalli,939404,BAHDURPURA,11-29-572-05545-613243,bangalore,anekal,banahalli,banahalli,94.11764705882352,village,fuzzy
+665502,Metipalya,Bengaluru Urban,Bengaluru South,61440,Choolanayakanahalli,938487,VASANTAPURA,11-29-572-05542-612780,bangalore,bangalore north,dasanapura,dasanapura,90.0,village,fuzzy
+665639,Nagegowdanapalya,Bengaluru Urban,Bengaluru South,259828,H. Gollahalli,939480,DASARAHALLI,11-29-572-05545-613235,bangalore,anekal,chikkadasarahalli,chikkadasarahalli,100.0,village,fuzzy
+665392,Parvathaiahana Palya,Bengaluru Urban,Bengaluru North,61377,Sondekoppa,939411,BANGALORE,11-29-572-05542-612762,bangalore,bangalore north,huchana palya,huchana palya,86.95652173913044,village,fuzzy
+665227,Pattareddipalya,Bengaluru Urban,Bengaluru South,61412,Kagglipura,938489,BIKASHIPURA,11-29-572-05542-612765,bangalore,bangalore north,kodipalya,kodipalya,87.5,village,fuzzy
+665380,Pitaganapalya,Bengaluru Urban,Bengaluru North,61377,Sondekoppa,939414,BARAGI MUDDENAHALLI,11-29-572-05542-612936,bangalore,bangalore north,muddanahalli,muddanahalli,91.66666666666666,village,fuzzy
+665199,Puttaiahnapalya,Bengaluru Urban,Bengaluru South,299653,Channenahalli,938417,BERATENA AGRAHARA,11-29-572-05545-613239,bangalore,anekal,nagen agrahara,nagen agrahara,88.0,village,fuzzy
+665211,Pylvanarapalya,Bengaluru Urban,Bengaluru North,61374,Alur,939407,AKKITHIMMANAHALLI,11-29-572-05545-613243,bangalore,anekal,banahalli,banahalli,94.11764705882352,village,fuzzy
+665209,RAJAKSABPALYA,Bengaluru Urban,YELAHANKA,61393,BAGALUR,938541,AMRUTAHALLI,11-29-572-05545-613284,bangalore,anekal,arehalli,arehalli,85.71428571428572,village,fuzzy
+148353,Ramasandra,Bengaluru Urban,Bengaluru South,61420,Sulikere,613064,BASAVANAPURA,11-29-572-05545-613146,bangalore,anekal,ramasandra,ramasandra,100.0,village,fuzzy
+665230,Saalu Hunase,Bengaluru Urban,Bengaluru South,61412,Kagglipura,938430,BILEKAHALLI,11-29-572-05542-612905,bangalore,bangalore north,boilahalli,boilahalli,85.71428571428572,village,fuzzy
+665581,Shikaripalya,Bengaluru Urban,Anekal,61344,Hulimangala,938194,KUDLU,11-29-572-05542-612774,bangalore,bangalore north,kuduragere,kuduragere,88.88888888888889,village,fuzzy
+148479,Subbarayappanapalya,Bengaluru Urban,Bengaluru South,61441,Chunchanakuppe,938444,VALAGERAHALLI,11-29-572-05543-612961,bangalore,bangalore south,jogerahalli,jogerahalli,90.0,village,fuzzy
+665565,Vaderahalli,Bengaluru Urban,Bengaluru South,61416,Agara,924154,VADEERA HALLI,11-29-572-05542-612772,bangalore,bangalore north,vaderahalli,vaderahalli,100.0,village,fuzzy
+665285,Veerasandra,Bengaluru Urban,Bengaluru South,299654,Nelaguli,938478,CHANNASANDRA,11-29-572-05542-612837,bangalore,bangalore north,channasandra,channasandra,100.0,village,fuzzy
+693388,ALIABAD (J),Bidar,Bidar,60862,Aliabad (j),600256,ALIABAD (J),11-29-558-05455-599913,bidar,bhalki,kadlabad,kadlabad,85.71428571428572,village,fuzzy
+145757,Bompalli,Bidar,Bidar,60864,Yerrnalli,600124,Bompalli,11-29-558-05454-599780,bidar,basavakalyan,halli,halli,88.88888888888889,village,fuzzy
+588457,Hajjargi,Bidar,Bidar,60861,Kolar (k),923711,HAJJARAGI,11-29-558-05455-599918,bidar,bhalki,dadgi,dadgi,75.0,village,fuzzy
+664831,Hallikhed(k) Wadi,Bidar,Humnabad,60902,Hallikhed (k),923715,HALLIKHED(K) WADI,11-29-558-05454-599780,bidar,basavakalyan,halli,halli,100.0,village,fuzzy
+664875,JAFARWADI,Bidar,Basavakalyan,60788,GUNDUR,923683,JAFFARWADI,11-29-558-05456-803059,bidar,aurad,,aurad,80.0,place,fuzzy
+665016,Kasartugaon Wadi,Bidar,Bhalki,60838,Shivani,599860,Kasara Tugaon Wadi,11-29-558-05455-599859,bidar,bhalki,kalsar tugaon,kalsar tugaon,92.3076923076923,village,fuzzy
+595076,Methi Melkunda Wadi,Bidar,Bhalki,60836,Methi Melkunda,599875,Methimelkunda Wadi,11-29-558-05455-599874,bidar,bhalki,methimelkunda,methimelkunda,100.0,village,fuzzy
+693389,VITHALPUR,Bidar,Chittaguppa,60872,BEMALKHEDA,925916,VITHALPUR,11-29-558-05458-600333,bidar,homnabad,alipur,alipur,90.9090909090909,village,fuzzy
+596546,BANANAHALLI,CHIKKAMAGALURU,Kadur,61191,Devanur,609618,Devanurkaval,11-29-570-05529-609636,chikmagalur,kadur,devanur,devanur,100.0,village,fuzzy
+147737,BARIMALE ESTATE,CHIKKAMAGALURU,Mudigere,61317,TRIPURA,609937,Barimale Estate,11-29-570-05531-609925,chikmagalur,mudigere,alekhan estate,alekhan estate,83.33333333333334,village,fuzzy
+147620,BASAVANAHLLI,CHIKKAMAGALURU,Tarikere,61291,MUDUGODU,609153,BASAVANAHALLY,11-29-570-05528-609119,chikmagalur,tarikere,basavanahalli,basavanahalli,96.0,village,fuzzy
+146901,BASURU KAVAL,CHIKKAMAGALURU,Kadur,61183,BASUR,609409,Basurukaval,11-29-570-05529-609426,chikmagalur,kadur,basuru,basuru,100.0,village,fuzzy
+147594,BELI BASAVANAHALLI,CHIKKAMAGALURU,Tarikere,61285,KORANAHALLI,609211,Belibasavanahalli,11-29-570-05528-609119,chikmagalur,tarikere,basavanahalli,basavanahalli,100.0,village,fuzzy
+147458,CHANNAPURA,CHIKKAMAGALURU,AJJAMPURA,61262,BAGGAVALLI,609160,Channapura,11-29-570-05528-609282,chikmagalur,tarikere,annapura,annapura,100.0,village,fuzzy
+147515,CHEERANAHALLI,CHIKKAMAGALURU,AJJAMPURA,61270,CHEERANAHALLI,609270,Cheernanahalli Kaval,11-29-570-05528-609231,chikmagalur,tarikere,beeranahalli,beeranahalli,95.65217391304348,village,fuzzy
+146654,CHIKKA KALASAPURA,CHIKKAMAGALURU,Chikkamagaluru,61132,KALASAPURA,609794,Chikkakalasapura,11-29-570-05526-609017,chikmagalur,koppa,kalasapura,kalasapura,100.0,village,fuzzy
+147535,GOLLARAHALLI,CHIKKAMAGALURU,AJJAMPURA,61272,DODDABOKIKERE,609202,Gollarahalli,11-29-570-05528-609219,chikmagalur,tarikere,k gollarahalli,k gollarahalli,100.0,village,fuzzy
+147430,HEBBE,CHIKKAMAGALURU,Narasimharajapura,61253,Honnekudige ( Hanthuvine),609074,Hebbe,11-29-570-05528-609278,chikmagalur,tarikere,hebbur,hebbur,88.88888888888889,village,fuzzy
+665766,HOSAHALLI,CHIKKAMAGALURU,Chikkamagaluru,61119,DASARAHALLI,609791,HOSAHALLY,11-29-570-05528-609147,chikmagalur,tarikere,kerehosahalli,kerehosahalli,100.0,village,fuzzy
+596553,JAMMAPURA (M.KODIHALLI),CHIKKAMAGALURU,Kadur,61209,MALLESHWARA,609437,Jammapura,11-29-570-05529-609450,chikmagalur,kadur,pura,pura,100.0,village,fuzzy
+596550,KACHAPURA,CHIKKAMAGALURU,Kadur,61234,KADURHALLI,609508,Kachapura,11-29-570-05529-609450,chikmagalur,kadur,pura,pura,100.0,village,fuzzy
+146955,KURUBARAHALLI,CHIKKAMAGALURU,Kadur,61190,CHEELANAHALLI,609503,Kurubarahalli,11-29-570-05528-609315,chikmagalur,tarikere,kurubarahalli,kurubarahalli,100.0,village,fuzzy
+147498,MAKANAHALLI,CHIKKAMAGALURU,AJJAMPURA,61268,Bukkambudi,609245,Makanahalli,11-29-570-05528-609206,chikmagalur,tarikere,makanahalli,makanahalli,100.0,village,fuzzy
+664450,MALLIGENAHALLI,CHIKKAMAGALURU,Tarikere,61276,GULLADAMANE,939544,THYAGADHA BHAGI FOREST,11-29-570-05528-609185,chikmagalur,tarikere,mallenahalli,mallenahalli,92.3076923076923,village,fuzzy
+700122,S. BIDARE,CHIKKAMAGALURU,Kadur,61220,S.Bidre,609662,S. BIDARE,11-29-570-05530-609664,chikmagalur,chikmagalur,bidare,bidare,100.0,village,fuzzy
+665727,SHAKUNIPURA,CHIKKAMAGALURU,Kadur,61192,EMMEDODDI,609383,Shankunipura,11-29-570-05529-609450,chikmagalur,kadur,pura,pura,100.0,village,fuzzy
+147649,SIDDARAHALLI,CHIKKAMAGALURU,Tarikere,61297,SIDDARAHALLI,609223,Siddarahalli,11-29-570-05528-609152,chikmagalur,tarikere,siddarahalli,siddarahalli,100.0,village,fuzzy
+596556,SIDDEGOWDANA KOPPALU,CHIKKAMAGALURU,Kadur,0,0,609531,Angajanahalli,11-29-570-05526-803144,chikmagalur,koppa,,koppa,100.0,place,fuzzy
+664465,SRIRAMPURA,CHIKKAMAGALURU,Kadur,300292,HARALAGATTA,917153,SRIRAMPURA,11-29-570-05529-609450,chikmagalur,kadur,pura,pura,100.0,village,fuzzy
+146938,THIPPAGONDANAHALLI,CHIKKAMAGALURU,Kadur,61188,Chikkadevanur,609482,Thippagondanahalli,11-29-570-05528-609294,chikmagalur,tarikere,thippagondanahalli,thippagondanahalli,100.0,village,fuzzy
+697144,V. SIDDARAHALLI,CHIKKAMAGALURU,Kadur,61183,BASUR,609647,V. SIDDARAHALLI,11-29-570-05528-609152,chikmagalur,tarikere,siddarahalli,siddarahalli,100.0,village,fuzzy
+147037,YAREHALLY,CHIKKAMAGALURU,Kadur,61199,HULLEHALLI,609374,YAREHALLY,11-29-570-05529-609354,chikmagalur,kadur,yarehalli,yarehalli,94.11764705882352,village,fuzzy
+154725,BALENAHALLI,Chikkaballapura,Gudibanda,62600,BEECHAGANAHALLY,926148,BALENAHALLY(M),11-29-582-05596-623680,chikkaballapura,chikkaballapura,obalenahalli,obalenahalli,100.0,village,fuzzy
+154236,BANDARLAHALLY,Chikkaballapura,Chintamani,62536,Kurubur,624451,Bandarlahalli,11-29-582-05595-623284,chikkaballapura,gauribidanur,bandarlahalli,bandarlahalli,100.0,village,fuzzy
+664874,BATTALAPURA,Chikkaballapura,Chintamani,62557,BURUDAGUNTE,624317,Kakarlachinte,11-29-582-05595-623394,chikkaballapura,gauribidanur,pura,pura,100.0,village,fuzzy
+664505,BHATHALAHALLY,Chikkaballapura,Gudibanda,62602,Varlakonda,926178,BHATHALAHALLY(M),11-29-582-05597-623722,chikkaballapura,gudibanda,bathalahalli,bathalahalli,91.66666666666666,village,fuzzy
+665043,BINGANAHALLI,Chikkaballapura,Chintamani,62532,Upparapet,925621,BINGANAHALLI,11-29-582-05595-623222,chikkaballapura,gauribidanur,singanahalli,singanahalli,95.65217391304348,village,fuzzy
+155890,BRAHMANARAHALLY,Chikkaballapura,Sidlaghatta,62719,GANJIGUNTE,926195,BRAMHANARAHALLI,11-29-582-05597-623720,chikkaballapura,gudibanda,brahmanarahalli,brahmanarahalli,96.55172413793103,village,fuzzy
+155748,BUDUGAVARAHALLI,Chikkaballapura,Sidlaghatta,299797,Talakayalabetta,917253,BUDAGAVARAHALLI,11-29-582-05599-624058,chikkaballapura,sidlaghatta,ivarahalli,ivarahalli,94.73684210526316,village,fuzzy
+154100,BYARANAYAKANAHALLI,Chikkaballapura,Chikballapur,62522,Nandi,939386,BAIRANAYAKANAHALLI.,11-29-582-05599-624147,chikkaballapura,sidlaghatta,dogaranayakanahalli,dogaranayakanahalli,94.11764705882352,village,fuzzy
+155756,CHANDAGANAHALLI,Chikkaballapura,Sidlaghatta,62704,DIBBURAHALLI,925947,CHANDAGANAHALLI,11-29-582-05595-623270,chikkaballapura,gauribidanur,saganahalli,saganahalli,95.23809523809523,village,fuzzy
+665620,CHANNABYRENAHALLY,Chikkaballapura,Gauribidanur,62563,Chikkakurugodu,623386,Chennabyrenahalli,11-29-582-05596-623479,chikkaballapura,chikkaballapura,parenahalli,parenahalli,90.0,village,fuzzy
+665045,CHIKKAKONDRAHALLI,Chikkaballapura,Chintamani,62532,Upparapet,925623,CHIKKAKONDRAHALLI,11-29-582-05599-624295,chikkaballapura,sidlaghatta,sundrahalli,sundrahalli,90.0,village,fuzzy
+664989,CHITTAVALAHALLI,Chikkaballapura,Gauribidanur,62589,MELYA,925729,CHITTAVALAHALLY,11-29-582-05596-623583,chikkaballapura,chikkaballapura,avalahalli,avalahalli,100.0,village,fuzzy
+594771,DASARENAHALLY,Chikkaballapura,Gauribidanur,62565,D.PALYA,623360,Dasarahalli,11-29-582-05599-624225,chikkaballapura,sidlaghatta,chikkadasarahalli,chikkadasarahalli,100.0,village,fuzzy
+664966,DASARLAHALLI,Chikkaballapura,Sidlaghatta,299797,Talakayalabetta,926203,DASARLAHALLI,11-29-582-05599-624225,chikkaballapura,sidlaghatta,chikkadasarahalli,chikkadasarahalli,95.65217391304348,village,fuzzy
+664995,DEVARAKODAHHALLI,Chikkaballapura,Gauribidanur,62573,HALEHALLY,925692,DEVARAKONDAHALLY,11-29-582-05597-623779,chikkaballapura,gudibanda,varlakonda,varlakonda,90.0,village,fuzzy
+664984,DIGAVAKOTE,Chikkaballapura,Chintamani,62529,PEDDUR,925610,DIGAVAKOTE,11-29-582-05600-624438,chikkaballapura,chintamani,yegavakote,yegavakote,88.88888888888889,village,fuzzy
+665003,DINNEHUNASENAHALLI,Chikkaballapura,Gauribidanur,62589,MELYA,925730,DINNEHUNASENAHALLY,11-29-582-05595-623271,chikkaballapura,gauribidanur,hunasenahalli,hunasenahalli,100.0,village,fuzzy
+154721,GANDAMNAGENAHAIIY,Chikkaballapura,Gudibanda,62600,BEECHAGANAHALLY,926149,GANDAMNAGENAHALLY(M),11-29-582-05595-623409,chikkaballapura,gauribidanur,m nagenahalli,m nagenahalli,88.0,village,fuzzy
+664513,GARUDACHARLAHALLY,Chikkaballapura,Gudibanda,62606,HAMPASANDRA,925928,GARUDACHARLAHALLY,11-29-582-05599-624166,chikkaballapura,sidlaghatta,haralahalli,haralahalli,85.71428571428572,village,fuzzy
+154485,GUNTHUR GADDE,Chikkaballapura,Chintamani,62561,Yagavakote,624453,Gurralagadde,11-29-582-05600-624436,chikkaballapura,chintamani,gunthurugadde,gunthurugadde,92.3076923076923,village,fuzzy
+154090,JADALATHIMMANAHALLY,Chikkaballapura,Chikballapur,62520,AGALAGURKI,623550,Jadalathimmanahalli,11-29-582-05596-623627,chikkaballapura,chikkaballapura,jadalathimmanahalli,jadalathimmanahalli,100.0,village,fuzzy
+665036,JAGAREDDYHALLI,Chikkaballapura,Gauribidanur,62589,MELYA,925731,JAGAREDDTHALLY,11-29-582-05596-623502,chikkaballapura,chikkaballapura,reddihalli,reddihalli,90.0,village,fuzzy
+154563,JARABANDANAHALLY,Chikkaballapura,Gauribidanur,62577,JARABANDANAHALLY,623238,Jarabandahalli,11-29-582-05595-623404,chikkaballapura,gauribidanur,jarabandahalli,jarabandahalli,100.0,village,fuzzy
+665044,KADACHIKKANAHALLI,Chikkaballapura,Gauribidanur,62573,HALEHALLY,925694,KADACHIKKANAHALLY,11-29-582-05596-623601,chikkaballapura,chikkaballapura,chikkanahalli,chikkanahalli,100.0,village,fuzzy
+154629,KAMBALAHALLY,Chikkaballapura,Gauribidanur,62587,Bevinahalli,925646,KAMBALAHALLY,11-29-582-05595-623368,chikkaballapura,gauribidanur,kambalahalli,kambalahalli,95.65217391304348,village,fuzzy
+154829,MACHAHALLI,Chikkaballapura,Gudibanda,62606,HAMPASANDRA,926155,MACHAHALLY(M),11-29-582-05596-623611,chikkaballapura,chikkaballapura,bachahalli,bachahalli,94.73684210526316,village,fuzzy
+154778,MADDAREDDIHALLI,Chikkaballapura,Gudibanda,62603,SOMENAHALLI,926211,MADDAREDDYHALLI(M),11-29-582-05596-623502,chikkaballapura,chikkaballapura,reddihalli,reddihalli,100.0,village,fuzzy
+154743,MINCHANAHALLI,Chikkaballapura,Gudibanda,62601,Tirumani,926171,MINCHANAHALLY (M),11-29-582-05595-623335,chikkaballapura,gauribidanur,chinchanahalli,chinchanahalli,96.0,village,fuzzy
+664864,MUSTURUPATNA,Chikkaballapura,Chintamani,62533,Batlahalli,926136,MUSTURUPATNA,11-29-582-05599-624237,chikkaballapura,sidlaghatta,muthur,muthur,83.33333333333334,village,fuzzy
+154246,NALLAGUTLAHALLY,Chikkaballapura,Chintamani,62537,Raguttahalli,624454,Nallaguttahalli,11-29-582-05596-623462,chikkaballapura,chikkaballapura,nallaguttahalli,nallaguttahalli,100.0,village,fuzzy
+154489,PULAGUNDLAHALLY,Chikkaballapura,Chintamani,62561,Yagavakote,624404,Billagundlapalli,11-29-582-05598-623858,chikkaballapura,bagepalli,gundlapalli,gundlapalli,100.0,village,fuzzy
+664865,RAGIMAKALAHALLY,Chikkaballapura,Chintamani,62533,Batlahalli,926137,RAGIMAKALAHALLY,11-29-582-05596-623591,chikkaballapura,chikkaballapura,ragimakalahalli,ragimakalahalli,96.55172413793103,village,fuzzy
+664535,THEELAKUNTAHALLY,Chikkaballapura,Gudibanda,62602,Varlakonda,926181,THEELAKUNTAHALLY(M),11-29-582-05596-623600,chikkaballapura,chikkaballapura,balakuntahalli,balakuntahalli,84.61538461538461,village,fuzzy
+154358,THIPPANAHALLY,Chikkaballapura,Chintamani,62549,KOTAGAL,624559,Thippenahalli,11-29-582-05596-623548,chikkaballapura,chikkaballapura,thippenahalli,thippenahalli,100.0,village,fuzzy
+665134,VANTURU,Chikkaballapura,Sidlaghatta,62720,Basettyhalli,926191,VANTURU,11-29-582-05600-624316,chikkaballapura,chintamani,thuluvanuru,thuluvanuru,92.3076923076923,village,fuzzy
+663933,Ajadnagara,Chitradurga,Chitradurga,65238,Kalagere,927373,AJADNAGARA,11-29-566-05505-605437,chitradurga,chitradurga,sriramanagara,sriramanagara,84.21052631578947,village,fuzzy
+663797,Akkithimmayanahatti,Chitradurga,Hosdurga,65315,Devapura,927471,AKKITHIMMAYANAHATTI,11-29-566-05504-605328,chitradurga,challakere,budnahatti,budnahatti,82.35294117647058,village,fuzzy
+169737,Alamaradahatti,Chitradurga,Hiriyur,65285,Suragondanahally,927721,ALAMARADAHATTI,11-29-566-05504-605328,chitradurga,challakere,budnahatti,budnahatti,82.35294117647058,village,fuzzy
+663983,Avalenahalli,Chitradurga,Chitradurga,65227,Turuvanur,605499,Avalenahalli,11-29-566-05504-605345,chitradurga,challakere,balenahalli,balenahalli,95.23809523809523,village,fuzzy
+664102,B Hanumapura,Chitradurga,Molakalmuru,65345,Santhegudda,927436,B.HANUMAPURA,11-29-566-05507-605998,chitradurga,hosdurga,banapura,banapura,84.21052631578948,village,fuzzy
+664103,B.hanumanagudda,Chitradurga,Molakalmuru,65345,Santhegudda,927435,B.HANUMANAGUDDA,11-29-566-05506-605682,chitradurga,holalkere,hanumali,hanumali,80.0,village,fuzzy
+663984,Bangarakkanahalli,Chitradurga,Chitradurga,65227,Turuvanur,605497,Bangarakkanahalli,11-29-566-05506-605711,chitradurga,holalkere,jakkanahalli,jakkanahalli,95.65217391304348,village,fuzzy
+663901,Bilichittyanahatti,Chitradurga,Hosdurga,65307,Kellodu,927518,BILICHITTYANAHATTI,11-29-566-05504-605328,chitradurga,challakere,budnahatti,budnahatti,82.35294117647058,village,fuzzy
+663986,Bogalerahatti,Chitradurga,Chitradurga,65227,Turuvanur,605498,Bogalerahatti,11-29-566-05505-605521,chitradurga,chitradurga,pelorahatti,pelorahatti,84.21052631578947,village,fuzzy
+169710,Chinnaiahnahatti,Chitradurga,Hiriyur,65282,BABBUR,927549,CHINNAYYANAHATTI,11-29-566-05504-605249,chitradurga,challakere,naikanahatti,naikanahatti,91.66666666666666,village,fuzzy
+663693,Dasayyanahatti,Chitradurga,Holalkere,65343,Madderu,927665,DASAYYANAHATTI,11-29-566-05504-605328,chitradurga,challakere,budnahatti,budnahatti,82.35294117647058,village,fuzzy
+695537,DEVAPURADHAHATTI,Chitradurga,Chitradurga,299805,Godabanahal,917180,DEVAPURADHAHATTI,11-29-566-05507-605932,chitradurga,hosdurga,devapura,devapura,100.0,village,fuzzy
+663732,Doddignahal Hosahatti,Chitradurga,Chitradurga,65244,Alagawadi,927134,DODDIGANAL HOSAHATTI,11-29-566-05505-605484,chitradurga,chitradurga,doddiganahal,doddiganahal,95.65217391304348,village,fuzzy
+589269,DONEHALL I,Chitradurga,Challakere,65192,Obalapura,605316,Donehalli Kaval,11-29-566-05504-605321,chitradurga,challakere,donehalli,donehalli,100.0,village,fuzzy
+663970,Erajanahatti,Chitradurga,Chitradurga,65235,Siddapura,927404,ERAJANAHATTI,11-29-566-05504-605232,chitradurga,challakere,maleboranahatti,maleboranahatti,85.71428571428572,village,fuzzy
+663810,Galirangyanahatti,Chitradurga,Hosdurga,65317,Devigere,927475,GALIRANGYANAHATTI,11-29-566-05504-605245,chitradurga,challakere,bhairanayakanahatti,bhairanayakanahatti,82.35294117647058,village,fuzzy
+663922,Ganjigatti,Chitradurga,Chitradurga,65234,Janukonda,927369,GANJIGATTI,11-29-566-05506-605625,chitradurga,holalkere,ganjigatte,ganjigatte,94.73684210526316,village,fuzzy
+169515,Garehatti,Chitradurga,Chitradurga,65257,Cholaghatta,931789,Cholagatta Yane Gaarehatti,11-29-566-05505-605588,chitradurga,chitradurga,kavadigarahatti,kavadigarahatti,88.88888888888889,village,fuzzy
+663936,H S PALYA,Chitradurga,Hosdurga,65299,S NERLAKERE,927538,H.S.PALYA,11-29-566-05505-605563,chitradurga,chitradurga,palya,palya,100.0,village,fuzzy
+663777,Hanumanahalli,Chitradurga,Chitradurga,65243,Chikkabennur,927174,HANUMANAHALLI,11-29-566-05506-605648,chitradurga,holalkere,sringeri hanumanahalli,sringeri hanumanahalli,100.0,village,fuzzy
+664029,Hanumapura S,Chitradurga,Molakalmuru,65360,Ashoka Siddapura,927438,HANUMAPURA.S,11-29-566-05506-605682,chitradurga,holalkere,hanumali,hanumali,85.71428571428572,village,fuzzy
+663972,Hidayathpura,Chitradurga,Chitradurga,65235,Siddapura,927408,HIDAYATHPURA,11-29-566-05506-605654,chitradurga,holalkere,anthapura,anthapura,87.5,village,fuzzy
+664379,Hirekattegere Gollarahatti,Chitradurga,Chitradurga,65230,Muddapura,927393,HIREKATTEGERE-GOLLARAHATTI,11-29-566-05504-605243,chitradurga,challakere,mallaurahatti,mallaurahatti,86.95652173913044,village,fuzzy
+664062,Hosuru,Chitradurga,Molakalmuru,65360,Ashoka Siddapura,927440,HOSURU,11-29-566-05506-605803,chitradurga,holalkere,nandanahosur,nandanahosur,90.9090909090909,village,fuzzy
+663993,HULLEHAL GOLLARAHATTI,Chitradurga,Chitradurga,65239,Yelagodu,927415,HU.GOLLARAHATTI,11-29-566-05505-605445,chitradurga,chitradurga,hullehal,hullehal,100.0,village,fuzzy
+663853,Hunasekatee,Chitradurga,Hosdurga,65304,G.N.KERE,927490,HUNASEKATEE,11-29-566-05505-605547,chitradurga,chitradurga,hunasekatte,hunasekatte,95.23809523809523,village,fuzzy
+663878,Hunasekatti Gollarahatti,Chitradurga,Chitradurga,65246,Hireguntanur,927348,HUNASEKATTI GOLLARAHATTI,11-29-566-05505-605547,chitradurga,chitradurga,hunasekatte,hunasekatte,95.23809523809523,village,fuzzy
+663906,Iyyanahalli Kurubarahatti,Chitradurga,Chitradurga,65256,Iyyanahalli,927361,IYYANAHALLI KURUBARAHATTI,11-29-566-05505-605529,chitradurga,chitradurga,iyyanahalli,iyyanahalli,100.0,village,fuzzy
+663989,Kadambanakatte,Chitradurga,Chitradurga,65227,Turuvanur,605500,Kadambanakatte,11-29-566-05506-605748,chitradurga,holalkere,bommanakatte,bommanakatte,85.71428571428572,village,fuzzy
+663510,Kambadevarahatta,Chitradurga,Holalkere,236415,Adanur,927631,KAMBADEVARAHATTA,11-29-566-05505-605539,chitradurga,chitradurga,maraghatta,maraghatta,88.88888888888889,village,fuzzy
+663818,KAMBHATHANAHALLI,Chitradurga,Hiriyur,65263,Abbenahole,927542,KAMBHATTANAHALLI,11-29-566-05506-605723,chitradurga,holalkere,harenahalli,harenahalli,90.0,village,fuzzy
+663791,Katihatti,Chitradurga,Hosdurga,65303,Chikkabyladakere,927469,KATIHATTI,11-29-566-05503-605197,chitradurga,molakalmuru,mahimenahatti,mahimenahatti,80.0,village,fuzzy
+664077,Kelagalahatti,Chitradurga,Molakalmuru,65357,Hangal,927422,KELAGALAHATTI,11-29-566-05505-605535,chitradurga,chitradurga,alaghatta,alaghatta,82.35294117647058,village,fuzzy
+169456,Kitttadahatti,Chitradurga,Chitradurga,65248,Lakshmisagara,927381,KITTADAHATTI,11-29-566-05507-606039,chitradurga,hosdurga,kittadal,kittadal,93.33333333333333,village,fuzzy
+169522,MEDHEHALLI,Chitradurga,Chitradurga,65259,MEDEHALLI,605585,Medehalli(Part),11-29-566-05506-605753,chitradurga,holalkere,edehalli,edehalli,100.0,village,fuzzy
+664078,Megalahatti,Chitradurga,Molakalmuru,65357,Hangal,927424,MEGALAHATTI,11-29-566-05505-605551,chitradurga,chitradurga,megalahalli,megalahalli,84.21052631578947,village,fuzzy
+663965,MUDDAPURA MYASARAHATTY,Chitradurga,Chitradurga,65230,Muddapura,927416,MYASARAHATTY,11-29-566-05505-605493,chitradurga,chitradurga,muddapura,muddapura,100.0,village,fuzzy
+664099,Myasarahatti,Chitradurga,Molakalmuru,65355,Rayapura,927396,MYASARAHATTI,11-29-566-05508-606133,chitradurga,hiriyur,mayasandra,mayasandra,82.35294117647058,village,fuzzy
+696751,OBANNANAHALLI KAVAL,Chitradurga,Challakere,65205,Gowrasamudra,605277,OBANNANAHALLI KAVAL,11-29-566-05504-605278,chitradurga,challakere,obannanahalli,obannanahalli,100.0,village,fuzzy
+664330,PANJAIAHNAHATTI,Chitradurga,Chitradurga,65241,Kogunde,927375,PANJAYAHATTI,11-29-566-05504-605253,chitradurga,challakere,obaiahnahatti,obaiahnahatti,91.66666666666666,village,fuzzy
+663923,Rangyanauru,Chitradurga,Hosdurga,65319,Mallappanahalli,927532,RANGYANAURU,11-29-566-05508-606169,chitradurga,hiriyur,ranganathapura,ranganathapura,77.77777777777779,village,fuzzy
+664064,Roppa,Chitradurga,Molakalmuru,65360,Ashoka Siddapura,927442,ROPPA,11-29-566-05508-606048,chitradurga,hiriyur,burujanaroppa,burujanaroppa,100.0,village,fuzzy
+663690,S H Halli Gollarhatti,Chitradurga,Holalkere,65333,Gungiganur,927663,S.H.HALLI GOLLARHATTI,11-29-566-05504-605243,chitradurga,challakere,mallaurahatti,mallaurahatti,81.81818181818181,village,fuzzy
+170130,Seeneerakatte,Chitradurga,Holalkere,65343,Madderu,927677,SEENEERAKATTE,11-29-566-05506-605804,chitradurga,holalkere,neralakatte,neralakatte,85.71428571428572,village,fuzzy
+663991,T.Upparatti,Chitradurga,Chitradurga,65227,Turuvanur,605502,Upparatti,11-29-566-05506-605814,chitradurga,holalkere,upparigenahalli,upparigenahalli,80.0,village,fuzzy
+169099,ULLAVARTHI KAVAL,Chitradurga,Challakere,65185,Doddaullarthi,605307,ULLAVARTHI KAVAL,11-29-566-05507-606029,chitradurga,hosdurga,chikkatekalavatti kaval,chikkatekalavatti kaval,82.75862068965517,village,fuzzy
+671256,Bala,Dakshina Kannada,Mangaluru,61549,Bala,617523,Bala (OG),11-29-575-05564-617728,dakshina kannada,puttur,kodimbala,kodimbala,100.0,village,fuzzy
+148758,Chelairu,Dakshina Kannada,Mangaluru,61571,CHELAIRU,617521,Chelliru (OG),11-29-575-05561-617433,dakshina kannada,mangalore,bellairu,bellairu,85.71428571428572,village,fuzzy
+148816,Kemminje,Dakshina Kannada,Puttur,61602,Munduru,617734,Kemminje (Rural),11-29-575-05561-617440,dakshina kannada,mangalore,elinje,elinje,80.0,village,fuzzy
+148738,Kuttethuru,Dakshina Kannada,Mangaluru,61560,Permude,617522,Kuthethur (OG),11-29-575-05561-617439,dakshina kannada,mangalore,elathur,elathur,83.33333333333334,village,fuzzy
+674434,MOOLUR,Dakshina Kannada,Mangaluru,236264,Gurupura,617507,Mulur (CT),11-29-575-05561-617429,dakshina kannada,mangalore,kollur,kollur,80.0,village,fuzzy
+674495,PADUSHEDDE,Dakshina Kannada,Mangaluru,61550,Moodushedde,617524,Padushedde (OG),11-29-575-05561-617506,dakshina kannada,mangalore,,mudushedde,88.88888888888889,place,fuzzy
+167328,Agasanakatte,Davangere,Davanagere,64663,Iguru,606542,Agasanakatte,11-29-567-05512-606624,davanagere,davanagere,agasanakatte,agasanakatte,100.0,village,fuzzy
+167522,Akali Katte,Davangere,Channagiri,64711,Bulasagara,607016,Akalikatti,11-29-567-05512-606691,davanagere,davanagere,matti,matti,88.88888888888889,village,fuzzy
+167563,Basavapura,Davangere,Channagiri,64722,Channeshapura,606909,Basavapura,11-29-567-05511-606451,davanagere,jagalur,basavapura,basavapura,100.0,village,fuzzy
+168015,Didagur,Davangere,Honnali,64823,Haralahalli,606827,Didagur,11-29-567-05511-606527,davanagere,jagalur,nibagur,nibagur,76.92307692307692,village,fuzzy
+167488,Guddada Kumaranaha Halli,Davangere,Channagiri,64698,Guddada Kumaranahalli,607066,Komaranahalli,11-29-567-05509-606239,davanagere,harihar,komaranahalli,komaranahalli,100.0,village,fuzzy
+167410,Hanumanahalli,Davangere,Davanagere,64676,Kurki,606669,Hanumanahalli,11-29-567-05512-606660,davanagere,davanagere,hanumanahalli,hanumanahalli,100.0,village,fuzzy
+167920,Karalahalli,Davangere,Harihara,64796,Sarati,606271,Karalahalli,11-29-567-05509-606248,davanagere,harihar,haralahalli,haralahalli,95.23809523809523,village,fuzzy
+586897,Kolamaghatta,Davangere,Jagalur,64875,Pallagatte,910406,Kamalapura,11-29-567-05509-606210,davanagere,harihar,kamalapura,kamalapura,100.0,village,fuzzy
+167326,Lingapura,Davangere,Davanagere,64663,Iguru,606608,Lingapura,11-29-567-05510-606325,davanagere,harapanahalli,joislingapura,joislingapura,100.0,village,fuzzy
+167981,NARAGINAKERE,Davangere,Nyamathi,64814,GUDDEHALLI,606708,Naraginakere,11-29-567-05511-606463,davanagere,jagalur,meldaginakere,meldaginakere,85.71428571428572,village,fuzzy
+167604,Rangapura Thanda,Davangere,Channagiri,64733,Garaga,607112,Rangapura,11-29-567-05511-606483,davanagere,jagalur,rangapura,rangapura,100.0,village,fuzzy
+167609,Siddapura,Davangere,Channagiri,64735,Lingadahalli,606937,Siddapura,11-29-567-05511-606374,davanagere,jagalur,gurusiddapura,gurusiddapura,100.0,village,fuzzy
+664230,Taralabalunagara,Davangere,Davanagere,64655,Belavanuru,924654,TARALABALUNAGAR,11-29-567-05512-606565,davanagere,davanagere,naganur,naganur,83.33333333333334,village,fuzzy
+595950,Tyavanige Thanda,Davangere,Channagiri,64696,Tyavanagi,606925,Thyavanige Thanda,11-29-567-05514-606926,davanagere,channagiri,thyavanige,thyavanige,100.0,village,fuzzy
+167555,Yekkegondi,Davangere,Channagiri,64720,Siddanamatha,606936,Yakkegondi,11-29-567-05509-606258,davanagere,harihar,yakkegondi,yakkegondi,100.0,village,fuzzy
+662140,Channapattana,Gadag,Shirahatti,64403,Magadi,602095,Shirahatti (Rural),11-29-561-05471-803080,gadag,shirhatti,,shirhatti,94.73684210526316,place,fuzzy
+588430,Hosahalli,Gadag,Gadag,64392,Kurtakoti,924604,HOSAHALLI,11-29-561-05469-601950,gadag,ron,hosalli,hosalli,87.5,village,fuzzy
+152693,B.katihalli,Hassan,Hassan,62299,B.katihalli,616230,B.Kattihalli (OG),11-29-574-05556-615879,hassan,hassan,attihalli,attihalli,100.0,village,fuzzy
+150780,Bettasoge Hantha (b),Hassan,Arkalgud,0,0,616775,Bettasoge Hantha,11-29-574-05558-616774,hassan,arkalgud,bettasoge,bettasoge,100.0,village,fuzzy
+152772,Chikkakondagola,Hassan,Hassan,62307,Tejur,616046,Chikkakondagola(Part),11-29-574-05555-615669,hassan,arsikere,chikkur,chikkur,83.33333333333334,village,fuzzy
+152718,Doddamandignahalli,Hassan,Hassan,62302,Kandali,616232,Doddamandiganahalli (OG),11-29-574-05556-615901,hassan,hassan,mandiganahalli,mandiganahalli,100.0,village,fuzzy
+151303,Kallusadarahalli,Hassan,Arsikere,62176,Kallugundi,615603,Kallu Sadarahalli,11-29-574-05558-616670,hassan,arkalgud,karahalli,karahalli,94.11764705882352,village,fuzzy
+152739,Karle Kaval,Hassan,Hassan,62304,Karle,616143,Karle Kaval,11-29-574-05556-616123,hassan,hassan,karle,karle,100.0,village,fuzzy
+152474,Kattaya Kaval,Hassan,Hassan,62276,Kattaya,616130,Kattaya Kaval,11-29-574-05556-616100,hassan,hassan,kattaya,kattaya,100.0,village,fuzzy
+151374,Koranahalli,Hassan,Arsikere,62181,Kachighatta,615556,Korenahalli,11-29-574-05560-617419,hassan,channarayapatna,korenahalli,korenahalli,100.0,village,fuzzy
+151329,Kumbaragatta,Hassan,Arsikere,62179,K Shankaranahalli,615641,Kumbaraghatta,11-29-574-05560-617114,hassan,channarayapatna,balaghatta,balaghatta,90.0,village,fuzzy
+152696,Lakshmisagar,Hassan,Hassan,62299,B.katihalli,939319,LAKSHMISAGARA(KASABA),11-29-574-05556-616068,hassan,hassan,lakshmisagara,lakshmisagara,100.0,village,fuzzy
+151437,Maratagere,Hassan,Arsikere,62184,PURALEHALLI,615588,Maratagere,11-29-574-05554-615226,hassan,belur,attalgere,attalgere,87.5,village,fuzzy
+151465,Mootikere,Hassan,Arsikere,62188,Rangapura,615758,Mootikere,11-29-574-05555-615676,hassan,arsikere,katikere,katikere,85.71428571428572,village,fuzzy
+152767,Mosalehosahalli,Hassan,Hassan,62306,MOSALEHOSAHALLI,926830,MOSALEHOSAHALLI,11-29-574-05553-614989,hassan,sakleshpur,hosahalli,hosahalli,100.0,village,fuzzy
+152526,Ramadadevara Kaval,Hassan,Hassan,62282,Seege,615905,Ramadevarahalla Kaval,11-29-574-05558-616600,hassan,arkalgud,devarahalli kaval,devarahalli kaval,94.11764705882352,village,fuzzy
+589427,Srirampura,Hassan,Holenarsipur,62327,Kattebelaguli,616806,Kattebelaguli Hantha,11-29-574-05554-615329,hassan,belur,pura,pura,100.0,village,fuzzy
+152637,Thamlapura,Hassan,Hassan,62294,Haralahalli,616047,Thamlapura (OG) (Part),11-29-574-05554-615329,hassan,belur,pura,pura,100.0,village,fuzzy
+152734,Yareborekaval,Hassan,Hassan,62303,Hanumanthapura,938891,EREBOREKAVAL,11-29-574-05556-615960,hassan,hassan,karebore kaval,karebore kaval,92.3076923076923,village,fuzzy
+166656,Aregoppa.,Haveri,Hanagal,64467,Hullatti,604098,Hirekanagi,11-29-564-05491-604159,haveri,hangal,tavargoppa,tavargoppa,93.33333333333333,village,fuzzy
+645720,HADE,Haveri,RATTIHALLI,64536,KADUR,924845,HADE,11-29-564-05494-604385,haveri,hirekerur,hadrihalli,hadrihalli,85.71428571428572,village,fuzzy
+149367,ALLAPUR,Kalaburagi,Aland,299674,MOGHA (K),620040,Allapur (H),11-29-579-05580-620049,gulbarga,aland,allapur j,allapur j,100.0,village,fuzzy
+637324,bhankur,Kalaburagi,Shabad,61876,Bhankor,620714,Bhankur (OG),11-29-579-05581-620102,gulbarga,afzalpur,bhankalga,bhankalga,83.33333333333334,village,fuzzy
+149469,Bhogalingadalli,Kalaburagi,Chincholi,61840,Ainolli,938551,BOMMANAHALLI,11-29-579-05584-620489,gulbarga,sedam,arebommanhalli,arebommanhalli,95.65217391304348,village,fuzzy
+149809,Hanchinal,Kalaburagi,Jevargi,61944,Harnoor,620860,Hanchinal Bhari,11-29-579-05586-620725,gulbarga,jevargi,hanchinal s nelogi,hanchinal s nelogi,100.0,village,fuzzy
+589686,Kotnoor (d),Kalaburagi,Kalaburagi,61934,Nandikoor,620322,Kotnoor Darwesh (OG),11-29-579-05581-620153,gulbarga,afzalpur,atnoor,atnoor,90.9090909090909,village,fuzzy
+665173,Kottapalli,Kalaburagi,Sedam,61984,Mudhol,620568,Kompalli,11-29-579-05583-620422,gulbarga,chincholi,tadpalli,tadpalli,93.33333333333333,village,fuzzy
+149760,Kusnoor,Kalaburagi,Kalaburagi,61932,Kusnoor,620266,Kusnoor (Part),11-29-579-05580-620062,gulbarga,aland,bhusnoor,bhusnoor,92.3076923076923,village,fuzzy
+149881,NAGARALLI,Kalaburagi,Yadrami,61958,MALLI,620833,Nagarhalli,11-29-579-05583-620335,gulbarga,chincholi,nagarhal,nagarhal,100.0,village,fuzzy
+149482,Sangapur,Kalaburagi,Chincholi,61849,Venktapur,620441,Sangam[K],11-29-579-05583-620358,gulbarga,chincholi,sangapur,sangapur,100.0,village,fuzzy
+662333,Seribhiknalli,Kalaburagi,Chincholi,61849,Venktapur,620370,SERIBIKANALLI,11-29-579-05583-620424,gulbarga,chincholi,seri,seri,100.0,village,fuzzy
+153485,ATHUR,Kodagu,Kushalanagar,62416,GUDDEHOSUR,923974,BELLURU,11-29-576-05566-617800,kodagu,madikeri,bettathur,bettathur,100.0,village,fuzzy
+701118,ATHUR,Kodagu,Ponnampet,62453,HATHUR,924053,ATHUR,11-29-576-05566-617800,kodagu,madikeri,bettathur,bettathur,100.0,village,fuzzy
+661894,BEERUGA,Kodagu,Ponnampet,62461,SRIMANGALA,924064,BEERUGA,11-29-576-05567-617943,kodagu,somvarpet,nerugalale,nerugalale,76.92307692307692,village,fuzzy
+702204,CHENNANGI,Kodagu,Virajpet,62449,Chennayanakote,924040,CHENNANGI,11-29-576-05566-617795,kodagu,madikeri,cherangala,cherangala,75.0,village,fuzzy
+153426,Chennapura,Kodagu,Somvarpet,62401,Gowdalli,938979,CHENNAPURA,11-29-576-05567-617905,kodagu,somvarpet,channapura,channapura,90.0,village,fuzzy
+661862,CHIKKA ALUVARA,Kodagu,Kushalanagar,62421,Torenur,924016,CHIKKA ALUVARA,11-29-576-05567-617925,kodagu,somvarpet,chikka tholur,chikka tholur,78.26086956521739,village,fuzzy
+153632,GONIKOPPA,Kodagu,Ponnampet,62469,Gonikoppal,910319,Gonikoppal (CT),11-29-576-05568-618089,kodagu,virajpet,,gonikoppal,100.0,place,fuzzy
+661828,GUDDEHOSURU,Kodagu,Kushalanagar,62416,GUDDEHOSUR,923977,GUDDEHOSURU,11-29-576-05567-617860,kodagu,somvarpet,kasuru,kasuru,80.0,village,fuzzy
+695841,Hudur,Kodagu,Ponnampet,62468,PONNAMPET,924028,Hudur,11-29-576-05567-617872,kodagu,somvarpet,ist kudlur,ist kudlur,80.0,village,fuzzy
+661848,HULUGUNDA,Kodagu,Kushalanagar,0,0,923999,HULUGUNDA,11-29-576-05568-618018,kodagu,virajpet,halugunda,halugunda,88.88888888888889,village,fuzzy
+661743,KOTTURU,Kodagu,Madikeri,0,0,923893,KOTTURU,11-29-576-05567-617888,kodagu,somvarpet,kitturu,kitturu,85.71428571428572,village,fuzzy
+661842,MADALAPURA,Kodagu,Kushalanagar,0,0,939033,SHIRAHOLALU,11-29-576-05566-617811,kodagu,madikeri,made,made,85.71428571428572,village,fuzzy
+701119,MADAPATNA,Kodagu,Kushalanagar,62416,GUDDEHOSUR,923978,MADAPATNA,11-29-576-05566-617811,kodagu,madikeri,made,made,85.71428571428572,village,fuzzy
+153578,MUGUTAGERI,Kodagu,Ponnampet,62468,PONNAMPET,924029,MUGUTAGERI,11-29-576-05568-618065,kodagu,virajpet,mugatageri,mugatageri,90.0,village,fuzzy
+702206,NOKYA SIDDAPURA,Kodagu,Ponnampet,62455,THITHIMATHI,939080,NOKYA SIDDAPURA,11-29-576-05568-618027,kodagu,virajpet,siddapura,siddapura,100.0,village,fuzzy
+661768,P PERAJE,Kodagu,Madikeri,62383,Peraje,923915,P.PERAJE,11-29-576-05566-617808,kodagu,madikeri,kundalpadi peraje,kundalpadi peraje,93.33333333333333,village,fuzzy
+153385,Sanivarsanthe,Kodagu,Somvarpet,62397,Shanivarasanthe,939272,HOSAHALLI ( SHANIVARASANTHE HOBLI),11-29-576-05567-617877,kodagu,somvarpet,agalli,agalli,83.33333333333334,village,fuzzy
+661864,SIDDALINGAPURA,Kodagu,Kushalanagar,62421,Torenur,924018,SIDDALINGAPURA,11-29-576-05568-618027,kodagu,virajpet,siddapura,siddapura,78.26086956521739,village,fuzzy
+695839,SRIMANAGALA,Kodagu,Ponnampet,62461,SRIMANGALA,924065,SRIMANAGALA,11-29-576-05567-617967,kodagu,somvarpet,cherala srimangala,cherala srimangala,95.23809523809523,village,fuzzy
+153466,Yadavanadu Forest 1,Kodagu,Somvarpet,62410,Aigur,923921,YADAVANADU (EDAVARE majare Iguru),11-29-576-05567-617949,kodagu,somvarpet,yedavanadu forest-2,yedavanadu forest-2,94.11764705882354,village,fuzzy
+589788,Bangaranatha,Kolar,Bangarapet,236411,Thoppanahalli,622635,Bangaranatha,11-29-581-05593-622711,kolar,bangarapet,natha,natha,100.0,village,fuzzy
+589731,Charla Dinne,Kolar,Kolar,0,0,622078,Charaladinne,11-29-581-05591-622025,kolar,kolar,gajaladinne,gajaladinne,85.71428571428572,village,fuzzy
+153638,Chinnakote,Kolar,Bangarapet,62474,Chinna Kota,622847,Chinnakote (OG),11-29-581-05593-622630,kolar,bangarapet,chinnakamanahalli,chinnakamanahalli,82.35294117647058,village,fuzzy
+153641,DEVAGANAHALLI,Kolar,Bangarapet,62474,Chinna Kota,622848,Devaganahalli (OG),11-29-581-05594-623048,kolar,mulbagal,naganahalli,naganahalli,95.23809523809523,village,fuzzy
+589744,Dharmakrishnepalli,Kolar,Bangarapet,0,0,622706,Dharmakrishnepalli,11-29-581-05590-621429,kolar,srinivaspur,anepalli,anepalli,93.33333333333333,village,fuzzy
+589732,Ganeshpur,Kolar,Kolar,62633,Thoradevandahalli,621991,Ganeshapura,11-29-581-05591-622081,kolar,kolar,shapur,shapur,100.0,village,fuzzy
+155165,GANGA SANDRA,Kolar,Malur,62646,MASTHI,622160,Gangasandra,11-29-581-05591-621857,kolar,kolar,mangasandra,mangasandra,95.23809523809523,village,fuzzy
+153639,Kathihalli,Kolar,Bangarapet,62474,Chinna Kota,622846,Kathihalli (OG),11-29-581-05594-623046,kolar,mulbagal,doddathihalli,doddathihalli,94.73684210526316,village,fuzzy
+665098,Kurubarahalli,Kolar,Mulbagal,62685,Hanumanahalli,623023,Kurubarahalli,11-29-581-05590-621678,kolar,srinivaspur,kurubarahalli,kurubarahalli,100.0,village,fuzzy
+153731,PARANDAHALLI,Kolar,K G F,62483,PARANDAHALLI,622755,Parandahalli(Part),11-29-581-05591-622010,kolar,kolar,barandahalli,barandahalli,95.65217391304348,village,fuzzy
+696315,SONNANADODDI,Kolar,Malur,62647,HASANDAHALLI,622317,SONNANADODDI,11-29-581-05592-622322,kolar,malur,tholasanadoddi,tholasanadoddi,85.71428571428572,village,fuzzy
+153642,THAMENAHALLI,Kolar,Bangarapet,62474,Chinna Kota,622550,Thammenahalli,11-29-581-05593-622662,kolar,bangarapet,thammenhalli,thammenhalli,96.0,village,fuzzy
+589757,THIPPABOYENAHALLI,Kolar,K G F,0,0,622733,Thippaboyenahalli,11-29-581-05593-622599,kolar,bangarapet,boyinahalli,boyinahalli,90.9090909090909,village,fuzzy
+694232,VENKATAPURA,Kolar,Malur,62665,K.G.HALLI,621685,VENKATAPURA,11-29-581-05591-621859,kolar,kolar,venkatapura,venkatapura,100.0,village,fuzzy
+588718,Vaddaratti,Koppal,Gangavathi,64300,Vaddarahatti,601604,Baglapura,11-29-560-05465-601540,koppal,kushtagi,pura,pura,100.0,village,fuzzy
+157425,Addi Halli,Mandya,Nagamangala,62948,DODDABALA,613798,ADDIHALLI,11-29-573-05547-613805,mandya,nagamangala,addihalli,addihalli,100.0,village,fuzzy
+157031,Anche Doddi,Mandya,Malvalli,62876,Nagegowdanadoddi,614749,Devalinganapura,11-29-573-05546-613543,mandya,krishnarajpet,pura,pura,100.0,village,fuzzy
+156635,Bedadahalli,Mandya,Krishnarajpet,62795,Bharathipura Cross,926860,BEDADAHALLY,11-29-573-05546-613402,mandya,krishnarajpet,madahalli,madahalli,94.11764705882352,village,fuzzy
+156778,Bookahallikoppalu,Mandya,Krishnarajpet,62811,Ganjigere,613674,BUKAHALLIKOPPALU,11-29-573-05546-613657,mandya,krishnarajpet,bookahalli,bookahalli,100.0,village,fuzzy
+156751,Chamikoppalu,Mandya,Krishnarajpet,62807,Hariharapura,613571,CHAMIKOPPLU,11-29-573-05547-613725,mandya,nagamangala,koppa,koppa,100.0,village,fuzzy
+156973,Chikkebagilu,Mandya,Malvalli,62864,Purigali,614833,CHIKKEBBAGILU,11-29-573-05548-614183,mandya,pandavapura,chikkade,chikkade,85.71428571428572,village,fuzzy
+157718,Devegowdanakoppalu,Mandya,Pandavapura,62977,Chikkade,614185,DEVEGOWDANAKOPPALU,11-29-573-05547-613725,mandya,nagamangala,koppa,koppa,100.0,village,fuzzy
+157385,Doddena Halli,Mandya,Nagamangala,62944,GONDENAHALLI,613856,Doddenahalli,11-29-573-05547-613778,mandya,nagamangala,doddenahalli,doddenahalli,100.0,village,fuzzy
+156773,Ganjigerekoppalu,Mandya,Krishnarajpet,62811,Ganjigere,613673,GANJIGEREKOPPALU,11-29-573-05546-613658,mandya,krishnarajpet,ganjigere,ganjigere,100.0,village,fuzzy
+157437,Gowdara Halli,Mandya,Nagamangala,287959,Hulikere,613742,Gowdarahalli,11-29-573-05547-613847,mandya,nagamangala,gowdarahalli,gowdarahalli,100.0,village,fuzzy
+595375,Gowdenahally,Mandya,Krishnarajpet,62800,Anagola,926857,GOWDENAHALLY,11-29-573-05546-613407,mandya,krishnarajpet,chowdenahalli,chowdenahalli,86.95652173913044,village,fuzzy
+157610,Jodi Vaddara Halli,Mandya,Nagamangala,62962,HONAKERE,614036,VADDARAHALI,11-29-573-05546-613390,mandya,krishnarajpet,vaddarahalli,vaddarahalli,95.65217391304348,village,fuzzy
+157805,K.r. Sagara,Mandya,Shrirangapattana,63009,K. R. Sagara,942729,Krishnarajasagara,11-29-573-05547-613750,mandya,nagamangala,krishnapura,krishnapura,90.0,village,fuzzy
+157054,Kadampura,Mandya,Malvalli,62882,D.halasahalli,614732,Kaggalipura,11-29-573-05546-613543,mandya,krishnarajpet,pura,pura,100.0,village,fuzzy
+156723,M.hosur,Mandya,Krishnarajpet,62804,Haralahalli,926878,HOSURU,11-29-573-05547-613803,mandya,nagamangala,hosur,hosur,100.0,village,fuzzy
+156711,Neethimangala,Mandya,Krishnarajpet,62804,Haralahalli,613483,NEETHIMANGALA,11-29-573-05550-614485,mandya,mandya,mangala,mangala,100.0,village,fuzzy
+595383,Shettynayakana Koppalu,Mandya,Krishnarajpet,62791,Sindhagatta,613480,SHETTANAYAKANKOPPALU,11-29-573-05547-613725,mandya,nagamangala,koppa,koppa,100.0,village,fuzzy
+156563,Vijaya Hosalli,Mandya,Krishnarajpet,62788,Bookanakere,613647,Kanchahalli,11-29-573-05550-614366,mandya,mandya,hanchahalli,hanchahalli,95.23809523809523,village,fuzzy
+665697,Alanahally,Mysuru,Mysuru,63135,Alanahalli,618836,Alanahalli (OG),11-29-577-05569-618238,mysore,piriyapatna,alanahalli,alanahalli,100.0,village,fuzzy
+158874,Anechowkuru,Mysuru,Piriyapatna,63199,Malangi,618279,Anechowkur Forest,11-29-577-05569-618282,mysore,piriyapatna,chowkur,chowkur,100.0,village,fuzzy
+157986,ANKUPURA,Mysuru,SARAGURU,0,0,619013,Ankupura,11-29-577-05573-618959,mysore,heggadadevankote,pura,pura,100.0,village,fuzzy
+159029,B.shettahalli,Mysuru,Tirumakudal-narsipur,63227,B.shettahalli,619431,Settahalli,11-29-577-05570-618368,mysore,hunsur,settahalli,settahalli,100.0,village,fuzzy
+158370,Beernahalli,Mysuru,Krishnarajanagara,63088,Hebbalu,618590,Beeranahalli,11-29-577-05570-618372,mysore,hunsur,beeranahallikaval,beeranahallikaval,100.0,village,fuzzy
+158799,Bettadakaval,Mysuru,Piriyapatna,63189,Bettadatunga,618170,Bettadakaval,11-29-577-05570-618452,mysore,hunsur,bettadur,bettadur,85.71428571428572,village,fuzzy
+664413,Chamundibetta,Mysuru,Mysuru,299748,Chamundibetta,618837,Chamundibetta (OG),11-29-577-05570-618452,mysore,hunsur,bettadur,bettadur,76.92307692307692,village,fuzzy
+157985,CHIKKAKUNDURU,Mysuru,SARAGURU,63032,M.C. THALALU,619012,Chikkakundur,11-29-577-05573-618984,mysore,heggadadevankote,kundur,kundur,100.0,village,fuzzy
+157885,Chowdahalli,Mysuru,Heggadadevankote,63019,Thumbasoge,619120,Chowdahalli,11-29-577-05572-618737,mysore,mysore,chowdahalli,chowdahalli,100.0,village,fuzzy
+158757,Gobbalikaval,Mysuru,Piriyapatna,63183,Kanagalu,618091,Gobbalikaval,11-29-577-05569-618284,mysore,piriyapatna,sathyagalakaval,sathyagalakaval,76.19047619047619,village,fuzzy
+158061,Gundathur,Mysuru,Heggadadevankote,63039,N.Belthur,619052,Gundathur,11-29-577-05573-619054,mysore,heggadadevankote,k gandathur,k gandathur,88.88888888888889,village,fuzzy
+159012,Halavara Mata,Mysuru,Tirumakudal-narsipur,63222,Kolathuru,619360,HALAVARAMATA,11-29-577-05575-619359,mysore,tirumakudal narsipur,halavara,halavara,100.0,village,fuzzy
+157942,HALEMANCHAHALLI,Mysuru,SARAGURU,63027,MANUGANAHALLI,618976,Halemanchahalli,11-29-577-05573-618977,mysore,heggadadevankote,manchahalli,manchahalli,100.0,village,fuzzy
+664401,Hinkal,Mysuru,Mysuru,299749,Hinkal,618829,Hinkal (CT),11-29-577-05575-619352,mysore,tirumakudal narsipur,chikkalaxmipura,chikkalaxmipura,83.33333333333334,village,fuzzy
+157896,Hirehalli,Mysuru,Heggadadevankote,63021,Hirehalli,619016,Hirehalli,11-29-577-05573-618872,mysore,heggadadevankote,hirehalli,hirehalli,100.0,village,fuzzy
+158548,Hosakote,Mysuru,Mysuru,63129,Gungaralachathra,618688,Hosakote,11-29-577-05570-618351,mysore,hunsur,hosakote,hosakote,100.0,village,fuzzy
+676017,HOSAMALA,Mysuru,Heggadadevankote,299730,HOSAHOLALU,939277,ANTHARASANTHE KAVAL,11-29-577-05573-619017,mysore,heggadadevankote,antharasanthe,antharasanthe,100.0,village,fuzzy
+590015,Hundimala,Mysuru,Hunsur,63048,Uyigondanahalli,618443,Husenpuranala,11-29-577-05570-618442,mysore,hunsur,husenpura,husenpura,100.0,village,fuzzy
+158011,INURMARIGUDIJUNGLE,Mysuru,SARAGURU,63034,B. MATAKERE,619111,AINURU MARIGUDI JANGAL,11-29-577-05569-618093,mysore,piriyapatna,kanagal,kanagal,83.33333333333334,village,fuzzy
+158026,IYANAPURA,Mysuru,SARAGURU,63034,B. MATAKERE,619055,AYYANAPURA,11-29-577-05573-618959,mysore,heggadadevankote,pura,pura,100.0,village,fuzzy
+158692,Kallahalli,Mysuru,Nanjangud,63169,Deburu,619167,Kallahalli,11-29-577-05570-618342,mysore,hunsur,kallahalli,kallahalli,100.0,village,fuzzy
+158687,Karlapura,Mysuru,Nanjangud,63168,Deviramanahalli,619169,Karlapura,11-29-577-05573-618959,mysore,heggadadevankote,pura,pura,100.0,village,fuzzy
+158863,Kathcuvinahalli Jungle,Mysuru,Piriyapatna,63198,Panchavlli,618292,Kachuvanahalli Jungle,11-29-577-05570-618387,mysore,hunsur,kachuvinahalli,kachuvinahalli,92.85714285714286,village,fuzzy
+158464,Koorgally,Mysuru,Mysuru,63109,Koorgally,618827,Hutagalli (CT),11-29-577-05572-618826,mysore,mysore,,koorgalli,94.11764705882352,place,fuzzy
+664404,Lingabudipalya,Mysuru,Mysuru,63118,Srirampura,618839,Lingambudi (OG),11-29-577-05572-618733,mysore,mysore,bandipalya,bandipalya,84.21052631578947,village,fuzzy
+158884,Lingapura Forest,Mysuru,Piriyapatna,63200,Muttur,618246,Lingapura Forest,11-29-577-05569-618146,mysore,piriyapatna,lingapura,lingapura,100.0,village,fuzzy
+158482,Madapura,Mysuru,Mysuru,63115,Varuna,618807,MADHAPURA,11-29-577-05570-618316,mysore,hunsur,madapura,madapura,100.0,village,fuzzy
+158004,MALLARAJAPURA,Mysuru,SARAGURU,63033,Hegganur,619082,Mallarajapura,11-29-577-05569-618271,mysore,piriyapatna,rajapura,rajapura,100.0,village,fuzzy
+158862,Muddanahalli,Mysuru,Piriyapatna,63198,Panchavlli,618291,Muddanahalli *,11-29-577-05570-618492,mysore,hunsur,karimuddanahalli,karimuddanahalli,100.0,village,fuzzy
+158635,Ramashettipura,Mysuru,Nanjangud,63153,Dasanur,619304,Ramasettipura,11-29-577-05573-618959,mysore,heggadadevankote,pura,pura,100.0,village,fuzzy
+158472,Rammanahally,Mysuru,Mysuru,63112,Rammanahally,618685,Ramanahalli,11-29-577-05572-618728,mysore,mysore,rammanahalli,rammanahalli,95.65217391304348,village,fuzzy
+664411,Sathagalli,Mysuru,Mysuru,63122,Hanchya,618835,Sathagalli (OG),11-29-577-05572-618784,mysore,mysore,bhugathagalli,bhugathagalli,94.73684210526316,village,fuzzy
+158059,Sundapura,Mysuru,Heggadadevankote,63039,N.Belthur,619037,Sundapura,11-29-577-05573-618959,mysore,heggadadevankote,pura,pura,100.0,village,fuzzy
+158939,Vadderahosahalli Jungle,Mysuru,Piriyapatna,63205,Chikkanerale,618174,Vaderahosahalli Jungle,11-29-577-05570-618476,mysore,hunsur,vaderahosahalli,vaderahosahalli,100.0,village,fuzzy
+143085,BANDIGANAHALLI,RAMANAGARA,Kanakapura,59982,DODDAMUDAVADI,626363,Bandiganahalli,11-29-584-05606-626158,ramanagara,ramanagara,annahalli,annahalli,94.11764705882352,village,fuzzy
+142975,BOODIGUPPE,RAMANAGARA,Kanakapura,59962,BUDIGUPPE,626469,Kanakapura (Rural),11-29-584-05608-803240,ramanagara,kanakapura,,kanakapura,100.0,place,fuzzy
+143262,CHITTANAHALLI,RAMANAGARA,Magadi,60006,MATHIKERE,939013,CHITTANAHALLI.,11-29-584-05606-626158,ramanagara,ramanagara,annahalli,annahalli,94.11764705882352,village,fuzzy
+143040,CHOODAHALLI,RAMANAGARA,Kanakapura,59975,Choodahalli,626497,Choodahalli,11-29-584-05608-626578,ramanagara,kanakapura,mahalli,mahalli,92.3076923076923,village,fuzzy
+142914,DODDAKOPPA,RAMANAGARA,Kanakapura,59949,I.GOLLAHALLI,626571,Doddakoppa,11-29-584-05608-626574,ramanagara,kanakapura,arekoppa,arekoppa,85.71428571428572,village,fuzzy
+142105,KUNTHURUDODDI,RAMANAGARA,Channapatna,59852,THITTAMARANAHALLY,626259,Chikka Maluru,11-29-584-05605-625855,ramanagara,magadi,alur,alur,100.0,village,fuzzy
+143066,KUNURU,RAMANAGARA,Kanakapura,59978,NARAYANAPURA,626483,Kunuru,11-29-584-05607-626305,ramanagara,channapatna,nunnuru,nunnuru,83.33333333333334,village,fuzzy
+143007,MURKANI,RAMANAGARA,Kanakapura,59966,SOMEDYAPANAHALLI,626435,Murkani,11-29-584-05608-626441,ramanagara,kanakapura,muradihosahalli,muradihosahalli,76.92307692307692,village,fuzzy
+589746,PAPASHASTRI PALYA,RAMANAGARA,Magadi,59990,MADABAL,626034,Papasastripalya,11-29-584-05605-625938,ramanagara,magadi,kalya,kalya,88.88888888888889,village,fuzzy
+665293,PURADHADODDI,RAMANAGARA,Kanakapura,59977,T.HOSAHALLI,626385,PURADHA DODDI (MARALAWADI HOBLI),11-29-584-05606-626176,ramanagara,ramanagara,hosadoddi,hosadoddi,87.5,village,fuzzy
+665574,RAMASAGARA,RAMANAGARA,Kanakapura,59961,KOLLIGANAHALLI,626588,YAREHALLI,11-29-584-05606-626071,ramanagara,ramanagara,arehalli,arehalli,100.0,village,fuzzy
+607402,RANGACHARIPALYA,RAMANAGARA,Magadi,59987,HANCHIKUPPE,626033,Rangacharipalya,11-29-584-05605-625938,ramanagara,magadi,kalya,kalya,88.88888888888889,village,fuzzy
+696055,AGAPUR (D),Raichur,Raichur,63350,Baidoddi,600788,AGAPUR (D),11-29-559-05459-600353,raichur,lingsugur,bhogapur,bhogapur,90.9090909090909,village,fuzzy
+696053,ANBALKHED,Raichur,Devadurga,63258,RAMADURGA,600663,ANBALKHED,11-29-559-05459-600443,raichur,lingsugur,sanbal,sanbal,90.9090909090909,village,fuzzy
+700916,CHAPALKI,Raichur,Devadurga,328114,JALAHALLI,600540,CHAPALKI,11-29-559-05460-600593,raichur,devadurga,konchapli,konchapli,85.71428571428572,village,fuzzy
+699917,DURG,Raichur,Devadurga,63258,RAMADURGA,600665,DURG,11-29-559-05459-600444,raichur,lingsugur,jaldurga,jaldurga,100.0,village,fuzzy
+159193,Earalagudda,Raichur,Devadurga,63251,Nagadadinni,600721,Sutardinni,11-29-559-05461-600828,raichur,raichur,dinni,dinni,100.0,village,fuzzy
+700917,HAMPERGUNDI,Raichur,Devadurga,328115,JALAHALLI,600548,HAMPERGUNDI,11-29-559-05460-600544,raichur,devadurga,herundi,herundi,85.71428571428572,village,fuzzy
+700919,HIREHONKUNI,Raichur,Devadurga,63271,Masarkal,600630,HIREHONKUNI,11-29-559-05460-600629,raichur,devadurga,chickhonkuni,chickhonkuni,81.81818181818181,village,fuzzy
+692039,HORAHATTI,Raichur,Devadurga,63265,H. Siddapur,600555,HORAHATTI,11-29-559-05459-600535,raichur,lingsugur,,hatti,100.0,place,fuzzy
+692040,JAVGUD,Raichur,Devadurga,63258,RAMADURGA,600661,JAVGUD,11-29-559-05463-601060,raichur,sindhnur,gunda,gunda,75.0,village,fuzzy
+700923,JOGALDINNI,Raichur,MASKI,63377,BAPPUR,601107,JOGALDINNI,11-29-559-05461-600828,raichur,raichur,dinni,dinni,100.0,village,fuzzy
+589904,Kanakanaikana Doddi,Raichur,Sindhanur,63385,Jawalgera,601150,Konganaikandoddi,11-29-559-05461-600854,raichur,raichur,kannedoddi,kannedoddi,88.88888888888889,village,fuzzy
+160016,Kurdi Cros Camp,Raichur,Manvi,63340,Kurdi,601027,Kumdhal,11-29-559-05462-600999,raichur,manvi,kurdi,kurdi,100.0,village,fuzzy
+699916,LAXMINARAYANAPURA,Raichur,Devadurga,63259,Maladakal,600669,LAXMINARAYANAPURA,11-29-559-05463-601058,raichur,sindhnur,ratanapur,ratanapur,88.88888888888889,village,fuzzy
+589902,Lokanaikana Doddi,Raichur,Sindhanur,63385,Jawalgera,601148,Locknaikandoddi,11-29-559-05461-600854,raichur,raichur,kannedoddi,kannedoddi,88.88888888888889,village,fuzzy
+692037,MANGI GADDE,Raichur,Raichur,63347,ATHKOOR,600755,MANGI GADDE,11-29-559-05462-803068,raichur,manvi,,manvi,80.0,place,fuzzy
+159849,N.HOSUR,Raichur,Sirawara,63323,MALLAT,600959,Hosur.N,11-29-559-05459-600480,raichur,lingsugur,hosur,hosur,100.0,village,fuzzy
+700924,TAMALGHAT (D),Raichur,Raichur,63350,Baidoddi,600787,TAMALGHAT (D),11-29-559-05459-600535,raichur,lingsugur,,hatti,75.0,place,fuzzy
+696054,TIPPAPUR,Raichur,Devadurga,63258,RAMADURGA,600662,TIPPAPUR,11-29-559-05461-600802,raichur,raichur,bapur,bapur,88.88888888888889,village,fuzzy
+700918,YERKAMANDODDI,Raichur,Devadurga,328116,JALAHALLI,600550,YERKAMANDODDI,11-29-559-05461-600751,raichur,raichur,madmandoddi,madmandoddi,90.0,village,fuzzy
+644107,Anjanapura,Shivamogga,Shikarpur,63527,Harogoppa,607842,Anjanapura,11-29-568-05516-607523,shimoga,sorab,pura,pura,100.0,village,fuzzy
+696311,BADADHABAILU,Shivamogga,Sorab,63618,Chandragutti,607520,BADADHABAILU,11-29-568-05516-607641,shimoga,sorab,horabailu,horabailu,87.5,village,fuzzy
+665440,Chikkakoralahalli,Shivamogga,Shikarpur,63527,Harogoppa,607844,Chikkoralahalli,11-29-568-05516-607372,shimoga,sorab,alahalli,alahalli,100.0,village,fuzzy
+161748,Devagodikoppa,Shivamogga,Sorab,63631,Ulavi,607635,Devagundikoppa,11-29-568-05521-608546,shimoga,bhadravati,koppa,koppa,100.0,village,fuzzy
+161254,Halakuni,Shivamogga,Shivamogga,300011,TUPPURU,917445,HALKUNI,11-29-568-05520-608303,shimoga,shimoga,alkuni,alkuni,100.0,village,fuzzy
+160900,Haroguttige,Shivamogga,Sagar,63479,Keladi,925036,HAREGOPPA,11-29-568-05515-607211,shimoga,sagar,harogoppa,harogoppa,88.88888888888889,village,fuzzy
+665880,Hole Koppa,Shivamogga,Sorab,63595,Jade,607398,Halekoppa,11-29-568-05521-608546,shimoga,bhadravati,koppa,koppa,100.0,village,fuzzy
+665771,Hosur,Shivamogga,Shivamogga,63562,Agasavalli,608315,Hosuru,11-29-568-05515-607273,shimoga,sagar,hosur,hosur,100.0,village,fuzzy
+161232,Javagatte,Shivamogga,Shikarpur,63556,Belagavi,607712,JAVAGATTE,11-29-568-05519-608240,shimoga,tirthahalli,balagatte,balagatte,82.35294117647058,village,fuzzy
+665431,Kambaduru,Shivamogga,Shikarpur,63527,Harogoppa,607839,Kambadooru,11-29-568-05515-607274,shimoga,sagar,adur,adur,100.0,village,fuzzy
+665414,Keluve,Shivamogga,Sagar,63497,Kanle,926086,KELUVE,11-29-568-05519-608206,shimoga,tirthahalli,biluve,biluve,80.0,village,fuzzy
+160937,Kerodi,Shivamogga,Sagar,63495,Nadakalasi,925367,KERODII,11-29-568-05515-607207,shimoga,sagar,kerodi,kerodi,100.0,village,fuzzy
+665418,Kesarghatta(be),Shivamogga,Shikarpur,63527,Harogoppa,607845,Kesaraghatta,11-29-568-05518-607858,shimoga,hosanagara,kesare,kesare,90.9090909090909,village,fuzzy
+665411,Mandagalale,Shivamogga,Sagar,63497,Kanle,926087,MANDAGALALE,11-29-568-05515-607359,shimoga,sagar,adagalale,adagalale,94.11764705882352,village,fuzzy
+161296,Mullakere,Shivamogga,Shivamogga,63570,Hosahalli,925131,MULLUKERE,11-29-568-05515-607224,shimoga,sagar,mullakere,mullakere,100.0,village,fuzzy
+161500,Oddigere,Shivamogga,Sorab,63608,Tatturu,925233,THATHURU VADDIGERE,11-29-568-05516-607442,shimoga,sorab,thathuru,thathuru,100.0,village,fuzzy
+160903,Padavagodu,Shivamogga,Sagar,63490,Padavagodu,925366,PADAVAGODUU,11-29-568-05515-607205,shimoga,sagar,padavagodu,padavagodu,100.0,village,fuzzy
+665407,Sannamane,Shivamogga,Sagar,63503,Herenelluru,925024,SANNAMANE,11-29-568-05516-607632,shimoga,sorab,sannamane,sannamane,100.0,village,fuzzy
+665389,Suranagadde,Shivamogga,Sagar,63492,Bhimaneri,925015,SURANAGADDE,11-29-568-05516-607368,shimoga,sorab,suranagi,suranagi,93.33333333333333,village,fuzzy
+665402,Tattegundi,Shivamogga,Sagar,63503,Herenelluru,925026,TATTEGUNDI,11-29-568-05516-607498,shimoga,sorab,telagundli,telagundli,82.35294117647058,village,fuzzy
+665393,TORAVAGADU,Shivamogga,Sagar,63492,Bhimaneri,607138,Talakalale,11-29-568-05518-608011,shimoga,hosanagara,talale,talale,90.9090909090909,village,fuzzy
+161401,Totadakere,Shivamogga,Shivamogga,63592,Umblebilu,925200,TOTADAKERE,11-29-568-05521-608567,shimoga,bhadravati,arakere,arakere,85.71428571428572,village,fuzzy
+161420,Varadikoppa,Shivamogga,Sorab,63595,Jade,607401,Varadikoppa,11-29-568-05521-608546,shimoga,bhadravati,koppa,koppa,100.0,village,fuzzy
+702936,YADAGOPPA,Shivamogga,Sorab,63595,Jade,607399,YADAGOPPA,11-29-568-05521-608546,shimoga,bhadravati,koppa,koppa,88.88888888888889,village,fuzzy
+665395,YALAKUNDLI,Shivamogga,Sagar,63503,Herenelluru,925027,YALAKUNDLI,11-29-568-05520-608303,shimoga,shimoga,alkuni,alkuni,83.33333333333334,village,fuzzy
+588550,BANTARAHALLI,TUMAKURU,Turuvekere,63971,KONDAJJI,612308,Bantarahalli,11-29-571-05535-610805,tumkur,madhugiri,midatarahalli,midatarahalli,90.9090909090909,village,fuzzy
+163221,BRAMHASAMUDRA,TUMAKURU,Madhugiri,63813,BRAMHASAMUDRA,610891,Brahmasamudra,11-29-571-05539-612014,tumkur,tiptur,harisamudra,harisamudra,90.0,village,fuzzy
+586142,BYRAPURA,TUMAKURU,Madhugiri,63807,KALIDEVAPURA,610930,Byrapura,11-29-571-05532-610129,tumkur,chiknayakanhalli,byrapura,byrapura,100.0,village,fuzzy
+588560,CHIGARANAHALLI,TUMAKURU,Koratagere,63741,HANCHIHALLI,611091,Chigaranahalli,11-29-571-05538-611684,tumkur,gubbi,maranahalli,maranahalli,95.23809523809523,village,fuzzy
+163397,CHIKKAHALLY,TUMAKURU,Pavagada,63839,Chikkahalli,610522,Chikkahalli,11-29-571-05537-611400,tumkur,tumkur,chikkahalli,chikkahalli,100.0,village,fuzzy
+162138,DASIHALLI,TUMAKURU,Chiknayakanhalli,63690,Mathighatta,610205,Dasihalli,11-29-571-05532-610080,tumkur,chiknayakanhalli,dasihalli,dasihalli,100.0,village,fuzzy
+163204,DODDENAHALLI,TUMAKURU,Madhugiri,63810,SINGANAHALLI,610917,Doddenahalli,11-29-571-05534-610546,tumkur,pavagada,doddenahalli,doddenahalli,100.0,village,fuzzy
+163608,HALKURU KAVAL,TUMAKURU,Sira,0,0,610387,Halkur Kaval,11-29-571-05533-610383,tumkur,sira,halkur,halkur,100.0,village,fuzzy
+162108,HARAGONDAHAHALLI,TUMAKURU,Chiknayakanhalli,0,0,610173,Harogondanahalli,11-29-571-05540-612279,tumkur,turuvekere,harigondanahalli,harigondanahalli,93.75,village,fuzzy
+586141,K.G.THIPPAPURA,TUMAKURU,Madhugiri,63797,GANJALAGUNTE,610815,K.G.Thippapura,11-29-571-05532-610186,tumkur,chiknayakanhalli,pura,pura,100.0,village,fuzzy
+163574,KALLUKOTE,TUMAKURU,Sira,63878,Bhuvanahalli,610366,Kallukote,11-29-571-05538-611920,tumkur,gubbi,kallur,kallur,90.9090909090909,village,fuzzy
+162844,KITHNAMANGALA AMANIKERE,TUMAKURU,Kunigal,63767,Kithanamangala,612611,Kithanamangala Amanikere,11-29-571-05538-611942,tumkur,gubbi,amanikere,amanikere,100.0,village,fuzzy
+588538,KUSUKUNTE KAVAL,TUMAKURU,Sira,63883,HONNAGONDANAHALLI,610368,Kusukunte Kaval,11-29-571-05533-610369,tumkur,sira,kusukunte,kusukunte,100.0,village,fuzzy
+163244,LAKSHMIPURA,TUMAKURU,Madhugiri,63816,Reddyhalli,610822,Lakshmipura,11-29-571-05532-610051,tumkur,chiknayakanhalli,lakshmipura,lakshmipura,100.0,village,fuzzy
+588561,MADHAVARAYANAPALYA,TUMAKURU,Koratagere,0,0,611226,Madhavarayanapalya,11-29-571-05541-612641,tumkur,kunigal,devarayanapalya,devarayanapalya,92.85714285714286,village,fuzzy
+588642,MALLASANDRA KATTE,TUMAKURU,Gubbi,0,0,611647,Mallasandra Katte,11-29-571-05537-611448,tumkur,tumkur,mallasandra,mallasandra,100.0,village,fuzzy
+164019,MALLASANDRA VOLAGERE KAVAL,TUMAKURU,Tumakuru,63932,Malasandra,611447,Mallasandra PALYA,11-29-571-05537-611448,tumkur,tumkur,mallasandra,mallasandra,100.0,village,fuzzy
+164060,MARALENAHALLI,TUMAKURU,Tumakuru,63937,OORKERE,938653,MARALENAHALLI,11-29-571-05532-610144,tumkur,chiknayakanhalli,balenahalli,balenahalli,95.23809523809523,village,fuzzy
+594555,MUDLAHALLI,TUMAKURU,Gubbi,63702,Allilughatta,611664,Mudlahalli,11-29-571-05534-610646,tumkur,pavagada,gundlahalli,gundlahalli,90.0,village,fuzzy
+163532,NARASIPURA,TUMAKURU,Sira,0,0,610298,Narasipura,11-29-571-05532-610186,tumkur,chiknayakanhalli,pura,pura,100.0,village,fuzzy
+163359,ROPPA,TUMAKURU,Pavagada,63832,Ryapa,610635,Pavagada (Rural),11-29-571-05534-803154,tumkur,pavagada,,pavagada,100.0,place,fuzzy
+163579,SIRA RURAL,TUMAKURU,Sira,63878,Bhuvanahalli,610386,Sira (Rural),11-29-571-05533-610484,tumkur,sira,siradadu,siradadu,100.0,village,fuzzy
+665779,TAREMARADAPALYA,TUMAKURU,Kunigal,63772,HUTHRIDURGA,612558,Taremaradapalya,11-29-571-05541-612623,tumkur,kunigal,arepalya,arepalya,85.71428571428572,village,fuzzy
+163463,VADANAKALLU,TUMAKURU,Pavagada,63855,VADANAKALLU,610544,Vadanakal,11-29-571-05533-610449,tumkur,sira,janakallu,janakallu,94.11764705882352,village,fuzzy
+168572,Ambalapadi,Udupi,Udupi,65033,Ambalapadi,608861,Ambalpady (OG),11-29-569-05522-608750,udupi,kundapura,halady -76,halady -76,83.33333333333334,village,fuzzy
+168575,Kadekar,Udupi,Udupi,65034,Kadekaru,608863,Kadekar (OG),11-29-569-05523-608785,udupi,udupi,kadur,kadur,75.0,village,fuzzy
+168570,Kelarkalabettu,Udupi,Udupi,65031,Thenkanidiyur,608859,Kelarkalabettu (OG),11-29-569-05524-608885,udupi,karkal,jarkala,jarkala,85.71428571428572,village,fuzzy
+168574,Kidiyoor,Udupi,Udupi,65033,Ambalapadi,608862,Kidiyoor (OG),11-29-569-05523-608848,udupi,udupi,,tenkanidyoor,85.71428571428572,place,fuzzy
+168576,Kuthpadi,Udupi,Udupi,65034,Kadekaru,608864,Kuthpady (OG),11-29-569-05522-608707,udupi,kundapura,idurkunhadi,idurkunhadi,80.0,village,fuzzy
+164733,AMGA *,Uttara Kannada,DANDELI,64030,AMBIKANAGAR,602789,Amga,11-29-563-05478-602627,uttara kannada,karwar,amadalli,amadalli,85.71428571428572,village,fuzzy
+164600,Bobruwada,Uttara Kannada,Ankola,63998,Bobruwada,603405,Bobruwada (CT),11-29-563-05479-602655,uttara kannada,supa,wada,wada,100.0,village,fuzzy
+165115,Borangudde (a),Uttara Kannada,Mundgod,64110,Malagi,603061,Borangudde,11-29-563-05482-603092,uttara kannada,mundgod,borangudda,borangudda,94.73684210526316,village,fuzzy
+164724,CHINAGINKOP,Uttara Kannada,Haliyal,64028,JANAGA,602873,CHINAGINKOP,11-29-563-05480-602817,uttara kannada,haliyal,kalginkop,kalginkop,87.5,village,fuzzy
+164992,Chitakula,Uttara Kannada,Karwar,64087,Chittakula,602629,Chitakula (OG),11-29-563-05478-602594,uttara kannada,karwar,ulga,ulga,85.71428571428572,village,fuzzy
+165061,Hegde,Uttara Kannada,Kumta,64099,Hegde,603452,Hegde(Part),11-29-563-05485-603514,uttara kannada,kumta,hegde hosalli,hegde hosalli,100.0,village,fuzzy
+165015,Holanagadde,Uttara Kannada,Kumta,64095,Holangadde,603436,Holanagadde(Part),11-29-563-05481-602906,uttara kannada,yellapur,honagadde,honagadde,90.0,village,fuzzy
+165139,Ingalki,Uttara Kannada,Mundgod,64114,Pala,603068,Ingalki,11-29-563-05483-603237,uttara kannada,sirsi,kalkai,kalkai,80.0,village,fuzzy
+164728,JAMAGA *,Uttara Kannada,DANDELI,64030,AMBIKANAGAR,602788,Jamaga,11-29-563-05479-602708,uttara kannada,supa,amagaon,amagaon,90.9090909090909,village,fuzzy
+164859,Kakurve,Uttara Kannada,Honavar,64051,Navilgone,603732,Kakurve,11-29-563-05485-603453,uttara kannada,kumta,chatrakurve,chatrakurve,92.3076923076923,village,fuzzy
+165113,Kalbhag *,Uttara Kannada,Kumta,64109,Kalbhag,603528,Kalbagh (OG),11-29-563-05480-602785,uttara kannada,haliyal,kalbhavi,kalbhavi,92.3076923076923,village,fuzzy
+697070,KANCHINMALE,Uttara Kannada,Ankola,63996,AGSUR,603344,KANCHINMALE,11-29-563-05486-603530,uttara kannada,siddapur,kanchikai,kanchikai,80.0,village,fuzzy
+164658,Lakkeguli,Uttara Kannada,Ankola,64011,HATTIKERI,603337,Lakkeguli,11-29-563-05481-602962,uttara kannada,yellapur,kusguli,kusguli,76.92307692307692,village,fuzzy
+164580,Laxmeshwar,Uttara Kannada,Ankola,63994,Vandige,603408,Laxmeshwar (OG),11-29-563-05484-603356,uttara kannada,ankola,kalleshwar,kalleshwar,82.35294117647058,village,fuzzy
+165244,Malubalgar,Uttara Kannada,Siddapur,64127,Hasaragod,603581,Malubalgar,11-29-563-05483-603244,uttara kannada,sirsi,balgar,balgar,100.0,village,fuzzy
+693179,NELLURKANCHINBAIL,Uttara Kannada,Ankola,64011,HATTIKERI,603334,NELLURKANCHINBAIL,11-29-563-05485-603520,uttara kannada,kumta,hindbail,hindbail,93.33333333333333,village,fuzzy
+164577,Shirkuli,Uttara Kannada,Ankola,63993,Alageri,603406,Shirkuli (OG),11-29-563-05487-603813,uttara kannada,honavar,shirkur,shirkur,92.3076923076923,village,fuzzy
+164602,Tenkankeri,Uttara Kannada,Ankola,63998,Bobruwada,603407,Tenkankeri (OG),11-29-563-05482-603034,uttara kannada,mundgod,kalkeri,kalkeri,85.71428571428572,village,fuzzy
+164581,Vandige,Uttara Kannada,Ankola,63994,Vandige,603409,Vandige (OG),11-29-563-05484-603338,uttara kannada,ankola,kendige,kendige,83.33333333333334,village,fuzzy
+146012,ARAJUNAGI,VIJAYAPURA,BABALESHWAR,60946,Arjungi,599121,Arjunagi,11-29-557-05450-599279,bijapur,indi,arjunagi k h,arjunagi k h,100.0,village,fuzzy
+145907,BISALAKOPPA,VIJAYAPURA,NIDAGUNDI,299790,GANI R C,599476,Bisalakoppa (R.C),11-29-557-05453-599570,bijapur,muddebihal,koppa,koppa,100.0,village,fuzzy
+701085,DADAMATTI,VIJAYAPURA,BABALESHWAR,60983,SARAWAD,599114,DADAMATTI,11-29-557-05452-599489,bijapur,basavana bagevadi,almatti,almatti,92.3076923076923,village,fuzzy
+697270,HANUMASAGAR,VIJAYAPURA,BABALESHWAR,60970,KAMBAGI,599131,HANUMASAGAR,11-29-557-05450-599198,bijapur,indi,hanumanagar,hanumanagar,90.9090909090909,village,fuzzy
+146267,INGALAGI,VIJAYAPURA,Muddebihal,61042,BIJJUR,599673,Ingalagi,11-29-557-05450-599259,bijapur,indi,ingalgi,ingalgi,93.33333333333333,village,fuzzy
+146351,KAPANUR,VIJAYAPURA,Muddebihal,61060,RAKKASAGI,599642,Kapanur,11-29-557-05450-599212,bijapur,indi,padanur,padanur,83.33333333333334,village,fuzzy
+692353,MUTTALADINNI,VIJAYAPURA,KOLHAR,60933,RONIHAL,599456,MUTTALADINNI,11-29-557-05453-599670,bijapur,muddebihal,baladinni,baladinni,94.11764705882352,village,fuzzy
+701084,SANGAPUR(H),VIJAYAPURA,BABALESHWAR,60959,HALAGANI,599126,SANGAPUR(H),11-29-557-05451-599421,bijapur,sindgi,asantapur,asantapur,87.5,village,fuzzy
+146101,SIDDAPUR K,VIJAYAPURA,Thikota,60985,Siddapur-K,599040,Siddapura,11-29-557-05453-599581,bijapur,muddebihal,siddapur p talikoti,siddapur p talikoti,94.73684210526316,village,fuzzy
+693324,SIDDAPUR K,VIJAYAPURA,Thikota,60985,Siddapur-K,599047,SIDDAPUR K,11-29-557-05453-599581,bijapur,muddebihal,siddapur p talikoti,siddapur p talikoti,94.73684210526316,village,fuzzy
+146110,TIKOTA,VIJAYAPURA,Vijayapura,60989,TIKOTA,939739,TIKOTA,11-29-557-05449-599056,bijapur,bijapur,tikota,tikota,100.0,village,fuzzy
+150136,SANGAM,Yadgir,WADAGERA,62017,GONAL,621220,Sangam,11-29-580-05589-621379,yadgir,yadgir,sangwar,sangwar,83.33333333333334,village,fuzzy

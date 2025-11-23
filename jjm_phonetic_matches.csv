@@ -1,0 +1,36 @@
+jjm_village_id,jjm_village,jjm_district,jjm_block,jjm_panchayat_id,jjm_panchayat,lgd_village_id,lgd_village,shrid2,shrug_district,shrug_subdistrict,shrug_village,shrug_place,match_score,match_method
+665249,YADIYOORU,Bengaluru Urban,YELAHANKA,61391,Bandikodagehalli,925868,YADIYOORU,11-29-572-05542-612850,bangalore,bangalore north,dibburu,dibburu,76.92307692307692,phonetic_lower_threshold
+693319,CIKKEMPIHUNDI,CHAMARAJANAGARA,Chamarajanagar,65066,UDIGALA,924932,CIKKEMPIHUNDI,11-29-578-05576-619584,chamarajanagar,gundlupet,hundipura,hundipura,71.42857142857143,phonetic_lower_threshold
+652731,DHADADHAHALLI,CHAMARAJANAGARA,Gundlupet,65131,AGATHAGOWDANAHALLI,917623,Dhadadhahalli,11-29-578-05576-619500,chamarajanagar,gundlupet,madahalli,madahalli,94.11764705882352,phonetic_lower_threshold
+168753,DODDARAYAPET,CHAMARAJANAGARA,Chamarajanagar,65091,Kudluru,924892,DODDARAYAPETE,11-29-578-05576-619511,chamarajanagar,gundlupet,doddathuppur,doddathuppur,77.77777777777779,phonetic_lower_threshold
+664576,GOPALAPURA,CHAMARAJANAGARA,Gundlupet,65126,Kannegala,924967,GOPAALAPURA,11-29-578-05576-619553,chamarajanagar,gundlupet,malapura,malapura,94.11764705882352,phonetic_lower_threshold
+665650,HALEPURA,CHAMARAJANAGARA,Chamarajanagar,299760,GOVINDAVADI,917361,HALEPURA,11-29-578-05576-619578,chamarajanagar,gundlupet,hullepura,hullepura,88.88888888888889,phonetic_lower_threshold
+168910,HONAKANAPURA,CHAMARAJANAGARA,Gundlupet,65127,KOTEKERE,619452,Bhogganapura,11-29-578-05579-619868,chamarajanagar,kollegal,anapura,anapura,100.0,phonetic_lower_threshold
+697273,HULLEPURA,CHAMARAJANAGARA,Chamarajanagar,65088,MANGALA,924903,HULLEPURA,11-29-578-05576-619578,chamarajanagar,gundlupet,hullepura,hullepura,100.0,phonetic_lower_threshold
+168817,K.K HUNDI,CHAMARAJANAGARA,Gundlupet,65107,KODASOGE,924977,KADTALKATTIHUNDI,11-29-578-05576-619584,chamarajanagar,gundlupet,hundipura,hundipura,83.33333333333334,phonetic_lower_threshold
+664565,KALANAHUNDI,CHAMARAJANAGARA,Gundlupet,65134,BEGUR,926061,KAALANAHUNDY,11-29-578-05577-619699,chamarajanagar,chamarajanagar,kalanahundi,kalanahundi,100.0,phonetic_lower_threshold
+168912,KURUBARAHUNDI,CHAMARAJANAGARA,Gundlupet,65127,KOTEKERE,924985,KURUBARA HUNDI,11-29-578-05577-619711,chamarajanagar,chamarajanagar,kumbaragundi,kumbaragundi,81.81818181818181,phonetic_lower_threshold
+168835,MALLAMMANAHUNDI,CHAMARAJANAGARA,Gundlupet,65110,Kelasur,924974,MALLAMMANA HUNDI,11-29-578-05577-619699,chamarajanagar,chamarajanagar,kalanahundi,kalanahundi,85.71428571428572,phonetic_lower_threshold
+168992,PONNACHI,CHAMARAJANAGARA,Hanuru,65148,PONNACHI,619885,Ponnachi,11-29-578-05577-619741,chamarajanagar,chamarajanagar,honnahalli,honnahalli,71.42857142857143,phonetic_lower_threshold
+168826,RANGANATHAPURA,CHAMARAJANAGARA,Gundlupet,65108,NITRE,925001,RANGANATHAPURA,11-29-578-05579-619868,chamarajanagar,kollegal,anapura,anapura,87.5,phonetic_lower_threshold
+693318,RANGASANDRA,CHAMARAJANAGARA,Chamarajanagar,65080,PUNAJANURU,924919,RANGASANDRA,11-29-578-05576-619514,chamarajanagar,gundlupet,annur,annur,75.0,phonetic_lower_threshold
+636936,RANGUPURA,CHAMARAJANAGARA,Gundlupet,65130,HOREYALA,924963,RANGUPURA,11-29-578-05577-619747,chamarajanagar,chamarajanagar,srirangapura,srirangapura,90.0,phonetic_lower_threshold
+702834,SARAGURMOLE,CHAMARAJANAGARA,Chamarajanagar,65075,ALUR,924546,SARAGURMOLE,11-29-578-05579-619822,chamarajanagar,kollegal,saragur,saragur,100.0,phonetic_lower_threshold
+702835,YDIYOORU,CHAMARAJANAGARA,Chamarajanagar,65088,MANGALA,924901,YDIYOORU,11-29-578-05577-619689,chamarajanagar,chamarajanagar,maliyuru,maliyuru,83.33333333333334,phonetic_lower_threshold
+665075,MIDDILU,Chikkaballapura,Gauribidanur,62586,B.BOMMASANDRA,925641,MIDDILU,11-29-582-05598-623930,chikkaballapura,bagepalli,billur,billur,75.0,phonetic_lower_threshold
+663938,Garimbilu,Chitradurga,Hosdurga,65299,S NERLAKERE,927537,GARIMBILU,11-29-566-05507-605984,chitradurga,hosdurga,garaga,garaga,66.66666666666667,phonetic_lower_threshold
+663776,M G Dibba,Chitradurga,Hosdurga,65324,Bokikere,927464,M.G.DIBBA,11-29-566-05504-605312,chitradurga,challakere,gudihalli,gudihalli,61.53846153846154,phonetic_lower_threshold
+587769,Neerumarga,Dakshina Kannada,Mangaluru,236263,Neermarga,617510,Neermarga (CT),11-29-575-05561-617467,dakshina kannada,mangalore,nellikaru,nellikaru,66.66666666666667,phonetic_lower_threshold
+661869,AMBATTI,Kodagu,Virajpet,62435,BITTANGALA,924036,AMBATTI,11-29-576-05568-618029,kodagu,virajpet,ammathi,ammathi,90.9090909090909,phonetic_lower_threshold
+661841,HUDUGURU,Kodagu,Kushalanagar,0,0,923992,HUDUGURU,11-29-576-05566-617804,kodagu,madikeri,bengooru,bengooru,72.72727272727273,phonetic_lower_threshold
+142933,IRRALAPODU,RAMANAGARA,Kanakapura,59953,Bannimukkodlu,626625,Irlapodu,11-29-584-05605-625823,ramanagara,magadi,veerapura,veerapura,71.42857142857143,phonetic_lower_threshold
+589906,Dibbanakedi {d),Raichur,Sindhanur,63385,Jawalgera,601156,Dibbanakhed,11-29-559-05463-601134,raichur,sindhnur,shankerbandi d,shankerbandi d,72.72727272727273,phonetic_lower_threshold
+144885,ANANDADEVANAHALLI,Vijayanagar,HAGARIBOMMANAHALLI,60616,BACHIGUNDANAHALLI,924266,ADAVI ANANDA DEVANAHALLI,11-29-565-05500-604911,bellary,bellary,byradevanahalli,byradevanahalli,88.88888888888889,phonetic_lower_threshold
+144900,ANANDADEVANAHALLI,Vijayanagar,HAGARIBOMMANAHALLI,60621,KADLEBALU,604660,HOSANANDEVANAHALLI,11-29-565-05500-604911,bellary,bellary,byradevanahalli,byradevanahalli,88.88888888888889,phonetic_lower_threshold
+665636,ANEKAL THANDA,Vijayanagar,HAGARIBOMMANAHALLI,299924,MADHURU,917668,ANEKALLU THANDA,11-29-565-05497-604677,bellary,hagaribommanahalli,anekal,anekal,100.0,phonetic_lower_threshold
+144888,BACHIGUNDANAHALLI 2,Vijayanagar,HAGARIBOMMANAHALLI,60616,BACHIGUNDANAHALLI,924267,CHILUGODU,11-29-565-05497-604659,bellary,hagaribommanahalli,bachigondanahalli,bachigondanahalli,94.11764705882354,phonetic_lower_threshold
+144894,BALLAHUNSI,Vijayanagar,HAGARIBOMMANAHALLI,300092,VALLABHAPURA,604662,Bellahunshi,11-29-565-05496-604585,bellary,hadagalli,byalhunsi,byalhunsi,88.88888888888889,phonetic_lower_threshold
+671295,Basavanadurga,Vijayanagar,Hosapete,60624,NAGENAHALLI,604709,Basavanadurga,11-29-565-05501-803115,bellary,sandur,,sandur,83.33333333333334,phonetic_lower_threshold
+144905,BELAGODU,Vijayanagar,Hosapete,60624,NAGENAHALLI,604720,Belagodu,11-29-565-05498-604748,bellary,hospet,belugoduhal,belugoduhal,87.5,phonetic_lower_threshold
+144899,KADLEBALU,Vijayanagar,HAGARIBOMMANAHALLI,60621,KADLEBALU,926648,BYALALU,11-29-565-05497-604668,bellary,hagaribommanahalli,kadlabalu,kadlabalu,88.88888888888889,phonetic_lower_threshold
+144976,SEETHARAM THANDA,Vijayanagar,Hosapete,60646,SEETHARAMA THANDA,941959,Seetharama Thanda,11-29-565-05498-604735,bellary,hospet,seetharama tanda,seetharama tanda,100.0,phonetic_lower_threshold
