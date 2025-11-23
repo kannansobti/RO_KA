@@ -1,0 +1,416 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\definecolor{matched}{RGB}{76, 175, 80}
+\definecolor{unmatched}{RGB}{244, 67, 54}
+\definecolor{stage1}{RGB}{33, 150, 243}
+\definecolor{stage2}{RGB}{156, 39, 176}
+\definecolor{stage3}{RGB}{255, 152, 0}
+
+\title{JJM to SHRUG Village Mapping\\Karnataka State}
+\author{Data Processing Report}
+\date{November 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Overview}
+
+This document describes the process of mapping Jal Jeevan Mission (JJM) villages in Karnataka to SHRUG (Socioeconomic High-resolution Rural-Urban Geographic) identifiers.
+
+\subsection{Data Sources}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrp{6cm}}
+\toprule
+\textbf{Dataset} & \textbf{Records} & \textbf{Description} \\
+\midrule
+JJM Karnataka & 26,678 & Village-level water scheme data \\
+LGD & -- & Local Government Directory codes \\
+SHRUG (All India) & 596,389 & Socioeconomic village database \\
+SHRUG (Karnataka) & 27,556 & Karnataka subset \\
+\bottomrule
+\end{tabular}
+\caption{Data sources and record counts}
+\end{table}
+
+\section{Process Flow}
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[
+    node distance=1.5cm,
+    box/.style={rectangle, draw, rounded corners, minimum width=4cm, minimum height=1cm, align=center, fill=white},
+    result/.style={rectangle, draw, rounded corners, minimum width=2.5cm, minimum height=0.8cm, align=center},
+    arrow/.style={->, thick, >=stealth}
+]
+
+% Stage 1
+\node[box, fill=stage1!20] (source) {JJM Portal\\ejalshakti.gov.in};
+\node[box, fill=stage1!20, below=of source] (html) {HTML Tables\\(31 districts)};
+\node[box, fill=stage1!20, below=of html] (jjm) {jjm\_lgd\_mapping\\26,678 villages};
+
+\draw[arrow] (source) -- (html);
+\draw[arrow] (html) -- (jjm);
+
+% Stage 2
+\node[box, fill=stage2!20, below=1.5cm of jjm] (lgdmatch) {LGD-SHRUG\\Direct Match};
+\node[result, fill=matched!30, below left=1cm and -0.5cm of lgdmatch] (matched1) {Matched\\26,137};
+\node[result, fill=unmatched!30, below right=1cm and -0.5cm of lgdmatch] (unmatched1) {Unmatched\\541};
+
+\draw[arrow] (jjm) -- (lgdmatch);
+\draw[arrow] (lgdmatch) -- (matched1);
+\draw[arrow] (lgdmatch) -- (unmatched1);
+
+% Stage 3
+\node[box, fill=stage3!20, below=1.5cm of unmatched1] (fuzzy) {Name-Based\\Matching};
+\node[result, fill=matched!30, below left=1cm and -0.5cm of fuzzy] (matched2) {Matched\\261};
+\node[result, fill=unmatched!30, below right=1cm and -0.5cm of fuzzy] (unmatched2) {Unmatched\\280};
+
+\draw[arrow] (unmatched1) -- (fuzzy);
+\draw[arrow] (fuzzy) -- (matched2);
+\draw[arrow] (fuzzy) -- (unmatched2);
+
+% Labels
+\node[left=0.5cm of source, align=right] {\textbf{Stage 1}\\Data\\Extraction};
+\node[left=0.5cm of lgdmatch, align=right] {\textbf{Stage 2}\\Direct\\Matching};
+\node[left=0.5cm of fuzzy, align=right] {\textbf{Stage 3}\\Fuzzy\\Matching};
+
+\end{tikzpicture}
+\caption{JJM to SHRUG matching pipeline}
+\end{figure}
+
+\section{Stage 1: Data Extraction}
+
+\subsection{Source}
+Downloaded LGD mapping reports from JJM portal for all 31 Karnataka districts.
+
+\subsection{Output Schema}
+\begin{table}[h]
+\centering
+\begin{tabular}{ll}
+\toprule
+\textbf{Column} & \textbf{Description} \\
+\midrule
+jjm\_village\_id & JJM Village ID (IMIS ID) \\
+jjm\_village & Village name from JJM \\
+lgd\_village\_id & LGD Village Code \\
+lgd\_village & Village name from LGD \\
+jjm\_district & District name \\
+jjm\_block & Block/Taluk name \\
+jjm\_panchayat & Panchayat name \\
+\bottomrule
+\end{tabular}
+\caption{JJM-LGD mapping schema}
+\end{table}
+
+\subsection{Validation Results}
+\begin{itemize}
+    \item Districts validated: 31/31 (\checkmark)
+    \item Total villages: 26,678
+    \item Missing LGD IDs: 0
+    \item Match rate: 100\%
+\end{itemize}
+
+\subsection{Relationship Analysis}
+\begin{table}[h]
+\centering
+\begin{tabular}{lrl}
+\toprule
+\textbf{Relationship} & \textbf{Count} & \textbf{Status} \\
+\midrule
+JJM $\rightarrow$ multiple LGD & 0 & \checkmark Clean \\
+LGD $\rightarrow$ multiple JJM & 33 & Duplicates \\
+\bottomrule
+\end{tabular}
+\caption{JJM-LGD relationship analysis}
+\end{table}
+
+\section{Stage 2: Direct LGD-SHRUG Matching}
+
+Exact match on \texttt{lgd\_village\_id} between JJM and SHRUG data.
+
+\subsection{Results}
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    bar width=1.5cm,
+    width=10cm,
+    height=6cm,
+    ylabel={Villages},
+    symbolic x coords={Matched, Unmatched},
+    xtick=data,
+    nodes near coords,
+    nodes near coords align={vertical},
+    ymin=0,
+    ymax=30000,
+    enlarge x limits=0.5,
+]
+\addplot[fill=matched!70] coordinates {(Matched, 26137)};
+\addplot[fill=unmatched!70] coordinates {(Unmatched, 541)};
+\end{axis}
+\end{tikzpicture}
+\caption{Stage 2: Direct LGD matching results}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrr}
+\toprule
+\textbf{Status} & \textbf{Count} & \textbf{Percentage} \\
+\midrule
+Matched & 26,137 & 97.97\% \\
+Unmatched & 541 & 2.03\% \\
+\midrule
+\textbf{Total} & \textbf{26,678} & \textbf{100\%} \\
+\bottomrule
+\end{tabular}
+\caption{Direct matching results}
+\end{table}
+
+\subsection{Quality Issues: Duplicate LGD Mappings}
+
+33 LGD codes have multiple JJM entries:
+\begin{itemize}
+    \item 27 are case variations of the same village
+    \item 6 are actual conflicts (different villages)
+\end{itemize}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llll}
+\toprule
+\textbf{LGD Code} & \textbf{Village 1} & \textbf{Village 2} & \textbf{District} \\
+\midrule
+617801 & Kolagadalu & AIVATHOKLU & Kodagu \\
+617877 & Agalli & BASAVANARE & Kodagu \\
+617980 & KUDIGE & BYADAGOTTA & Kodagu \\
+617981 & KUDUMANGALORE & DODDATHUR & Kodagu \\
+618061 & BADAGARAKERI & BIRUNANI & Kodagu \\
+606201 & Lakkenahalli & LAKKENAHALLY & Chitradurga \\
+\bottomrule
+\end{tabular}
+\caption{Sample LGD conflicts}
+\end{table}
+
+\section{Stage 3: Name-Based Matching}
+
+For 541 unmatched villages, applied multi-stage name matching.
+
+\subsection{Matching Methods}
+
+\begin{enumerate}
+    \item \textbf{Manual Mappings} (39 villages): User-provided corrections
+    \item \textbf{Strict Fuzzy Matching} (204 villages): RapidFuzz with constraints
+    \item \textbf{Kannada Normalization} (18 villages): Transliteration variations
+\end{enumerate}
+
+\subsection{Fuzzy Matching Algorithm}
+
+\begin{itemize}
+    \item Function: \texttt{fuzz.ratio()} only (full string similarity)
+    \item Minimum threshold: 85\%
+    \item Length ratio constraint: $\geq$70\%
+    \item District-constrained matching
+\end{itemize}
+
+\subsection{Kannada Transliteration Rules}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ll}
+\toprule
+\textbf{Pattern} & \textbf{Normalized To} \\
+\midrule
+hally, haly, hali & halli \\
+pur, puram & pura \\
+keri & kere \\
+Double consonants (kk, pp, tt) & Single (k, p, t) \\
+\bottomrule
+\end{tabular}
+\caption{Kannada transliteration normalization rules}
+\end{table}
+
+\subsection{District Name Mapping}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ll}
+\toprule
+\textbf{JJM District} & \textbf{SHRUG District} \\
+\midrule
+Bengaluru Rural & Bangalore Rural \\
+Bengaluru Urban & Bangalore \\
+Ballari & Bellary \\
+Belagavi & Belgaum \\
+Kalaburagi & Gulbarga \\
+Mysuru & Mysore \\
+Vijayapura & Bijapur \\
+Vijayanagar & Bellary (new district) \\
+\bottomrule
+\end{tabular}
+\caption{District name mapping (JJM $\rightarrow$ SHRUG)}
+\end{table}
+
+\subsection{Match Score Distribution}
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    bar width=0.8cm,
+    width=12cm,
+    height=6cm,
+    ylabel={Count},
+    xlabel={Match Score Range},
+    symbolic x coords={100, 95-99, 90-94, 85-89},
+    xtick=data,
+    nodes near coords,
+    nodes near coords align={vertical},
+    ymin=0,
+    ymax=150,
+]
+\addplot[fill=stage2!70] coordinates {(100, 129) (95-99, 9) (90-94, 53) (85-89, 52)};
+\end{axis}
+\end{tikzpicture}
+\caption{Fuzzy match score distribution (strict matching)}
+\end{figure}
+
+\section{Final Results}
+
+\subsection{Complete Matching Summary}
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+\pie[
+    text=legend,
+    radius=3,
+    color={stage1!70, stage2!70, stage3!70, unmatched!70}
+]{
+    97.97/LGD Direct (26{,}137),
+    0.76/Fuzzy (204),
+    0.22/Manual+Norm (57),
+    1.05/Unmatched (280)
+}
+\end{tikzpicture}
+\caption{Final matching distribution}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrr}
+\toprule
+\textbf{Method} & \textbf{Villages} & \textbf{Percentage} \\
+\midrule
+LGD Direct Match & 26,137 & 97.97\% \\
+Manual Mappings & 39 & 0.15\% \\
+Strict Fuzzy Match & 204 & 0.76\% \\
+Kannada Normalized & 18 & 0.07\% \\
+\midrule
+\textbf{Total Matched} & \textbf{26,398} & \textbf{98.95\%} \\
+Unmatched & 280 & 1.05\% \\
+\midrule
+\textbf{Grand Total} & \textbf{26,678} & \textbf{100\%} \\
+\bottomrule
+\end{tabular}
+\caption{Complete matching summary}
+\end{table}
+
+\section{Scheme Data Integration}
+
+Merged SHRID2 identifiers into Karnataka Scheme Details dataset.
+
+\subsection{Coverage Statistics}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrr}
+\toprule
+\textbf{Metric} & \textbf{Value} & \textbf{Percentage} \\
+\midrule
+Total scheme records & 456,712 & -- \\
+Valid village records & 427,768 & -- \\
+Unique villages in scheme & 26,977 & -- \\
+\midrule
+Villages with SHRID2 & 26,081 & 96.68\% \\
+Villages without SHRID2 & 896 & 3.32\% \\
+\bottomrule
+\end{tabular}
+\caption{Scheme data coverage}
+\end{table}
+
+\subsection{Relationship Analysis}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrl}
+\toprule
+\textbf{Relationship} & \textbf{Count} & \textbf{Status} \\
+\midrule
+Village $\rightarrow$ multiple SHRID & 0 & \checkmark Clean 1:1 \\
+SHRID $\rightarrow$ multiple Village & 190 & From LGD duplicates \\
+\bottomrule
+\end{tabular}
+\caption{Scheme data relationship analysis}
+\end{table}
+
+\section{Relationship Summary (All Stages)}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{llrl}
+\toprule
+\textbf{Stage} & \textbf{Relationship} & \textbf{Count} & \textbf{Status} \\
+\midrule
+1. JJM-LGD & JJM $\rightarrow$ multiple LGD & 0 & \checkmark Clean \\
+1. JJM-LGD & LGD $\rightarrow$ multiple JJM & 33 & Duplicates \\
+\midrule
+2. Direct Match & JJM $\rightarrow$ multiple SHRUG & 0 & \checkmark Clean \\
+2. Direct Match & SHRUG $\rightarrow$ multiple JJM & 32 & From LGD dups \\
+2. Direct Match & LGD $\rightarrow$ multiple SHRUG & 0 & \checkmark Clean \\
+\midrule
+3. Fuzzy Match & JJM $\rightarrow$ multiple SHRUG & 0 & \checkmark Clean \\
+3. Fuzzy Match & SHRUG $\rightarrow$ multiple JJM & 8 & Similar names \\
+\bottomrule
+\end{tabular}
+\caption{Complete relationship summary}
+\end{table}
+
+\textbf{Key Finding:} From JJM perspective, all mappings are 1:1. Reverse relationships (SHRUG$\rightarrow$JJM) have duplicates due to data quality issues in source JJM data.
+
+\section{Output Files}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lp{8cm}}
+\toprule
+\textbf{File} & \textbf{Description} \\
+\midrule
+jjm\_lgd\_mapping\_karnataka.csv & Combined JJM-LGD data (26,678) \\
+jjm\_to\_shrug\_direct\_mapping.csv & Direct LGD$\rightarrow$SHRUG matches \\
+villageid\_to\_shrid\_mapping.csv & Final village$\rightarrow$SHRID mapping (26,398) \\
+jjm\_still\_unmatched\_final.csv & Unmatched villages (280) \\
+\bottomrule
+\end{tabular}
+\caption{Output files reference}
+\end{table}
+
+\end{document}
