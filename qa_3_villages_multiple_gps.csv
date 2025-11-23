@@ -1,0 +1,7 @@
+sno,district_code,district_name,district_census_2011,district_census_2001,subdistrict_code,subdistrict_name,subdistrict_census_2011,subdistrict_census_2001,lgd_village_code,village_name,village_census_2011,village_census_2001,lgd_gp_code,gp_name
+4051,631,Bengaluru South,584,21.0,5605,Magadi,5605,5.0,625784,Thippasandra,625784,2207000.0,215548.0,Belagumba
+4052,631,Bengaluru South,584,21.0,5605,Magadi,5605,5.0,625784,Thippasandra,625784,2207000.0,215574.0,Thjppasandra
+5346,529,Bidar,558,5.0,5454,Basavakalyan,5454,1.0,599762,Rajeshwar,599762,405300.0,272851.0,Hanamanthavadi R
+5347,529,Bidar,558,5.0,5454,Basavakalyan,5454,1.0,599762,Rajeshwar,599762,405300.0,216360.0,Rajeshwar
+27954,550,Uttara Kannada,563,10.0,5488,Bhatkal,5488,11.0,603819,Mavalli,603819,809100.0,220592.0,Mavalli
+27955,550,Uttara Kannada,563,10.0,5488,Bhatkal,5488,11.0,603819,Mavalli,603819,809100.0,273196.0,Mavalli-2
