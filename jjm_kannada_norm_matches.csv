@@ -1,0 +1,19 @@
+match_score,match_method,jjm_village,lgd_village,shrug_village,shrug_place,jjm_district,shrug_district,jjm_block,shrug_subdistrict,jjm_panchayat,jjm_village_id,lgd_village_id,jjm_panchayat_id,shrid2
+94.11764705882352,kannada_normalized,G.HOSAHALLY,Gururayana Hosur,hosahalli,hosahalli,BENGALURU RURAL,bangalore rural,Devanhalli,nelamangala,BIJJAVARA,142356,625320,59886,11-29-583-05601-624758
+86.95652173913044,kannada_normalized,Benakanahalli,Benakanahalli (CT),benakanholi,benakanholi,Belagavi,belgaum,Belagavi,hukeri,Benakanhalli,143751,597799,60138,11-29-555-05437-597633
+85.71428571428572,kannada_normalized,Kakati,Kakati (CT),karikatti,karikatti,Belagavi,belgaum,Belagavi,khanapur,Kakti,143709,597792,60117,11-29-555-05439-598012
+85.71428571428572,kannada_normalized,Majati,MAJATI,majalatti,majalatti,Belagavi,belgaum,Hukeri,chikodi,Naganur K D,664305,923726,60294,11-29-555-05433-597229
+85.71428571428572,kannada_normalized,KADAYARAPPANAHALLI,Bandikodegehalli Amanikere,kadaranahalli,kadaranahalli,Bengaluru Urban,bangalore,YELAHANKA,bangalore north,Bandikodagehalli,665254,612918,61391,11-29-572-05542-612795
+85.71428571428572,kannada_normalized,Puttaiahnapalya,BERATENA AGRAHARA,muddaiahnapalya,muddaiahnapalya,Bengaluru Urban,bangalore,Bengaluru South,bangalore south,Channenahalli,665199,938417,299653,11-29-572-05543-612996
+87.5,kannada_normalized,HALEPURA,HALEPURA,hullepura,hullepura,CHAMARAJANAGARA,chamarajanagar,Chamarajanagar,gundlupet,GOVINDAVADI,665650,917361,299760,11-29-578-05576-619578
+87.5,kannada_normalized,JAMMAPURA (M.KODIHALLI),Jammapura,jayapura,jayapura,CHIKKAMAGALURU,chikmagalur,Kadur,koppa,MALLESHWARA,596553,609437,61209,11-29-570-05526-609024
+85.71428571428572,kannada_normalized,DINNEHUNASENAHALLI,DINNEHUNASENAHALLY,hunasenahalli,hunasenahalli,Chikkaballapura,chikkaballapura,Gauribidanur,gauribidanur,MELYA,665003,925730,62589,11-29-582-05595-623271
+87.5,kannada_normalized,Katihatti,KATIHATTI,katihalli,katihalli,Chitradurga,chitradurga,Hosdurga,chitradurga,Chikkabyladakere,663791,927469,65303,11-29-566-05505-605590
+90.0,kannada_normalized,Megalahatti,MEGALAHATTI,megalahalli,megalahalli,Chitradurga,chitradurga,Molakalmuru,chitradurga,Hangal,664078,927424,65357,11-29-566-05505-605551
+86.95652173913044,kannada_normalized,Kumbaragatta,Kumbaraghatta,kommaraghatta,kommaraghatta,Hassan,hassan,Arsikere,arsikere,K Shankaranahalli,151329,615641,62179,11-29-574-05555-615578
+87.5,kannada_normalized,Mootikere,Mootikere,mukikere,mukikere,Hassan,hassan,Arsikere,channarayapatna,Rangapura,151465,615758,62188,11-29-574-05560-617307
+85.71428571428572,kannada_normalized,Thamlapura,Thamlapura (OG) (Part),thimmalapura,thimmalapura,Hassan,hassan,Hassan,arsikere,Haralahalli,152637,616047,62294,11-29-574-05555-615501
+88.88888888888889,kannada_normalized,Vaddaratti,Baglapura,naglapur,naglapur,Koppal,koppal,Gangavathi,gangawati,Vaddarahatti,588718,601604,64300,11-29-560-05466-601579
+90.9090909090909,kannada_normalized,Gowdenahally,GOWDENAHALLY,gondenahalli,gondenahalli,Mandya,mandya,Krishnarajpet,nagamangala,Anagola,595375,926857,62800,11-29-573-05547-613780
+87.5,kannada_normalized,TIPPAPUR,TIPPAPUR,timmapur,timmapur,Raichur,raichur,Devadurga,lingsugur,RAMADURGA,696054,600662,63258,11-29-559-05459-600512
+88.88888888888889,kannada_normalized,BALLAHUNSI,Bellahunshi,byalhunsi,byalhunsi,Vijayanagar,bellary,HAGARIBOMMANAHALLI,hadagalli,VALLABHAPURA,144894,604662,300092,11-29-565-05496-604585
